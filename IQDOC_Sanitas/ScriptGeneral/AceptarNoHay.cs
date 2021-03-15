@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace IQDOC_Sanitas.CargaDatos
+namespace IQDOC_Sanitas.ScriptGeneral
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CargarDatosFinalSinRIPS recording.
+    ///The AceptarNoHay recording.
     /// </summary>
-    [TestModule("3a6c9957-442f-4ffc-ab58-2cde6110cd51", ModuleType.Recording, 1)]
-    public partial class CargarDatosFinalSinRIPS : ITestModule
+    [TestModule("95498a60-111c-4ec1-b77c-846eb8c02e14", ModuleType.Recording, 1)]
+    public partial class AceptarNoHay : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
         /// </summary>
         public static global::IQDOC_Sanitas.IQDOC_SanitasRepository repo = global::IQDOC_Sanitas.IQDOC_SanitasRepository.Instance;
 
-        static CargarDatosFinalSinRIPS instance = new CargarDatosFinalSinRIPS();
+        static AceptarNoHay instance = new AceptarNoHay();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CargarDatosFinalSinRIPS()
+        public AceptarNoHay()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CargarDatosFinalSinRIPS Instance
+        public static AceptarNoHay Instance
         {
             get { return instance; }
         }
@@ -80,18 +80,10 @@ namespace IQDOC_Sanitas.CargaDatos
             Init();
 
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'InformacionRIPS_cof.Aceptar' at Center.", repo.InformacionRIPS_cof.AceptarInfo, new RecordItemIndex(0));
-                repo.InformacionRIPS_cof.Aceptar.Click();
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'MensajePantalla.Button' at Center.", repo.MensajePantalla.ButtonInfo, new RecordItemIndex(0));
+                repo.MensajePantalla.Button.Click();
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdSave' at 49;5.", repo.MDIPrincipal.CmdSaveInfo, new RecordItemIndex(1));
-            repo.MDIPrincipal.CmdSave.Click("49;5");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CamposOmitidos.ButtonSi' at Center.", repo.CamposOmitidos.ButtonSiInfo, new RecordItemIndex(2));
-            repo.CamposOmitidos.ButtonSi.Click();
-            Delay.Milliseconds(0);
             
         }
 

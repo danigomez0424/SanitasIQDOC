@@ -24,34 +24,47 @@ namespace IQDOC_Sanitas.CargaDatos
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CargarDatosFinalSinRIPS recording.
+    ///The AbrirVentanaInfo recording.
     /// </summary>
-    [TestModule("3a6c9957-442f-4ffc-ab58-2cde6110cd51", ModuleType.Recording, 1)]
-    public partial class CargarDatosFinalSinRIPS : ITestModule
+    [TestModule("1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d", ModuleType.Recording, 1)]
+    public partial class AbrirVentanaInfo : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
         /// </summary>
         public static global::IQDOC_Sanitas.IQDOC_SanitasRepository repo = global::IQDOC_Sanitas.IQDOC_SanitasRepository.Instance;
 
-        static CargarDatosFinalSinRIPS instance = new CargarDatosFinalSinRIPS();
+        static AbrirVentanaInfo instance = new AbrirVentanaInfo();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CargarDatosFinalSinRIPS()
+        public AbrirVentanaInfo()
         {
+            FolderId = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CargarDatosFinalSinRIPS Instance
+        public static AbrirVentanaInfo Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _FolderId;
+
+        /// <summary>
+        /// Gets or sets the value of variable FolderId.
+        /// </summary>
+        [TestVariable("6116f772-1cd7-4847-bc9e-2da3e15e80d4")]
+        public string FolderId
+        {
+            get { return _FolderId; }
+            set { _FolderId = value; }
+        }
 
 #endregion
 
@@ -79,18 +92,23 @@ namespace IQDOC_Sanitas.CargaDatos
 
             Init();
 
-            try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'InformacionRIPS_cof.Aceptar' at Center.", repo.InformacionRIPS_cof.AceptarInfo, new RecordItemIndex(0));
-                repo.InformacionRIPS_cof.Aceptar.Click();
-                Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence ''.", new RecordItemIndex(0));
+            //Keyboard.Press("");
+            //Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdSave' at 49;5.", repo.MDIPrincipal.CmdSaveInfo, new RecordItemIndex(1));
-            repo.MDIPrincipal.CmdSave.Click("49;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'MDIPrincipal.SomeContainer' at 549;102.", repo.MDIPrincipal.SomeContainerInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.SomeContainer.Click(System.Windows.Forms.MouseButtons.Right, "549;102");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CamposOmitidos.ButtonSi' at Center.", repo.CamposOmitidos.ButtonSiInfo, new RecordItemIndex(2));
-            repo.CamposOmitidos.ButtonSi.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.TabMain1' at 597;-297.", repo.MDIPrincipal.TabMain1Info, new RecordItemIndex(2));
+            repo.MDIPrincipal.TabMain1.Click("597;-297");
+            Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmDatosImagen.CmdCerrar' at Center.", repo.FrmDatosImagen.CmdCerrarInfo, new RecordItemIndex(3));
+            //repo.FrmDatosImagen.CmdCerrar.Click();
+            //Delay.Milliseconds(0);
+            
+            ObtenerSolicitudId();
             Delay.Milliseconds(0);
             
         }

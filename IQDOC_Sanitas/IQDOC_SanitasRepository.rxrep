@@ -484,6 +484,16 @@ OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKFECHAEMISIONFACTURA']//text[@accessiblename='Text area']
 				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="27c6a541-0053-45d0-81a3-11349a55daa8"
+				name="TextArea2"
+				refimgid="5f4bb6cd-bec3-4704-ad5c-a2abafa90466"
+				refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmCapturer']/container[@controlname='Panel2']/container[@controlname='pnlCampos']/tabpagelist[@controlname='TabContainer']/tabpage[@controlname='tabMain']/element[@controlname='MSKPERIODOINICIAL']/text[@accessiblename='08/31/2020']/text[@accessiblerole='Text']/text[@accessiblename='Text area']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']
+				</item>
 				<basepath>
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']
 				</basepath>
@@ -534,9 +544,8 @@ OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
 			id="10b5a593-3270-469f-a0db-ec2e4b0c30c6"
 			name="SomeContainer"
 			refimgid="44b2dc50-3d9e-4cc9-9492-0cb5af30db87"
-			refpath="/form[@controlname='MDIPrincipal']/element/form/container[@controlname='Panel1']/element/container/container/container[@controlname='panel2']/container/container[@controlname='']"
 			searchtimeout="30000ms">
-				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']
 			</item>
 			<item
 			addcaps="text,control,nativewindow"
@@ -1004,7 +1013,7 @@ QmCC
 		isrooted="True"
 		name="MensajePantalla"
 		refpath="/form[@class='#32770']"
-		searchtimeout="30000ms"
+		searchtimeout="10000ms"
 		usecache="True">
 			<item
 			addcaps="button,nativewindow"
@@ -1013,7 +1022,7 @@ QmCC
 			name="Button"
 			refimgid="812d57b3-67d2-486d-bdb9-bba8c2f268ed"
 			refpath="/form[@class='#32770']/button"
-			searchtimeout="30000ms">
+			searchtimeout="5000ms">
 				/form[@class='#32770']/button
 			</item>
 			<item
@@ -1139,6 +1148,52 @@ QmCC
 		searchtimeout="30000ms">
 			/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/text[@controlid='1001']
 		</item>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="fe7afa24-7db0-4418-bf65-3d930c60d4d0"
+		isrooted="True"
+		name="FrmDatosImagen"
+		refpath="/form[@controlname='FrmDatosImagen']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843"
+			name="TxtPropiedades"
+			refimgid="46cbc589-20cf-49de-bac2-dbe0a0d60412"
+			refpath="/form[@controlname='FrmDatosImagen']/container[@controlname='Frame1']/text[@controlname='txtPropiedades']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmDatosImagen']/?/?/text[@controlname='txtPropiedades']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="fb90e698-b08d-4787-9f42-12504023f74d"
+			name="CmdCerrar"
+			refimgid="e43a47f9-4112-4526-901a-a105ed76aade"
+			refpath="/form[@controlname='FrmDatosImagen']/button[@controlname='CmdCerrar']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmDatosImagen']/button[@controlname='CmdCerrar']
+			</item>
+			<basepath>
+				/form[@controlname='FrmDatosImagen']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

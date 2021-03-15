@@ -163,11 +163,12 @@ namespace IQDOC_Sanitas.CargaDatos
             repo.MDIPrincipal.TabMain.FechaFactura.PressKeys(FechaFactura);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'MDIPrincipal.TabMain.Periodo' at Center.", repo.MDIPrincipal.TabMain.PeriodoInfo, new RecordItemIndex(5));
-            repo.MDIPrincipal.TabMain.Periodo.DoubleClick();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'MDIPrincipal.TabMain.TextArea2' at Center.", repo.MDIPrincipal.TabMain.TextArea2Info, new RecordItemIndex(5));
+            repo.MDIPrincipal.TabMain.TextArea2.DoubleClick();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Periodo'.", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Periodo' with focus on 'MDIPrincipal.TabMain.TextArea2'.", repo.MDIPrincipal.TabMain.TextArea2Info, new RecordItemIndex(6));
+            repo.MDIPrincipal.TabMain.TextArea2.EnsureVisible();
             Keyboard.Press(Periodo);
             Delay.Milliseconds(0);
             

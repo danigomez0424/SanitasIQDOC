@@ -40,6 +40,7 @@ namespace IQDOC_Sanitas
         IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder _mensajepantalla;
         IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder _auxiliardeauditoriamedica;
         IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder _salir_cof;
+        IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder _frmdatosimagen;
         RepoItemInfo _txtsucursalInfo;
 
         /// <summary>
@@ -70,6 +71,7 @@ namespace IQDOC_Sanitas
             _mensajepantalla = new IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder(this);
             _auxiliardeauditoriamedica = new IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder(this);
             _salir_cof = new IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder(this);
+            _frmdatosimagen = new IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder(this);
             _txtsucursalInfo = new RepoItemInfo(this, "TXTSUCURSAL", "/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/text[@controlid='1001']", 30000, null, "fed33902-d429-43b5-bba2-beac725114a5");
         }
 
@@ -360,6 +362,15 @@ namespace IQDOC_Sanitas
         public virtual IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder Salir_Cof
         {
             get { return _salir_cof; }
+        }
+
+        /// <summary>
+        /// The FrmDatosImagen folder.
+        /// </summary>
+        [RepositoryFolder("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+        public virtual IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder FrmDatosImagen
+        {
+            get { return _frmdatosimagen; }
         }
     }
 
@@ -820,7 +831,7 @@ namespace IQDOC_Sanitas
                 _copy_of_cmdsaveInfo = new RepoItemInfo(this, "Copy_of_CmdSave", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']", 1000, null, "49183410-23dc-46d4-98ab-6ba322071033");
                 _tabmain1Info = new RepoItemInfo(this, "TabMain1", "?/?/form[@controlname='FrmCapturer']/?/?/container[@controlname='pnlCampos']/?/?/tabpage[@controlname='tabMain']", 30000, null, "a3abedd3-2a88-4b81-9bdf-fd2159751429");
                 _cmdterminarInfo = new RepoItemInfo(this, "CmdTerminar", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdTerminar']", 30000, null, "223dc3f2-9ad1-4535-819e-d10a7462f816");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']", 30000, null, "10b5a593-3270-469f-a0db-ec2e4b0c30c6");
+                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']", 30000, null, "10b5a593-3270-469f-a0db-ec2e4b0c30c6");
                 _labelopcionesInfo = new RepoItemInfo(this, "LabelOpciones", "?/?/form[@controlname='FrmCapturer']/text[@controlname='LabelOpciones']", 30000, null, "c8e76f2d-6864-42aa-83f9-5112253a5aa5");
                 _cboproductosInfo = new RepoItemInfo(this, "CboProductos", ".//combobox[@controlname~'(?i:CboProductos)']", 30000, null, "07b6b840-ccdd-4811-9c8d-34dd553b047f");
                 _copy_of_btn_guadarclasiInfo = new RepoItemInfo(this, "Copy_of_Btn_GuadarClasi", "?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/button[@controlname='CmdSave' and @enabled='True']", 30000, null, "52045236-b803-43ce-b5d4-036bc7f704e6");
@@ -1137,6 +1148,7 @@ namespace IQDOC_Sanitas
             RepoItemInfo _abrir2Info;
             RepoItemInfo _cerrar2Info;
             RepoItemInfo _fechafacturaInfo;
+            RepoItemInfo _textarea2Info;
 
             /// <summary>
             /// Creates a new TabMain  folder.
@@ -1166,6 +1178,7 @@ namespace IQDOC_Sanitas
                 _abrir2Info = new RepoItemInfo(this, "Abrir2", "combobox[@controlname='CBOPLAN']/button[@accessiblename='Abrir']", 30000, null, "2ba1b4e7-877b-461e-bea9-c230f99dbe85");
                 _cerrar2Info = new RepoItemInfo(this, "Cerrar2", "combobox[@controlname='CBOPLAN']/button[@accessiblename='Cerrar']", 30000, null, "139b6771-be54-47a1-b664-d05bb8f0f138");
                 _fechafacturaInfo = new RepoItemInfo(this, "FechaFactura", "element[@controlname='MSKFECHAEMISIONFACTURA']//text[@accessiblename='Text area']", 30000, null, "a158edd3-116c-411b-b7bd-e1dca524d807");
+                _textarea2Info = new RepoItemInfo(this, "TextArea2", "element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']", 30000, null, "27c6a541-0053-45d0-81a3-11349a55daa8");
             }
 
             /// <summary>
@@ -1717,6 +1730,30 @@ namespace IQDOC_Sanitas
                 get
                 {
                     return _fechafacturaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TextArea2 item.
+            /// </summary>
+            [RepositoryItem("27c6a541-0053-45d0-81a3-11349a55daa8")]
+            public virtual Ranorex.Text TextArea2
+            {
+                get
+                {
+                    return _textarea2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextArea2 item info.
+            /// </summary>
+            [RepositoryItemInfo("27c6a541-0053-45d0-81a3-11349a55daa8")]
+            public virtual RepoItemInfo TextArea2Info
+            {
+                get
+                {
+                    return _textarea2Info;
                 }
             }
         }
@@ -2497,9 +2534,9 @@ namespace IQDOC_Sanitas
             /// Creates a new MensajePantalla  folder.
             /// </summary>
             public MensajePantallaAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("MensajePantalla", "/form[@class='#32770']", parentFolder, 30000, null, true, "0b958bd4-d0bb-484a-bda9-906676cc9f3c", "")
+                    base("MensajePantalla", "/form[@class='#32770']", parentFolder, 10000, null, true, "0b958bd4-d0bb-484a-bda9-906676cc9f3c", "")
             {
-                _buttonInfo = new RepoItemInfo(this, "Button", "button", 30000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
+                _buttonInfo = new RepoItemInfo(this, "Button", "button", 5000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
                 _staticInfo = new RepoItemInfo(this, "Static", "text", 30000, null, "a3e03ec5-dbb3-405a-b536-eab479635086");
                 _findocumentoInfo = new RepoItemInfo(this, "FinDocumento", "text[@windowtext~'Esta ubicado en el último documento']", 30000, null, "d97473c4-24fb-4ce1-ba9f-762e20d87d57");
             }
@@ -2729,6 +2766,98 @@ namespace IQDOC_Sanitas
                 get
                 {
                     return _aceptarInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The FrmDatosImagenAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+        public partial class FrmDatosImagenAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _txtpropiedadesInfo;
+            RepoItemInfo _cmdcerrarInfo;
+
+            /// <summary>
+            /// Creates a new FrmDatosImagen  folder.
+            /// </summary>
+            public FrmDatosImagenAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("FrmDatosImagen", "/form[@controlname='FrmDatosImagen']", parentFolder, 30000, null, true, "fe7afa24-7db0-4418-bf65-3d930c60d4d0", "")
+            {
+                _txtpropiedadesInfo = new RepoItemInfo(this, "TxtPropiedades", "?/?/text[@controlname='txtPropiedades']", 30000, null, "b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843");
+                _cmdcerrarInfo = new RepoItemInfo(this, "CmdCerrar", "button[@controlname='CmdCerrar']", 30000, null, "fb90e698-b08d-4787-9f42-12504023f74d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtPropiedades item.
+            /// </summary>
+            [RepositoryItem("b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843")]
+            public virtual Ranorex.Text TxtPropiedades
+            {
+                get
+                {
+                    return _txtpropiedadesInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtPropiedades item info.
+            /// </summary>
+            [RepositoryItemInfo("b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843")]
+            public virtual RepoItemInfo TxtPropiedadesInfo
+            {
+                get
+                {
+                    return _txtpropiedadesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CmdCerrar item.
+            /// </summary>
+            [RepositoryItem("fb90e698-b08d-4787-9f42-12504023f74d")]
+            public virtual Ranorex.Button CmdCerrar
+            {
+                get
+                {
+                    return _cmdcerrarInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CmdCerrar item info.
+            /// </summary>
+            [RepositoryItemInfo("fb90e698-b08d-4787-9f42-12504023f74d")]
+            public virtual RepoItemInfo CmdCerrarInfo
+            {
+                get
+                {
+                    return _cmdcerrarInfo;
                 }
             }
         }

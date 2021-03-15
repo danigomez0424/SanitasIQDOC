@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="6c2700a8-5b72-41b4-88dc-6791600aa0df"
+id="95498a60-111c-4ec1-b77c-846eb8c02e14"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Finalizar"
+	classname="AceptarNoHay"
 	namespace="IQDOC_Sanitas.ScriptGeneral">
 	</codegen>
 	<variables>
@@ -33,7 +33,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="True"
-		searchpropertyid="39f4d5d4-ec3c-4cd4-b37c-10a0af5c785f"
+		searchpropertyid="6a12d8d1-a43b-4f92-9952-fbaa21f6fa6f"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -42,34 +42,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="f9ec6c70-89c7-41ad-a48f-fe2671d019f8"
+			id="de688fdc-0e42-432d-a3aa-7aebe3931d97"
 			sourcename="RepositoryEditor">
 				<path>
-					/form/button[@text='Aceptar']/button[@text='Aceptar']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="8bf61937-2d8b-4f26-b8d7-3a79a9d5b90a"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="223dc3f2-9ad1-4535-819e-d10a7462f816"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdTerminar']
+					/form[@class='#32770']/button
 				</path>
 			</info>
 		</mouseitem>
@@ -89,7 +65,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Finalizar.UserCode.cs
+		AceptarNoHay.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

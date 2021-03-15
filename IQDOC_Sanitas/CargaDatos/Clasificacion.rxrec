@@ -41,7 +41,7 @@ mode="Global">
 			</arguments>
 		</userrecorditem>
 		<mouseitem
-		action="Move"
+		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"

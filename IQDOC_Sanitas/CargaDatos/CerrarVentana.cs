@@ -83,9 +83,9 @@ namespace IQDOC_Sanitas.CargaDatos
             repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(1));
-            repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(1));
+            //repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
+            //Delay.Milliseconds(0);
             
         }
 

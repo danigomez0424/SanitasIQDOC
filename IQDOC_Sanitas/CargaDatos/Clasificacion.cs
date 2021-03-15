@@ -82,8 +82,8 @@ namespace IQDOC_Sanitas.CargaDatos
             Clasificar();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'MDIPrincipal.Copy_of_Btn_GuadarClasi' at Center.", repo.MDIPrincipal.Copy_of_Btn_GuadarClasiInfo, new RecordItemIndex(1));
-            repo.MDIPrincipal.Copy_of_Btn_GuadarClasi.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Copy_of_Btn_GuadarClasi' at Center.", repo.MDIPrincipal.Copy_of_Btn_GuadarClasiInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.Copy_of_Btn_GuadarClasi.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.Btn_Salir' at Center.", repo.MDIPrincipal.FrmclasiffierSura.Btn_SalirInfo, new RecordItemIndex(2));
