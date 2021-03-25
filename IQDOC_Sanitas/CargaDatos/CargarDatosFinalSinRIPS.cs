@@ -85,9 +85,13 @@ namespace IQDOC_Sanitas.CargaDatos
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdSave' at 49;5.", repo.MDIPrincipal.CmdSaveInfo, new RecordItemIndex(1));
-            //repo.MDIPrincipal.CmdSave.Click("49;5");
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdSave' at 49;5.", repo.MDIPrincipal.CmdSaveInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.CmdSave.Click("49;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CamposOmitidos.ButtonSi' at Center.", repo.CamposOmitidos.ButtonSiInfo, new RecordItemIndex(2));
+            repo.CamposOmitidos.ButtonSi.Click();
+            Delay.Milliseconds(0);
             
         }
 

@@ -2,6 +2,20 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="227fa0ab-cc85-4dfc-932c-c1cec8de0beb"
+			name="AbrirVentanaInfo"
+			ref="1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa"
+					variableid="6116f772-1cd7-4847-bc9e-2da3e15e80d4"
+					variablename="FolderId">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="3c8f43c4-b411-41c6-85a7-eaa0ed738e92"
 			name="teardown">
@@ -22,7 +36,7 @@
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
-			reporttemplatefolder=""
+			reporttemplatefolder="NewCustomTemplate2"
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
@@ -37,6 +51,20 @@
 			name="Clasificacion"
 			ref="9cd5143d-47fd-4f5d-b2c0-3eacfdde5e7f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="SolicitudId"
+					datasourceid="0e699ea1-f3de-4f84-b507-86d4cc9b09ec"
+					variableid="e8873185-6762-4130-aece-e3296621a0f7"
+					variablename="SolicitudId">
+					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa"
+					variableid="1e2770af-b7e7-4750-ba97-e481aa69e956"
+					variablename="ParFolderId">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="61d8571e-53d9-4e0e-96e1-e4604e98d40e"
@@ -53,6 +81,12 @@
 			datasource="Clasificacion"
 			id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa"
 			name="TestCase_01">
+				<parameters>
+					<param
+					name="ParFolderId"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<setup
 			id="9e3dd726-1522-46e9-91de-3f0b76c5a6c8"
@@ -140,6 +174,10 @@
 						name="SeleccionarProducto">
 						</testmodule>
 						<testmodule
+						id="227fa0ab-cc85-4dfc-932c-c1cec8de0beb"
+						name="AbrirVentanaInfo">
+						</testmodule>
+						<testmodule
 						id="4fc9bbf0-82c2-424d-bd1a-d3318724bc1a"
 						name="Clasificacion">
 						</testmodule>
@@ -158,7 +196,7 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Clasificación.xlsx"
+		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\Clasificación.xlsx"
 		id="0e699ea1-f3de-4f84-b507-86d4cc9b09ec"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -172,6 +210,9 @@
 				</column>
 				<column>
 					Producto
+				</column>
+				<column>
+					SolicitudId
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>

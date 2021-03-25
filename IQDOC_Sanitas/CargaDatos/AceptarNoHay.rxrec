@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="72070569-0d20-43bc-b8a4-830e3dfd3c1f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AceptarNoHay"
+	namespace="IQDOC_Sanitas.CargaDatos">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="4d2fa997-d6ec-435c-a691-1b52f576fd2c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="de688fdc-0e42-432d-a3aa-7aebe3931d97"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@class='#32770']/button
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"
+	name="IQDOC_SanitasRepository"
+	relativepath="..\IQDOC_SanitasRepository.rxrep">
+		<codegen
+		classname="IQDOC_SanitasRepository"
+		namespace="IQDOC_Sanitas">
+		</codegen>
+		<rootfolder
+		id="fb3b63a5-e776-41d5-b719-29f20d032d65"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AceptarNoHay.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

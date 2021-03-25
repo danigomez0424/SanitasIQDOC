@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e1558c17-c348-4dd3-a444-53982418bbe6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="IQDOC_Sanitas.ScriptGeneral">
+	</codegen>
+	<variables>
+		<var
+		id="e7daa91d-d177-4a08-b3b9-13dc53b05be9"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="eea5ccbe-bc84-4070-98aa-ab3d3f215410">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+			<info
+			id="c29ca477-e8ab-471b-bb48-71626cc719d5"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='FrmLogin']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"
+	name="IQDOC_SanitasRepository"
+	relativepath="..\IQDOC_SanitasRepository.rxrep">
+		<codegen
+		classname="IQDOC_SanitasRepository"
+		namespace="IQDOC_Sanitas">
+		</codegen>
+		<rootfolder
+		id="fb3b63a5-e776-41d5-b719-29f20d032d65"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

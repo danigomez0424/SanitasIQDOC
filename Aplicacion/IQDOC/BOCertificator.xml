@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOCertificator
+</name>
+</assembly>
+<members>
+<member name="P:BOCertificator.BOCertificator_AppMgr.ConnectionString">
+ <summary>
+ Propiedad para almacenar la cadena de Conexion a la BD
+ </summary>
+ <value>String</value>
+ <returns>Cadena de conexion a la BD</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.94s"
+		durationms="21942"
+		type="root"
+		rid="a504d7e207044aa"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="duvanra"
+		rxversion="9.3.2.0"
+		host="BOGWKSDESPP5ELS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-CO"
+		screenresolution="1366x768"
+		timestamp="11/25/2020 2:29:06 PM"
+		timestampiso="2020-11-25T19:29:06"
+		endtime="11/25/2020 2:29:28 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.107"
+			timeRelativeToTestModuleStartTime="00:04.107"
+			timeWallClock="14:29:10"
+			time="00:04.107"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmLogin.TxtLogin' at 18;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/text[@controlname='txtLogin']"
+				itempath="text[@controlname='txtLogin']"
+				fullname="IQDOC_SanitasRepository.FrmLogin.TxtLogin"
+				id="a429c1ceef314c2c9b21a7619017f546"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.194"
+			timeRelativeToTestModuleStartTime="00:07.194"
+			timeWallClock="14:29:13"
+			time="00:07.194"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'pruebassanitas5' with focus on 'FrmLogin.TxtLogin'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/text[@controlname='txtLogin']"
+				itempath="text[@controlname='txtLogin']"
+				fullname="IQDOC_SanitasRepository.FrmLogin.TxtLogin"
+				id="a429c1ceef314c2c9b21a7619017f546"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.109"
+			timeRelativeToTestModuleStartTime="00:10.109"
+			timeWallClock="14:29:16"
+			time="00:10.109"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmLogin.TxtPassword' at 33;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/text[@controlname='txtPassword']"
+				itempath="text[@controlname='txtPassword']"
+				fullname="IQDOC_SanitasRepository.FrmLogin.TxtPassword"
+				id="a61362f4bfaa4083bd1c039ec4d939b5"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.539"
+			timeRelativeToTestModuleStartTime="00:10.539"
+			timeWallClock="14:29:16"
+			time="00:10.539"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'test.2019' with focus on 'FrmLogin.TxtPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/text[@controlname='txtPassword']"
+				itempath="text[@controlname='txtPassword']"
+				fullname="IQDOC_SanitasRepository.FrmLogin.TxtPassword"
+				id="a61362f4bfaa4083bd1c039ec4d939b5"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.000"
+			timeRelativeToTestModuleStartTime="00:11.000"
+			timeWallClock="14:29:17"
+			time="00:11.000"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmLogin.CmbCompania' at 66;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmLogin']/combobox[@controlname='cmbCompania']"
+				itempath="combobox[@controlname='cmbCompania']"
+				fullname="IQDOC_SanitasRepository.FrmLogin.CmbCompania"
+				id="ed8d0849a252422381520fa79c514e8b"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.430"
+			timeRelativeToTestModuleStartTime="00:11.430"
+			timeWallClock="14:29:17"
+			time="00:11.430"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking Select() on item 'List1000.DdlCompania'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text='SANITAS']"
+				itempath="listitem[@text='SANITAS']"
+				fullname="IQDOC_SanitasRepository.List1000.DdlCompania"
+				id="00579b18473d4c7ca4a33e641c5b4736"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\Recording1.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.938"
+			timeRelativeToTestModuleStartTime="00:21.938"
+			timeWallClock="14:29:28"
+			time="00:21.938"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

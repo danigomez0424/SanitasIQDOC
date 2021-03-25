@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "IQDOC_Captura",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "IQDOC_Clasificacion",
+    "RunConfig": "TestRun"
+  }
+]

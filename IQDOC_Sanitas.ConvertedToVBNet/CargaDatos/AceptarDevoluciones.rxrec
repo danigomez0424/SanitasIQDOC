@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1303436b-b7e7-4a1d-b93e-cf185c12c7b0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AceptarDevoluciones"
+	namespace="IQDOC_Sanitas.CargaDatos">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7b02cc49-91bd-4e7a-bb34-5ad80e4782f1"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57d60b91-9f30-4121-ab1d-37e6461c2d6b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Campos Omitidos']/button[@text='&amp;S&#237;']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"
+	name="IQDOC_SanitasRepository"
+	relativepath="..\IQDOC_SanitasRepository.rxrep">
+		<codegen
+		classname="IQDOC_SanitasRepository"
+		namespace="IQDOC_Sanitas">
+		</codegen>
+		<rootfolder
+		id="fb3b63a5-e776-41d5-b719-29f20d032d65"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AceptarDevoluciones.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

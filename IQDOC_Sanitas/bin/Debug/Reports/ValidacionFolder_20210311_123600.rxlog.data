@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="55.8s"
+		durationms="55800"
+		type="root"
+		rid="669a9b978d6e219"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="03/11/2021 12:36:06 PM"
+		timestampiso="2021-03-11T17:36:06"
+		endtime="03/11/2021 12:37:02 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidacionFolder">
+		<detail>
+			ValidacionFolder
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.512"
+			timeRelativeToTestModuleStartTime="00:07.512"
+			timeWallClock="12:36:13"
+			time="00:07.512"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>SolicitudID
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

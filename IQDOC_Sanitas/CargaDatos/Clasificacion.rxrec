@@ -23,6 +23,14 @@ mode="Global">
 	namespace="IQDOC_Sanitas.CargaDatos">
 	</codegen>
 	<variables>
+		<var
+		id="e8873185-6762-4130-aece-e3296621a0f7"
+		name="SolicitudId">
+		</var>
+		<var
+		id="1e2770af-b7e7-4750-ba97-e481aa69e956"
+		name="ParFolderId">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
@@ -41,7 +49,7 @@ mode="Global">
 			</arguments>
 		</userrecorditem>
 		<mouseitem
-		action="Move"
+		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"

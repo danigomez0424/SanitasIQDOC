@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.91s"
+		durationms="12908"
+		type="root"
+		rid="7dc566d75e6697a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="01/20/2021 2:34:06 PM"
+		timestampiso="2021-01-20T19:34:06"
+		endtime="01/20/2021 2:34:19 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CargaDevolucion">
+		<detail>
+			CargaDevolucion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.510"
+			timeRelativeToTestModuleStartTime="00:08.510"
+			timeWallClock="14:34:14"
+			time="00:08.510"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CodCausal
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.550"
+			timeRelativeToTestModuleStartTime="00:08.550"
+			timeWallClock="14:34:14"
+			time="00:08.550"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence ' ' with focus on 'FrmControllerCapturer.CodigoCausal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmControllerCapturer']//table[@accessiblename='UltraGrid1']//cell[@accessiblevalue='3-999']/../cell[@accessiblename='ActiveCheck']"
+				itempath=".//table[@accessiblename='UltraGrid1']//cell[@accessiblevalue=$CodCausal]/../cell[@accessiblename='ActiveCheck']"
+				fullname="IQDOC_SanitasRepository.FrmControllerCapturer.CodigoCausal"
+				id="06657578934c402295eb68c2f2a0fc8f"
+				timeout="40000"
+				codefile="c:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\CargaDevolucion.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

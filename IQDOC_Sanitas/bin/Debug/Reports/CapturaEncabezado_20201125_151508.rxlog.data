@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18s"
+		durationms="17998"
+		type="root"
+		rid="11e6c8b249a9712c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="duvanra"
+		rxversion="9.3.2.0"
+		host="BOGWKSDESPP5ELS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-CO"
+		screenresolution="1366x768"
+		timestamp="11/25/2020 3:15:11 PM"
+		timestampiso="2020-11-25T20:15:11"
+		endtime="11/25/2020 3:15:29 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CapturaEncabezado">
+		<detail>
+			CapturaEncabezado
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.259"
+			timeRelativeToTestModuleStartTime="00:04.259"
+			timeWallClock="15:15:16"
+			time="00:04.259"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Archivo' at 22;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+				itempath="?/?/menuitem[@accessiblename='Archivo']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Archivo"
+				id="81b194f292ab45afab0cd873a5688181"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.402"
+			timeRelativeToTestModuleStartTime="00:07.402"
+			timeWallClock="15:15:19"
+			time="00:07.402"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IQDOC.CapturaDeEncabezado' at 107;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='IQDOC']/menuitem[@accessiblename='Captura de Encabezado']"
+				itempath="menuitem[@accessiblename='Captura de Encabezado']"
+				fullname="IQDOC_SanitasRepository.IQDOC.CapturaDeEncabezado"
+				id="22b26a84b9b24fb98b4c48a73bc5e905"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.949"
+			timeRelativeToTestModuleStartTime="00:07.949"
+			timeWallClock="15:15:19"
+			time="00:07.949"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CmdStart' at 95;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CmdStart"
+				id="6e1368c28a014dbb85e57c7992661d75"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.037"
+			timeRelativeToTestModuleStartTime="00:10.037"
+			timeWallClock="15:15:21"
+			time="00:10.037"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.TabMain.DDLNITIPS' at 11;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Abrir']"
+				itempath="combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Abrir']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.DDLNITIPS"
+				id="ac807060700e4abe9eed30add465c4cc"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.992"
+			timeRelativeToTestModuleStartTime="00:17.992"
+			timeWallClock="15:15:29"
+			time="00:17.992"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

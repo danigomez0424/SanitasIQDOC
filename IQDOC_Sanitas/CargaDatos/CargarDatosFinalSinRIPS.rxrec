@@ -53,7 +53,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="False"
+		enabled="True"
 		loc="49;5"
 		movetime="300ms"
 		optional="False"
@@ -986,6 +986,30 @@ ItPIaKTOSWKSBd3pkYPSphqKbtz2+4uV83L8Nt6Y447etJRRzh9U/vEX2pBeR3CpIWVgzeZIGLfj
 gYqsTkk+tXqKOcPqn94o0Veoo5w+qf3ijRV6ijnD6p/eKNFXqKOcPqn94T+Jv94/zopaKhnZFcsU
 j//Z
 			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5acd512c-9499-4b12-acfc-b78e19f1f52a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="57d60b91-9f30-4121-ab1d-37e6461c2d6b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Campos Omitidos']/button[@text='&amp;S&#237;']
+				</path>
+			</info>
 		</mouseitem>
 	</recorditems>
 	<repository

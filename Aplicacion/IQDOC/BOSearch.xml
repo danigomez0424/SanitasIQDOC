@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOSearch
+</name>
+</assembly>
+<members>
+<member name="T:BOSearch.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BOSearch.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BOSearch.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:BOSearch.DefinitionMgr.LoadGridSearchByParameters(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.String)">
+ <summary>
+ Carga la grilla de busqueda de acuerdo al resultado de un procedimiento
+ Jorge Sierra Beltran
+ Jun 14 de 2013
+ </summary>
+ <param name="LstDatos">Lista String con los datos para filtar el SP</param>
+ <param name="lstParametros">Lista con los parametros para filtrar el Sp</param>
+ <returns></returns>
+</member>
+<member name="M:BOSearch.DataMgr.LoadGridSearchByParameters(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+ <summary>
+ Carga la grilla de busqueda de acuerdo al resultado de un procedimiento
+ Jorge Sierra Beltran
+ Jun 14 de 2013
+ </summary>
+ <param name="LstDatos">Lista String con los datos para filtar el SP</param>
+ <param name="lstParametros">Lista con los parametros para filtrar el Sp</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

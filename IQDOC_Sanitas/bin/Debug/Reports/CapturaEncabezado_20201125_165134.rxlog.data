@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.82s"
+		durationms="11816"
+		type="root"
+		rid="55bdcb1f3805d80"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="duvanra"
+		rxversion="9.3.2.0"
+		host="BOGWKSDESPP5ELS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-CO"
+		screenresolution="1366x768"
+		timestamp="11/25/2020 4:51:37 PM"
+		timestampiso="2020-11-25T21:51:37"
+		endtime="11/25/2020 4:51:49 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CapturaEncabezado">
+		<detail>
+			CapturaEncabezado
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.295"
+			timeRelativeToTestModuleStartTime="00:03.295"
+			timeWallClock="16:51:40"
+			time="00:03.295"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Periodo, TipHonorario, Producto, Plan, ValBruto, NFactura, NitIPS, Sucursal
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.323"
+			timeRelativeToTestModuleStartTime="00:03.323"
+			timeWallClock="16:51:40"
+			time="00:03.323"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Periodo' with focus on 'MDIPrincipal.TabMain.Periodo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area' and @accessiblevalue='__/__/____']"
+				itempath="element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area' and @accessiblevalue='__/__/____']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.Periodo"
+				id="313c445b1cb242389c14af6d12c4cefc"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="182"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.177"
+			timeRelativeToTestModuleStartTime="00:06.177"
+			timeWallClock="16:51:43"
+			time="00:06.177"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$TipHonorario' with focus on 'MDIPrincipal.TabMain.TipoHonorarioText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPOHONORARIO']/text[@controlid='1001']"
+				itempath="combobox[@controlname='CBOTIPOHONORARIO']/text[@controlid='1001']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.TipoHonorarioText"
+				id="577ee59c9e0e44d2bc453b695b35d3e8"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="187"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.185"
+			timeRelativeToTestModuleStartTime="00:07.185"
+			timeWallClock="16:51:44"
+			time="00:07.185"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Producto' with focus on 'MDIPrincipal.TabMain.Producto'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOPRODUCTO']/text[@controlid='1001']"
+				itempath="combobox[@controlname='CBOPRODUCTO']/text[@controlid='1001']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.Producto"
+				id="acd260202c7f4f75ba1bb55ddba6340e"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="191"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.878"
+			timeRelativeToTestModuleStartTime="00:07.878"
+			timeWallClock="16:51:45"
+			time="00:07.878"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Plan' with focus on 'MDIPrincipal.TabMain.PlanText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOPLAN']/text[@controlid='1001']"
+				itempath="combobox[@controlname='CBOPLAN']/text[@controlid='1001']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.PlanText"
+				id="86ebd1e73ced487ca86c1d3fccf9c824"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="195"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.892"
+			timeRelativeToTestModuleStartTime="00:08.892"
+			timeWallClock="16:51:46"
+			time="00:08.892"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MDIPrincipal.TabMain.ValorBruto' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				itempath="element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.ValorBruto"
+				id="729a873d8cf24efeaac352cdc7eec33a"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="199"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.994"
+			timeRelativeToTestModuleStartTime="00:09.994"
+			timeWallClock="16:51:47"
+			time="00:09.994"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$ValBruto' with focus on 'MDIPrincipal.TabMain.ValorBruto'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				itempath="element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.ValorBruto"
+				id="729a873d8cf24efeaac352cdc7eec33a"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="203"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.967"
+			timeRelativeToTestModuleStartTime="00:10.967"
+			timeWallClock="16:51:48"
+			time="00:10.967"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CmdSave' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CmdSave"
+				id="9a2f0242bbee43c8bf71746d233abb68"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="207"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

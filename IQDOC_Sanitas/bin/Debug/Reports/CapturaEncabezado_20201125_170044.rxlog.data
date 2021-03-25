@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.87s"
+		durationms="5873"
+		type="root"
+		rid="6673672560386ba"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="duvanra"
+		rxversion="9.3.2.0"
+		host="BOGWKSDESPP5ELS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-CO"
+		screenresolution="1366x768"
+		timestamp="11/25/2020 5:00:47 PM"
+		timestampiso="2020-11-25T22:00:47"
+		endtime="11/25/2020 5:00:53 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CapturaEncabezado">
+		<detail>
+			CapturaEncabezado
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.253"
+			timeRelativeToTestModuleStartTime="00:03.253"
+			timeWallClock="17:00:50"
+			time="00:03.253"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Periodo, TipHonorario, Producto, Plan, ValBruto, NFactura, NitIPS, Sucursal
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.284"
+			timeRelativeToTestModuleStartTime="00:03.284"
+			timeWallClock="17:00:50"
+			time="00:03.284"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MDIPrincipal.TabMain.Periodo' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area' and @accessiblevalue='__/__/____']"
+				itempath="element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area' and @accessiblevalue='__/__/____']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.Periodo"
+				id="313c445b1cb242389c14af6d12c4cefc"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="182"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.524"
+			timeRelativeToTestModuleStartTime="00:05.524"
+			timeWallClock="17:00:53"
+			time="00:05.524"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Periodo'.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="186"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

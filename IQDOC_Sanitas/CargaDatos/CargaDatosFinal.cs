@@ -79,9 +79,9 @@ namespace IQDOC_Sanitas.CargaDatos
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdSave' at 49;5.", repo.MDIPrincipal.CmdSaveInfo, new RecordItemIndex(0));
-            //repo.MDIPrincipal.CmdSave.Click("49;5");
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdSave' at 49;5.", repo.MDIPrincipal.CmdSaveInfo, new RecordItemIndex(0));
+            repo.MDIPrincipal.CmdSave.Click("49;5");
+            Delay.Milliseconds(0);
             
         }
 

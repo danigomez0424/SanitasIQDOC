@@ -41,6 +41,8 @@ namespace IQDOC_Sanitas.CargaDatos
         /// </summary>
         public Clasificacion()
         {
+            SolicitudId = "";
+            ParFolderId = "";
         }
 
         /// <summary>
@@ -52,6 +54,30 @@ namespace IQDOC_Sanitas.CargaDatos
         }
 
 #region Variables
+
+        string _SolicitudId;
+
+        /// <summary>
+        /// Gets or sets the value of variable SolicitudId.
+        /// </summary>
+        [TestVariable("e8873185-6762-4130-aece-e3296621a0f7")]
+        public string SolicitudId
+        {
+            get { return _SolicitudId; }
+            set { _SolicitudId = value; }
+        }
+
+        string _ParFolderId;
+
+        /// <summary>
+        /// Gets or sets the value of variable ParFolderId.
+        /// </summary>
+        [TestVariable("1e2770af-b7e7-4750-ba97-e481aa69e956")]
+        public string ParFolderId
+        {
+            get { return _ParFolderId; }
+            set { _ParFolderId = value; }
+        }
 
 #endregion
 
@@ -82,8 +108,8 @@ namespace IQDOC_Sanitas.CargaDatos
             Clasificar();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'MDIPrincipal.Copy_of_Btn_GuadarClasi' at Center.", repo.MDIPrincipal.Copy_of_Btn_GuadarClasiInfo, new RecordItemIndex(1));
-            repo.MDIPrincipal.Copy_of_Btn_GuadarClasi.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Copy_of_Btn_GuadarClasi' at Center.", repo.MDIPrincipal.Copy_of_Btn_GuadarClasiInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.Copy_of_Btn_GuadarClasi.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.Btn_Salir' at Center.", repo.MDIPrincipal.FrmclasiffierSura.Btn_SalirInfo, new RecordItemIndex(2));

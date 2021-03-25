@@ -1,0 +1,28 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CargaDatos\ValidacionFolder.UserCode.cs" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs|40|4|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="CargaDatos\AbrirVentanaInfo.UserCode.cs" />
+    <Element value="IQDOC_Captura.rxtst" />
+    <Element value="CargaDatos\ValidacionFolder.rxrec" />
+    <Element value="IQDOC_Clasificacion.rxtst" />
+    <Element value="CargaDatos\Clasificacion.UserCode.cs" />
+    <Element value="CargaDatos\AbrirVentanaInfo.rxrec" />
+    <Element value="CargaDatos\ValidacionFolder.UserCode.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.ObtenerSolicitudId()" />
+      <Element value="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.ObtenerSolicitudId()" />
+      <Element value="IQDOC_Sanitas.CargaDatos.ValidacionFolder.CargaDatos()" />
+      <Element value="IQDOC_Sanitas.CargaDatos.Clasificacion.Clasificar()" />
+    </Array>
+  </Properties>
+</Properties>

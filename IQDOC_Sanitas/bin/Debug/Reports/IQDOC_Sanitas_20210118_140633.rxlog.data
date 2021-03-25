@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5.03s"
+		durationms="5026"
+		type="root"
+		rid="292c51adf8dad233"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="01/18/2021 2:06:33 PM"
+		timestampiso="2021-01-18T19:06:33"
+		endtime="01/18/2021 2:06:38 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.963"
+			timeRelativeToTestModuleStartTime="00:04.963"
+			timeWallClock="14:06:38"
+			time="00:04.963"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The Excel file with name 'D:\Daniela\Pruebas Tecnicas\Documentación\Ranorex\Captura.xlsx' could not be found.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Data.ExcelDataConnector.LoadDataInternal(Boolean loadRowData, ColumnCollection&amp; columns, RowCollection&amp; rows, Int32&amp; rowCount)&#13;&#10;   en Ranorex.Core.Data.ExcelDataConnector.LoadDataImpl(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   en Ranorex.Core.Data.DataConnector.LoadData(ColumnCollection&amp; columns, RowCollection&amp; rows)&#13;&#10;   en Ranorex.Core.Data.DataCache.LoadInternal()&#13;&#10;   en Ranorex.Core.Testing.TestCaseNode.GetRangedDataRowCount()&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CollectAncestorsIterations(TestCaseNode testCaseNode)&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.&lt;>c__DisplayClass0_0.&lt;CalculateTestCasesExecCount>b__0(TestCaseNode tcn)&#13;&#10;   en Ranorex.Common.Extensions.EnumerableExtensions.ForAll[T](IEnumerable`1 e, Action`1 action)&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestCaseNodesCounter.CalculateTestCasesExecCount(TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Monitoring.TestSuiteMonitor.TestSuiteStarted(TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__6()&#13;&#10;   en Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   en Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

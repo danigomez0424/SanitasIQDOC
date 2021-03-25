@@ -1,0 +1,2483 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IQDOC_Sanitas</name>
+    </assembly>
+    <members>
+        <member name="T:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo">
+             <summary>
+            The AbrirVentanaInfo recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.FolderId">
+            <summary>
+            Gets or sets the value of variable FolderId.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones">
+             <summary>
+            The AceptarDevoluciones recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.AceptarNoHay">
+             <summary>
+            The AceptarNoHay recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.AceptarNoHay.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarNoHay.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS">
+             <summary>
+            The CapturaDatosRIPS recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Nit">
+            <summary>
+            Gets or sets the value of variable Nit.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Factura">
+            <summary>
+            Gets or sets the value of variable Factura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones">
+             <summary>
+            The CapturaEncabezadoDevoluciones recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Periodo">
+            <summary>
+            Gets or sets the value of variable Periodo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.TipHonorario">
+            <summary>
+            Gets or sets the value of variable TipHonorario.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Sucursal">
+            <summary>
+            Gets or sets the value of variable Sucursal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.NFactura">
+            <summary>
+            Gets or sets the value of variable NFactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CapturaEncabezado">
+             <summary>
+            The CapturaEncabezadoSinRIP recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Periodo">
+            <summary>
+            Gets or sets the value of variable Periodo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.TipHonorario">
+            <summary>
+            Gets or sets the value of variable TipHonorario.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Sucursal">
+            <summary>
+            Gets or sets the value of variable Sucursal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.NFactura">
+            <summary>
+            Gets or sets the value of variable NFactura.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos1">
+             <summary>
+            The CargaDatos1 recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargaDatos1.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Nfactura">
+            <summary>
+            Gets or sets the value of variable Nfactura.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos2">
+             <summary>
+            The CargaDatos2 recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargaDatos2.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Periodo">
+            <summary>
+            Gets or sets the value of variable Periodo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.TipHonorario">
+            <summary>
+            Gets or sets the value of variable TipHonorario.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.FechaFactura">
+            <summary>
+            Gets or sets the value of variable FechaFactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Sucursal">
+            <summary>
+            Gets or sets the value of variable Sucursal.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos3">
+             <summary>
+            The CargaDatos3 recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargaDatos3.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos4">
+             <summary>
+            The CargaDatos4 recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargaDatos4.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos4.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos4.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos4.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos4.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatosFinal">
+             <summary>
+            The CargaDatosFinal recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargaDevolucion">
+             <summary>
+            The CargaDevolucion recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargaDevolucion.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDevolucion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.CodCausal">
+            <summary>
+            Gets or sets the value of variable CodCausal.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS">
+             <summary>
+            The CargarDatosFinalSinRIPS recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.CerrarVentana">
+             <summary>
+            The CerrarVentana recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.CerrarVentana.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CerrarVentana.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CerrarVentana.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CerrarVentana.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CerrarVentana.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CerrarVentana.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CerrarVentana.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.Clasificacion">
+             <summary>
+            The Clasificacion recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.Clasificacion.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Clasificacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.SolicitudId">
+            <summary>
+            Gets or sets the value of variable SolicitudId.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Clasificacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.Clasificacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Clasificacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Clasificacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.Validacion">
+             <summary>
+            The Validacion recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.Validacion.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Validacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Validacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Validacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.Validacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Validacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.Validacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.CargaDatos.ValidacionFolder">
+             <summary>
+            The ValidacionFolder recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.CargaDatos.ValidacionFolder.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.SolicitudID">
+            <summary>
+            Gets or sets the value of variable SolicitudID.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.FechaFactura">
+            <summary>
+            Gets or sets the value of variable FechaFactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Periodo">
+            <summary>
+            Gets or sets the value of variable Periodo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.TipHonorario">
+            <summary>
+            Gets or sets the value of variable TipHonorario.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.NFacturaOriginal">
+            <summary>
+            Gets or sets the value of variable NFacturaOriginal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.TipoNoPbs">
+            <summary>
+            Gets or sets the value of variable TipoNoPbs.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.CodCausal">
+            <summary>
+            Gets or sets the value of variable CodCausal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Nfactura">
+            <summary>
+            Gets or sets the value of variable Nfactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.CBOProducto">
+            <summary>
+            Gets or sets the value of variable CBOProducto.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepository">
+            <summary>
+            The class representing the IQDOC_SanitasRepository element repository.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the IQDOC_SanitasRepository element repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Compania">
+            <summary>
+            Gets or sets the value of variable Compania.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Linea">
+            <summary>
+            Gets or sets the value of variable Linea.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Sucursal">
+            <summary>
+            Gets or sets the value of variable Sucursal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Nfactura">
+            <summary>
+            Gets or sets the value of variable Nfactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.CBOProducto">
+            <summary>
+            Gets or sets the value of variable CBOProducto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.CodCausal">
+            <summary>
+            Gets or sets the value of variable CodCausal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Modulo">
+            <summary>
+            Gets or sets the value of variable Modulo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.CodClasificacion">
+            <summary>
+            Gets or sets the value of variable CodClasificacion.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.TXTSUCURSAL">
+            <summary>
+            The TXTSUCURSAL item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.TXTSUCURSALInfo">
+            <summary>
+            The TXTSUCURSAL item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.FrmLogin">
+            <summary>
+            The FrmLogin folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.MDIPrincipal">
+            <summary>
+            The MDIPrincipal folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.IQDOC">
+            <summary>
+            The IQDOC folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.FacturacionElectronica_cof">
+            <summary>
+            The FacturacionElectronica_cof folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.FrmControllerCapturer">
+            <summary>
+            The FrmControllerCapturer folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.CamposOmitidos">
+            <summary>
+            The CamposOmitidos folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.FrmPOPUp_cof">
+            <summary>
+            The FrmPOPUp_cof folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.InformacionRIPS_cof">
+            <summary>
+            The InformacionRIPS_cof folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.ControlDeValidacionDeCampos">
+            <summary>
+            The ControlDeValidacionDeCampos folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.MensajePantalla">
+            <summary>
+            The MensajePantalla folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.AuxiliarDeAuditoriaMedica">
+            <summary>
+            The AuxiliarDeAuditoriaMedica folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Salir_Cof">
+            <summary>
+            The Salir_Cof folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.FrmDatosImagen">
+            <summary>
+            The FrmDatosImagen folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.BlackCloverTVEpisodio168SubEspan">
+            <summary>
+            The BlackCloverTVEpisodio168SubEspan folder.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder">
+            <summary>
+            The FrmLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmLogin  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.TxtLogin">
+            <summary>
+            The TxtLogin item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.TxtLoginInfo">
+            <summary>
+            The TxtLogin item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.TxtPassword">
+            <summary>
+            The TxtPassword item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.TxtPasswordInfo">
+            <summary>
+            The TxtPassword item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.CmbCompania">
+            <summary>
+            The CmbCompania item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.CmbCompaniaInfo">
+            <summary>
+            The CmbCompania item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.CmbLinea">
+            <summary>
+            The CmbLinea item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.CmbLineaInfo">
+            <summary>
+            The CmbLinea item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.CmdAceptar">
+            <summary>
+            The CmdAceptar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmLoginAppFolder.CmdAceptarInfo">
+            <summary>
+            The CmdAceptar item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.DdlCompania">
+            <summary>
+            The DdlCompania item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.DdlCompaniaInfo">
+            <summary>
+            The DdlCompania item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicas">
+            <summary>
+            The CuentasMedicas item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.CuentasMedicasInfo">
+            <summary>
+            The CuentasMedicas item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.ItemProducto">
+            <summary>
+            The ItemProducto item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.ItemProductoInfo">
+            <summary>
+            The ItemProducto item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.ListItem10263507ARBOLEDANARANJOLUIS">
+            <summary>
+            The ListItem10263507ARBOLEDANARANJOLUIS item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.ListItem10263507ARBOLEDANARANJOLUISInfo">
+            <summary>
+            The ListItem10263507ARBOLEDANARANJOLUIS item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.CR254946CONS307CENTROMEDICOSANT">
+            <summary>
+            The CR254946CONS307CENTROMEDICOSANT item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.CR254946CONS307CENTROMEDICOSANTInfo">
+            <summary>
+            The CR254946CONS307CENTROMEDICOSANT item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.ListItem1083881090RIVERAMARGARITAV">
+            <summary>
+            The ListItem1083881090RIVERAMARGARITAV item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.ListItem1083881090RIVERAMARGARITAVInfo">
+            <summary>
+            The ListItem1083881090RIVERAMARGARITAV item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.CL163A13B60BOGOTADC">
+            <summary>
+            The CL163A13B60BOGOTADC item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.CL163A13B60BOGOTADCInfo">
+            <summary>
+            The CL163A13B60BOGOTADC item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.PlanEmpresarial">
+            <summary>
+            The PlanEmpresarial item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.List1000AppFolder.PlanEmpresarialInfo">
+            <summary>
+            The PlanEmpresarial item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder">
+            <summary>
+            The MDIPrincipalAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MDIPrincipal  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.Archivo">
+            <summary>
+            The Archivo item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.ArchivoInfo">
+            <summary>
+            The Archivo item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CmdStart">
+            <summary>
+            The CmdStart item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CmdStartInfo">
+            <summary>
+            The CmdStart item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CmdSave">
+            <summary>
+            The CmdSave item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CmdSaveInfo">
+            <summary>
+            The CmdSave item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.Copy_of_CmdSave">
+            <summary>
+            The Copy_of_CmdSave item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.Copy_of_CmdSaveInfo">
+            <summary>
+            The Copy_of_CmdSave item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.TabMain1">
+            <summary>
+            The TabMain1 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.TabMain1Info">
+            <summary>
+            The TabMain1 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CmdTerminar">
+            <summary>
+            The CmdTerminar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CmdTerminarInfo">
+            <summary>
+            The CmdTerminar item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.SomeContainer">
+            <summary>
+            The SomeContainer item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.SomeContainerInfo">
+            <summary>
+            The SomeContainer item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.LabelOpciones">
+            <summary>
+            The LabelOpciones item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.LabelOpcionesInfo">
+            <summary>
+            The LabelOpciones item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CboProductos">
+            <summary>
+            The CboProductos item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.CboProductosInfo">
+            <summary>
+            The CboProductos item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.Copy_of_Btn_GuadarClasi">
+            <summary>
+            The Copy_of_Btn_GuadarClasi item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.Copy_of_Btn_GuadarClasiInfo">
+            <summary>
+            The Copy_of_Btn_GuadarClasi item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.TabMain">
+            <summary>
+            The TabMain folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MDIPrincipalAppFolder.FrmclasiffierSura">
+            <summary>
+            The FrmclasiffierSura folder.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder">
+            <summary>
+            The TabMainFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TabMain  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.AbrirSucursalDDL">
+            <summary>
+            The AbrirSucursalDDL item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.AbrirSucursalDDLInfo">
+            <summary>
+            The AbrirSucursalDDL item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.DDLNITIPS">
+            <summary>
+            The DDLNITIPS item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.DDLNITIPSInfo">
+            <summary>
+            The DDLNITIPS item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Periodo">
+            <summary>
+            The Periodo item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.PeriodoInfo">
+            <summary>
+            The Periodo item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TipoHonorarioText">
+            <summary>
+            The TipoHonorarioText item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TipoHonorarioTextInfo">
+            <summary>
+            The TipoHonorarioText item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Producto">
+            <summary>
+            The Producto item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.ProductoInfo">
+            <summary>
+            The Producto item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Plan">
+            <summary>
+            The Plan item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.PlanInfo">
+            <summary>
+            The Plan item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.ValorBruto">
+            <summary>
+            The ValorBruto item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.ValorBrutoInfo">
+            <summary>
+            The ValorBruto item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TXTNUMEROFACTURA">
+            <summary>
+            The TXTNUMEROFACTURA item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TXTNUMEROFACTURAInfo">
+            <summary>
+            The TXTNUMEROFACTURA item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TXTNITIPS">
+            <summary>
+            The TXTNITIPS item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TXTNITIPSInfo">
+            <summary>
+            The TXTNITIPS item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CerrarSucursalDDL">
+            <summary>
+            The CerrarSucursalDDL item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CerrarSucursalDDLInfo">
+            <summary>
+            The CerrarSucursalDDL item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.NumeroFactura">
+            <summary>
+            The NumeroFactura item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.NumeroFacturaInfo">
+            <summary>
+            The NumeroFactura item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Abrir">
+            <summary>
+            The Abrir item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.AbrirInfo">
+            <summary>
+            The Abrir item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Cerrar">
+            <summary>
+            The Cerrar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CerrarInfo">
+            <summary>
+            The Cerrar item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CBOTIPOHONORARIO">
+            <summary>
+            The CBOTIPOHONORARIO item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CBOTIPOHONORARIOInfo">
+            <summary>
+            The CBOTIPOHONORARIO item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Abrir1">
+            <summary>
+            The Abrir1 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Abrir1Info">
+            <summary>
+            The Abrir1 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Cerrar1">
+            <summary>
+            The Cerrar1 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Cerrar1Info">
+            <summary>
+            The Cerrar1 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TextArea">
+            <summary>
+            The TextArea item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TextAreaInfo">
+            <summary>
+            The TextArea item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CBOPLAN">
+            <summary>
+            The CBOPLAN item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.CBOPLANInfo">
+            <summary>
+            The CBOPLAN item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TextArea1">
+            <summary>
+            The TextArea1 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TextArea1Info">
+            <summary>
+            The TextArea1 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Abrir2">
+            <summary>
+            The Abrir2 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Abrir2Info">
+            <summary>
+            The Abrir2 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Cerrar2">
+            <summary>
+            The Cerrar2 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Cerrar2Info">
+            <summary>
+            The Cerrar2 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.FechaFactura">
+            <summary>
+            The FechaFactura item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.FechaFacturaInfo">
+            <summary>
+            The FechaFactura item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TextArea2">
+            <summary>
+            The TextArea2 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.TextArea2Info">
+            <summary>
+            The TextArea2 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Text1001">
+            <summary>
+            The Text1001 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Text1001Info">
+            <summary>
+            The Text1001 item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder">
+            <summary>
+            The FrmclasiffierSuraFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmclasiffierSura  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.SomeContainer1">
+            <summary>
+            The SomeContainer1 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.SomeContainer1Info">
+            <summary>
+            The SomeContainer1 item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.Anexo">
+            <summary>
+            The Anexo item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.AnexoInfo">
+            <summary>
+            The Anexo item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.IngresarCodigo">
+            <summary>
+            The IngresarCodigo item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.IngresarCodigoInfo">
+            <summary>
+            The IngresarCodigo item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.Btn_GuadarClasi">
+            <summary>
+            The Btn_GuadarClasi item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.Btn_GuadarClasiInfo">
+            <summary>
+            The Btn_GuadarClasi item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.Btn_Salir">
+            <summary>
+            The Btn_Salir item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder.Btn_SalirInfo">
+            <summary>
+            The Btn_Salir item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder">
+            <summary>
+            The IQDOCAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IQDOC  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.CapturaDeEncabezado">
+            <summary>
+            The CapturaDeEncabezado item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.CapturaDeEncabezadoInfo">
+            <summary>
+            The CapturaDeEncabezado item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.Salir">
+            <summary>
+            The Salir item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.SalirInfo">
+            <summary>
+            The Salir item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.DatosImagen">
+            <summary>
+            The DatosImagen item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.IQDOCAppFolder.DatosImagenInfo">
+            <summary>
+            The DatosImagen item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FacturacionElectronica_cofAppFolder">
+            <summary>
+            The FacturacionElectronica_cofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FacturacionElectronica_cofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FacturacionElectronica_cof  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FacturacionElectronica_cofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FacturacionElectronica_cofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FacturacionElectronica_cofAppFolder.Aceptar">
+            <summary>
+            The Aceptar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FacturacionElectronica_cofAppFolder.AceptarInfo">
+            <summary>
+            The Aceptar item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder">
+            <summary>
+            The FrmControllerCapturerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmControllerCapturer  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.ActiveCheck">
+            <summary>
+            The ActiveCheck item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.ActiveCheckInfo">
+            <summary>
+            The ActiveCheck item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.BtnSalirCausal">
+            <summary>
+            The BtnSalirCausal item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.BtnSalirCausalInfo">
+            <summary>
+            The BtnSalirCausal item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.BtnSalir">
+            <summary>
+            The BtnSalir item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.BtnSalirInfo">
+            <summary>
+            The BtnSalir item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.CodigoCausal">
+            <summary>
+            The CodigoCausal item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmControllerCapturerAppFolder.CodigoCausalInfo">
+            <summary>
+            The CodigoCausal item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder">
+            <summary>
+            The CamposOmitidosAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CamposOmitidos  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.ButtonSi">
+            <summary>
+            The ButtonSi item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.ButtonSiInfo">
+            <summary>
+            The ButtonSi item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.Text65535">
+            <summary>
+            The Text65535 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.CamposOmitidosAppFolder.Text65535Info">
+            <summary>
+            The Text65535 item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmPOPUp_cofAppFolder">
+            <summary>
+            The FrmPOPUp_cofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmPOPUp_cofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmPOPUp_cof  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmPOPUp_cofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmPOPUp_cofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmPOPUp_cofAppFolder.Btn_CerrarVentana">
+            <summary>
+            The Btn_CerrarVentana item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmPOPUp_cofAppFolder.Btn_CerrarVentanaInfo">
+            <summary>
+            The Btn_CerrarVentana item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.InformacionRIPS_cofAppFolder">
+            <summary>
+            The InformacionRIPS_cofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.InformacionRIPS_cofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new InformacionRIPS_cof  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.InformacionRIPS_cofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.InformacionRIPS_cofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.InformacionRIPS_cofAppFolder.Aceptar">
+            <summary>
+            The Aceptar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.InformacionRIPS_cofAppFolder.AceptarInfo">
+            <summary>
+            The Aceptar item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.ControlDeValidacionDeCamposAppFolder">
+            <summary>
+            The ControlDeValidacionDeCamposAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.ControlDeValidacionDeCamposAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ControlDeValidacionDeCampos  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.ControlDeValidacionDeCamposAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.ControlDeValidacionDeCamposAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder">
+            <summary>
+            The MensajePantallaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MensajePantalla  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.Static">
+            <summary>
+            The Static item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.StaticInfo">
+            <summary>
+            The Static item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.FinDocumento">
+            <summary>
+            The FinDocumento item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder.FinDocumentoInfo">
+            <summary>
+            The FinDocumento item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder">
+            <summary>
+            The AuxiliarDeAuditoriaMedicaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AuxiliarDeAuditoriaMedica  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder.FadeModalNgIsolateScope">
+            <summary>
+            The FadeModalNgIsolateScope item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder.FadeModalNgIsolateScopeInfo">
+            <summary>
+            The FadeModalNgIsolateScope item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder">
+            <summary>
+            The Salir_CofAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Salir_Cof  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder.Aceptar">
+            <summary>
+            The Aceptar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder.AceptarInfo">
+            <summary>
+            The Aceptar item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder">
+            <summary>
+            The FrmDatosImagenAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmDatosImagen  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.TxtPropiedades">
+            <summary>
+            The TxtPropiedades item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.TxtPropiedadesInfo">
+            <summary>
+            The TxtPropiedades item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.CmdCerrar">
+            <summary>
+            The CmdCerrar item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder.CmdCerrarInfo">
+            <summary>
+            The CmdCerrar item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder">
+            <summary>
+            The BlackCloverTVEpisodio168SubEspanAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BlackCloverTVEpisodio168SubEspan  folder.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.ATagEpisodio">
+            <summary>
+            The ATagEpisodio item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.ATagEpisodioInfo">
+            <summary>
+            The ATagEpisodio item info.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.Https00f74ba44bd8fc8b6a07c9f7b255b0c5">
+            <summary>
+            The Https00f74ba44bd8fc8b6a07c9f7b255b0c5 item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder.Https00f74ba44bd8fc8b6a07c9f7b255b0c5Info">
+            <summary>
+            The Https00f74ba44bd8fc8b6a07c9f7b255b0c5 item info.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.CloseAUT.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.Finalizar">
+             <summary>
+            The Finalizar recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.Finalizar.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Finalizar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Finalizar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Finalizar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.Finalizar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Finalizar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Finalizar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.Login.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Login.Compania">
+            <summary>
+            Gets or sets the value of variable Compania.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Login.Linea">
+            <summary>
+            Gets or sets the value of variable Linea.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.LOGOUT">
+             <summary>
+            The LOGOUT recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.LOGOUT.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.LOGOUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.MENUCAP">
+             <summary>
+            The MENUCAP recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.MENUCAP.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.MENUCAP.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Modulo">
+            <summary>
+            Gets or sets the value of variable Modulo.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto">
+             <summary>
+            The SeleccionarProducto recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.CBOProducto">
+            <summary>
+            Gets or sets the value of variable CBOProducto.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.StartAUT.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

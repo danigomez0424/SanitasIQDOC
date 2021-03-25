@@ -1,0 +1,580 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="37.6s"
+		durationms="37603"
+		type="root"
+		rid="1e63082fe8613ca8"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="duvanra"
+		rxversion="9.3.2.0"
+		host="BOGWKSDESPP5ELS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-CO"
+		screenresolution="1366x768"
+		timestamp="11/25/2020 3:34:45 PM"
+		timestampiso="2020-11-25T20:34:45"
+		endtime="11/25/2020 3:35:22 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CapturaEncabezado">
+		<detail>
+			CapturaEncabezado
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.708"
+			timeRelativeToTestModuleStartTime="00:03.708"
+			timeWallClock="15:34:48"
+			time="00:03.708"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Periodo, TipHonorario, Producto, Plan, ValBruto, NitIPS, Sucursal
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.737"
+			timeRelativeToTestModuleStartTime="00:03.737"
+			timeWallClock="15:34:49"
+			time="00:03.737"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.Archivo' at 22;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/menuitem[@accessiblename='Archivo']"
+				itempath="?/?/menuitem[@accessiblename='Archivo']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Archivo"
+				id="81b194f292ab45afab0cd873a5688181"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="167"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.248"
+			timeRelativeToTestModuleStartTime="00:06.248"
+			timeWallClock="15:34:51"
+			time="00:06.248"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IQDOC.CapturaDeEncabezado' at 107;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='IQDOC']/menuitem[@accessiblename='Captura de Encabezado']"
+				itempath="menuitem[@accessiblename='Captura de Encabezado']"
+				fullname="IQDOC_SanitasRepository.IQDOC.CapturaDeEncabezado"
+				id="22b26a84b9b24fb98b4c48a73bc5e905"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="171"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.736"
+			timeRelativeToTestModuleStartTime="00:06.736"
+			timeWallClock="15:34:52"
+			time="00:06.736"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CmdStart' at 95;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CmdStart"
+				id="6e1368c28a014dbb85e57c7992661d75"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="175"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.359"
+			timeRelativeToTestModuleStartTime="00:18.359"
+			timeWallClock="15:35:03"
+			time="00:18.359"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'FrmPOPUp.Cerrar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPOPUp']/?/?/button[@accessiblename='Cerrar']"
+				itempath="?/?/button[@accessiblename='Cerrar']"
+				fullname="IQDOC_SanitasRepository.FrmPOPUp.Cerrar"
+				id="1a59d709799b438aaeb132d6775c1ec4"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="180"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.010"
+			timeRelativeToTestModuleStartTime="00:21.010"
+			timeWallClock="15:35:06"
+			time="00:21.010"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.TabMain.DDLNITIPS' at 11;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Abrir']"
+				itempath="combobox[@controlname='CBOTIPODOCUMENTO']/button[@accessiblename='Abrir']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.DDLNITIPS"
+				id="ac807060700e4abe9eed30add465c4cc"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="185"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.399"
+			timeRelativeToTestModuleStartTime="00:22.399"
+			timeWallClock="15:35:07"
+			time="00:22.399"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'List1000.ListItem10263507ARBOLEDANARANJOLUIS' at 160;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text>'10263507 - ARBOLEDA NARANJO']"
+				itempath="listitem[@text>$NitIPS]"
+				fullname="IQDOC_SanitasRepository.List1000.ListItem10263507ARBOLEDANARANJOLUIS"
+				id="46b3bb936c284505b150fd1aff45ba8c"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="189"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.562"
+			timeRelativeToTestModuleStartTime="00:22.562"
+			timeWallClock="15:35:07"
+			time="00:22.562"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="190"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.949"
+			timeRelativeToTestModuleStartTime="00:22.949"
+			timeWallClock="15:35:08"
+			time="00:22.949"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.TabMain.SucursalDDL' at 6;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/button[@accessiblename='Abrir']"
+				itempath="combobox[@controlname='CBOSUCURSAL']/button[@accessiblename='Abrir']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.SucursalDDL"
+				id="8d94740b49f54850927e40067e3de62b"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="193"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.946"
+			timeRelativeToTestModuleStartTime="00:23.946"
+			timeWallClock="15:35:09"
+			time="00:23.946"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'List1000.CR254946CONS307CENTROMEDICOSANT' at 268;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text>'CR 25 49-46 CONS. 307 CENTRO']"
+				itempath="listitem[@text>$Sucursal]"
+				fullname="IQDOC_SanitasRepository.List1000.CR254946CONS307CENTROMEDICOSANT"
+				id="0e6b932ab34a42c6a772d3d9e7f5ca0f"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="197"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.420"
+			timeRelativeToTestModuleStartTime="00:24.420"
+			timeWallClock="15:35:09"
+			time="00:24.420"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.TabMain.Periodo' at 3;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']/text[1]"
+				itempath="element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']/text[1]"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.Periodo"
+				id="313c445b1cb242389c14af6d12c4cefc"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="201"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.464"
+			timeRelativeToTestModuleStartTime="00:25.464"
+			timeWallClock="15:35:10"
+			time="00:25.464"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Periodo' with focus on 'MDIPrincipal.TabMain.Periodo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']/text[1]"
+				itempath="element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']/text[1]"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.Periodo"
+				id="313c445b1cb242389c14af6d12c4cefc"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="205"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.440"
+			timeRelativeToTestModuleStartTime="00:26.440"
+			timeWallClock="15:35:11"
+			time="00:26.440"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$TipHonorario' with focus on 'MDIPrincipal.TabMain.TipoHonorarioText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOTIPOHONORARIO']/text[@controlid='1001']"
+				itempath="combobox[@controlname='CBOTIPOHONORARIO']/text[@controlid='1001']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.TipoHonorarioText"
+				id="577ee59c9e0e44d2bc453b695b35d3e8"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="210"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.452"
+			timeRelativeToTestModuleStartTime="00:27.452"
+			timeWallClock="15:35:12"
+			time="00:27.452"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Producto' with focus on 'MDIPrincipal.TabMain.Producto'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOPRODUCTO']/text[@controlid='1001']"
+				itempath="combobox[@controlname='CBOPRODUCTO']/text[@controlid='1001']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.Producto"
+				id="acd260202c7f4f75ba1bb55ddba6340e"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="214"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.188"
+			timeRelativeToTestModuleStartTime="00:28.188"
+			timeWallClock="15:35:13"
+			time="00:28.188"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Plan' with focus on 'MDIPrincipal.TabMain.PlanText'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOPLAN']/text[@controlid='1001']"
+				itempath="combobox[@controlname='CBOPLAN']/text[@controlid='1001']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.PlanText"
+				id="86ebd1e73ced487ca86c1d3fccf9c824"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="218"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.164"
+			timeRelativeToTestModuleStartTime="00:29.164"
+			timeWallClock="15:35:14"
+			time="00:29.164"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'MDIPrincipal.TabMain.ValorBruto' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				itempath="element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.ValorBruto"
+				id="729a873d8cf24efeaac352cdc7eec33a"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="222"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.278"
+			timeRelativeToTestModuleStartTime="00:30.278"
+			timeWallClock="15:35:15"
+			time="00:30.278"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$ValBruto' with focus on 'MDIPrincipal.TabMain.ValorBruto'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				itempath="element[@controlname='MSKVALORTOTAL']//text[@accessiblename='Text area']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.ValorBruto"
+				id="729a873d8cf24efeaac352cdc7eec33a"
+				timeout="90000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="226"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.242"
+			timeRelativeToTestModuleStartTime="00:31.242"
+			timeWallClock="15:35:16"
+			time="00:31.242"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CmdSave' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CmdSave"
+				id="9a2f0242bbee43c8bf71746d233abb68"
+				timeout="60000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="230"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.115"
+			timeRelativeToTestModuleStartTime="00:32.115"
+			timeWallClock="15:35:17"
+			time="00:32.115"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'FacturacionElectronica.Aceptar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Facturación Electrónica']/button[@text='Aceptar']"
+				itempath="button[@text='Aceptar']"
+				fullname="IQDOC_SanitasRepository.FacturacionElectronica.Aceptar"
+				id="54ff3cd1127143069393199bb86e89fe"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="235"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.575"
+			timeRelativeToTestModuleStartTime="00:33.575"
+			timeWallClock="15:35:18"
+			time="00:33.575"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'FrmControllerCapturer.ActiveCheck' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmControllerCapturer']//table[@accessiblename='UltraGrid1']/row[1]/cell[@accessiblename='ActiveCheck']"
+				itempath=".//table[@accessiblename='UltraGrid1']/row[1]/cell[@accessiblename='ActiveCheck']"
+				fullname="IQDOC_SanitasRepository.FrmControllerCapturer.ActiveCheck"
+				id="8246e0cc79b44c96829bf901f4f0dfd1"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="241"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.458"
+			timeRelativeToTestModuleStartTime="00:34.458"
+			timeWallClock="15:35:19"
+			time="00:34.458"
+			level="Info"
+			category="Keyboard">
+			<message>
+				(Optional Action)<br/>Key sequence 'Prueba Observación RANOREX' with focus on 'FrmControllerCapturer.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmControllerCapturer']/container[@controlname='SplitContainer1']//text[@accessiblerole='Text']"
+				itempath="container[@controlname='SplitContainer1']//text[@accessiblerole='Text']"
+				fullname="IQDOC_SanitasRepository.FrmControllerCapturer.Text"
+				id="197084e9fd194ad4b6ed65a11cc45a72"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="247"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.258"
+			timeRelativeToTestModuleStartTime="00:35.258"
+			timeWallClock="15:35:20"
+			time="00:35.258"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'FrmControllerCapturer.BtnSalirCausal' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmControllerCapturer']/container[@controlname='SplitContainer1']/?/?/button[@controlname='btnSalir']"
+				itempath="container[@controlname='SplitContainer1']/?/?/button[@controlname='btnSalir']"
+				fullname="IQDOC_SanitasRepository.FrmControllerCapturer.BtnSalirCausal"
+				id="532df30a0acf470d8c6666bffab442b2"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="253"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.824"
+			timeRelativeToTestModuleStartTime="00:35.824"
+			timeWallClock="15:35:21"
+			time="00:35.824"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'MDIPrincipal.Copy_of_CmdSave' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Copy_of_CmdSave"
+				id="4918341023dc46d498ab6ba322071033"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="259"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.986"
+			timeRelativeToTestModuleStartTime="00:36.986"
+			timeWallClock="15:35:22"
+			time="00:36.986"
+			level="Info"
+			category="Mouse">
+			<message>
+				(Optional Action)<br/>Mouse Left Click item 'CamposOmitidos.ButtonSi' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Campos Omitidos']/button[@text='&amp;Sí']"
+				itempath="button[@text='&amp;Sí']"
+				fullname="IQDOC_SanitasRepository.CamposOmitidos.ButtonSi"
+				id="57d60b919f304121ab1d37e6461c2d6b"
+				timeout="31000"
+				codefile="C:\Users\duvanra\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezado.cs"
+				codeline="265"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

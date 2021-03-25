@@ -1,0 +1,1928 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IQDOC
+</name>
+</assembly>
+<members>
+<member name="T:IQDOC.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:IQDOC.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:IQDOC.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:IQDOC.My.Resources.Resources.Busqueda">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:IQDOC.My.Resources.Resources.Iqdoc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:IQDOC.GlobalsSearch.gModulo_Id">
+ <summary>
+ Identificador del Modulo Activo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:IQDOC.GlobalsSearch.iComportamiento">
+ <summary>
+ Comportamiento a realizar cuando se usa el formulario de Busqueda
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:IQDOC.GlobalsSearch.sModulo">
+ <summary>
+ Almacena el Nombre del modulo Activo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:IQDOC.GlobalsSearch.bBusquedaActiva">
+ <summary>
+ Indica cuando la búsqueda se encuentra activa desde el modulo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:IQDOC.CargaAutomatica.Service">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:IQDOC.CargaAutomatica.Service.programarCargaCompleted">
+<remarks/>
+</member>
+<member name="E:IQDOC.CargaAutomatica.Service.programarCargaProvCompleted">
+<remarks/>
+</member>
+<member name="E:IQDOC.CargaAutomatica.Service.consultarEstadoCompleted">
+<remarks/>
+</member>
+<member name="E:IQDOC.CargaAutomatica.Service.consultarEstadoProveedorCompleted">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.programarCarga(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.BeginprogramarCarga(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.EndprogramarCarga(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.programarCargaAsync(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.programarCargaAsync(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.programarCargaProv(IQDOC.CargaAutomatica.ProgramarCargaClass)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.BeginprogramarCargaProv(IQDOC.CargaAutomatica.ProgramarCargaClass,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.EndprogramarCargaProv(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.programarCargaProvAsync(IQDOC.CargaAutomatica.ProgramarCargaClass)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.programarCargaProvAsync(IQDOC.CargaAutomatica.ProgramarCargaClass,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.consultarEstado(System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.BeginconsultarEstado(System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.EndconsultarEstado(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.consultarEstadoAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.consultarEstadoAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.consultarEstadoProveedor(System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.BeginconsultarEstadoProveedor(System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.EndconsultarEstadoProveedor(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.consultarEstadoProveedorAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.consultarEstadoProveedorAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.CargaAutomatica.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.ServiceInfo">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ServiceInfo.numeroLote">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ServiceInfo.mensajeRetorno">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ServiceInfo.estadoLote">
+<comentarios/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.ProgramarCargaClass">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.PROCESO">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.SERVIDOR">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.USUARIO">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.CANTIDADDOCS">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.FECHAINICIO">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.SERVIDORFTP">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.RUTAORIGEN">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.REQUIEREQA">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.LOTEPROVEEDOR">
+<comentarios/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.ProgramarCargaClass.OBSERVACIONES">
+<comentarios/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.programarCargaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.programarCargaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.programarCargaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.programarCargaProvCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.programarCargaProvCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.programarCargaProvCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.consultarEstadoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.consultarEstadoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.consultarEstadoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.consultarEstadoProveedorCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.CargaAutomatica.consultarEstadoProveedorCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.CargaAutomatica.consultarEstadoProveedorCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.IsTypeUltragrid(System.Windows.Forms.Control)">
+ <summary>
+ Metodo para validar si el control es una grilla
+ </summary>
+ <returns>Indica si el control activo es una grilla</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ValidarCausalesCampo(BOCapturer.Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ValidarCausalesCampoOpcionales(BOCapturer.Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo Opcional
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.SearchField(System.Windows.Forms.Control)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="Ctrl">Control Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.SearchFieldStartWith(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.MarcarCampo(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.MarcarCampoOpcional(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Opcional Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.MarcarCampo(BOCapturer.Campo@,System.String)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ValidarAlertasSum">
+ <summary>
+ Metodo que se encarga de realizar las validaciones q generan alerta sobre informaci�n econ�mica (Suma)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ChangeField(System.Object,System.Windows.Forms.KeyEventArgs@)">
+ <summary>
+ Metodo que se encarga de realizar el cambio de control
+ </summary>
+ <param name="sender">Generador del evento</param>
+ <param name="e">Evento generado en KeyDown</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.MarcarColumnasInconsitencia(Infragistics.Win.UltraWinGrid.UltraGrid,System.Data.DataTable)">
+ <summary>
+ Valida los valores digitados en losm modulos de captura y calidad para asignar el color y el valor correspoediente.
+ </summary>
+ <param name="Ctrl">Grilla a la cual se le van a validar los datos</param>
+ <param name="dtGrilla">Data Table con lo valore digitados en el modulo de calidad</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.MarcarCeldaIlegible(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String)">
+ <summary>
+ Marcar Celda Ilegible
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key de la celda</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ValidarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String,Infragistics.Win.UltraWinGrid.UltraGrid)">
+ <summary>
+ Validar Causales Celda
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key Celda</param>
+ <param name="Grid">Control Grilla Activo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.CargarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String)">
+ <summary>
+ Cargar Causales x Celda
+ </summary>
+ <param name="cell">Celda</param>
+ <param name="Key">Key Celda</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.AlmacenarCamposOmitidos(BOCapturer.Campo[],System.Int16)">
+ <summary>
+ M�todo encargado de validar si el campo fue omitido(F7 - F2) en calidad para generar la inconsistencia teniendo en cuenta
+ el parametro Properties.AlmacenarInconsCamposOmitidos configurado en BD
+ </summary>
+ <param name="campos">Campos pintados en el m�dulo</param>
+ <param name="posC">Posici�n del campo a validar</param>
+ <returns>Verdadero si debe almacenar inconsistencias, de lo contrario, valida si el campo no fue omitido para almacenar la inconsistencia</returns>
+ <remarks>Daimer Giraldo Montoya 16/03/2015</remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.SetConfigurationFields(BOCapturer.Campo[])">
+ <summary>
+ funcion para almacenar la configuraci�n de los campos
+ </summary>
+ <param name="Campos">Lista de campos</param>
+ <returns>Lista de configuracion original</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.BusinessRules(BOCapturer.Campo[])">
+ <summary>
+ M�todo encargado de validar reglas de negocio de deben tener los campos configurados
+ </summary>
+ <param name="Campos">Campos del folder</param>
+ <returns>Falso si los campos configurados por reglas de negocio no cumple con la validaci�n de lo contrario verdadero</returns>
+ <remarks>Daimer Giraldo Montoya 21/03/2013</remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.SkipBusinessRules(System.Collections.Generic.List{IQOutsourcing.IQDoc.Common.Model.VOBusinessRuleResult}@)">
+ <summary>
+ M�todo encargado de omitir la validaci�n si algun campo se encuentra en los HashTable de los F7 o F2
+ </summary>
+ <param name="listResults">Lista con las reglas y los campos que hacen parte de la regla</param>
+ <remarks>Daimer Giraldo Montoya 22/03/2013</remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.GenerateCausal(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ValidarDevolucionInconsistenciasCampos(System.Boolean@)">
+ <summary>
+ M�todo encargado de marcar el estado de devoluci�n del folder para controlar los campos que fueron omitidos en los m�dulos de Captura o Calidad,
+ hay que tener en cuenta que las grillas no se pintan en Calidad ni en Mid.
+ </summary>
+ <param name="desmarcarDevolucion">Verdadero si en Mid no se marco ningun campo con F2 � F7 de lo contrario Falso</param>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.LimpiarFormulario">
+ <summary>
+ Metodo para limpiar los objetos del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.SaveFolder(System.Data.DataTable)">
+ <summary>
+ Metodo Para Almacenar el Folder Con Causales de Mesa de Control
+ </summary>
+ <param name="dtData">Datatable con las causales a adicionar al Folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="F:IQDOC.frmCapturerDaviCompo.bReference">
+ <summary>
+ Indica si el Formulario ha sido instanciado por Referencia
+ </summary>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.getIp">
+ <summary>
+ IP de la m�quina
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.EnableField">
+ <summary>
+ Habilitar Campos o controles
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmCapturerDaviCompo.GetFieldReference(System.Int32,System.Collections.Generic.Dictionary{System.Int32,BOCapturer.Columna})">
+ <summary>
+ Determina en el proceso por referencia que campos se actualizaron y cuales son registros nuevos.
+ </summary>
+ <param name="fila">Fila de la grilla a procesar</param>
+ <param name="Valores">Valores de los campos de la fila</param>
+ <remarks></remarks>
+</member>
+<member name="T:IQDOC.FrmCreacionCasos">
+ <summary>
+ Formulario para la creación de casos
+ </summary>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.#ctor">
+ <summary>
+ Initializes a new instance of the <see cref="T:IQDOC.FrmCreacionCasos"/> class.
+ </summary>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.btnCargaArchivo_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the btnCargaArchivo control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.btnSalir_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the btnSalir control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.FrmCreacionCasos_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+ <summary>
+ Handles the FormClosed event of the FrmCreacionCasos control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.Windows.Forms.FormClosedEventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.txtRuta_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Handles the TextChanged event of the txtRuta control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.btnCrear_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the btnCrear control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.dgInfo_DataBindingComplete(System.Object,System.Windows.Forms.DataGridViewBindingCompleteEventArgs)">
+ <summary>
+ Handles the DataBindingComplete event of the dgInfo control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewBindingCompleteEventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.MapFields(System.Windows.Forms.DataGridViewRow)">
+ <summary>
+ Maps the fields.
+ </summary>
+ <param name="row">The row.</param>
+ <returns></returns>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.dgInfo_CellEndEdit(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ Handles the CellEndEdit event of the dgInfo control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmCreacionCasos.btnLimpiar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Handles the Click event of the btnLimpiar control.
+ </summary>
+ <param name="sender">The source of the event.</param>
+ <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+</member>
+<member name="M:IQDOC.FrmLoadFile.ActivatedReference(System.String)">
+ <summary>
+ Activa el Formulario Por Referencia si el parametro folder_Id es diferente de vacio
+ </summary>
+ <param name="Folder_Id">Identificador del folder</param>
+</member>
+<member name="M:IQDOC.FrmLoadFile.ObtenerNombreCampos(System.String[]@,System.Data.DataTable,System.Int32)">
+ <summary>
+ Método encargado de obtener el nombre de las columnas tanto para la grilla como para el encabezado
+ </summary>
+ <param name="nombre">Array con los campos</param>
+ <param name="dtNombreCampos">DataTable con los nombres de las columnas</param>
+ <param name="supCampos">Total de campos que se deben suprimir del DataTable</param>
+ <remarks>Daimer Giraldo Montoya 16/04/2013</remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.LimpiarFormulario">
+ <summary>
+ Metodo para limpiar los objetos del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.ValidaEstado(System.Windows.Forms.Control,System.Boolean,System.Boolean,System.Int32,System.Int32)">
+ <summary>
+ Configura el diseño del campo dependiente segun datos enviados
+ </summary>
+ <param name="Campo">Objeto Tipo Control que sera rediseñado según configuración enviada</param>
+ <param name="Activo">Variable para indicar si el campo dependiente es activo</param>
+ <param name="critico">Variable para si el campo dependiente es critico</param>
+ <param name="poscamp">Posicion en el arreglo de campos donde se encuentra el control para su configuración</param>
+ <remarks>Metodo para la modificación del diseño del campo segun la configuracion enviada</remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.ValidarDependencia(System.Windows.Forms.Control)">
+ <summary>
+ Activa las dependecias de un campo
+ </summary>
+ <param name="ctrl">Objeto Tipo Control que es enviado para la validacion y activacion de sus dependencias</param>
+ <remarks>Este metodo valida las dependencias de los campos, activa y coloca critico los campos dependientes, segun la configuracion </remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="M:IQDOC.FrmCapturerDetail.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSantander.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.IsTypeUltragrid(System.Windows.Forms.Control)">
+ <summary>
+ Metodo para validar si el control es una grilla
+ </summary>
+ <returns>Indica si el control activo es una grilla</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ValidarCausalesCampo(BOCapturer.Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ValidarCausalesCampoOpcionales(BOCapturer.Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo Opcional
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.SearchField(System.Windows.Forms.Control)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="Ctrl">Control Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.SearchFieldStartWith(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.MarcarCampo(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.MarcarCampoOpcional(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Opcional Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.MarcarCampo(BOCapturer.Campo@,System.String)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ValidarAlertasSum">
+ <summary>
+ Metodo que se encarga de realizar las validaciones q generan alerta sobre información económica (Suma)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ChangeField(System.Object,System.Windows.Forms.KeyEventArgs@)">
+ <summary>
+ Metodo que se encarga de realizar el cambio de control
+ </summary>
+ <param name="sender">Generador del evento</param>
+ <param name="e">Evento generado en KeyDown</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.MarcarColumnasInconsitencia(Infragistics.Win.UltraWinGrid.UltraGrid,System.Data.DataTable)">
+ <summary>
+ Valida los valores digitados en losm modulos de captura y calidad para asignar el color y el valor correspoediente.
+ </summary>
+ <param name="Ctrl">Grilla a la cual se le van a validar los datos</param>
+ <param name="dtGrilla">Data Table con lo valore digitados en el modulo de calidad</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.MarcarCeldaIlegible(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String)">
+ <summary>
+ Marcar Celda Ilegible
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key de la celda</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ValidarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String,Infragistics.Win.UltraWinGrid.UltraGrid)">
+ <summary>
+ Validar Causales Celda
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key Celda</param>
+ <param name="Grid">Control Grilla Activo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.CargarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String)">
+ <summary>
+ Cargar Causales x Celda
+ </summary>
+ <param name="cell">Celda</param>
+ <param name="Key">Key Celda</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.AlmacenarCamposOmitidos(BOCapturer.Campo[],System.Int16)">
+ <summary>
+ Método encargado de validar si el campo fue omitido(F7 - F2) en calidad para generar la inconsistencia teniendo en cuenta
+ el parametro Properties.AlmacenarInconsCamposOmitidos configurado en BD
+ </summary>
+ <param name="campos">Campos pintados en el módulo</param>
+ <param name="posC">Posición del campo a validar</param>
+ <returns>Verdadero si debe almacenar inconsistencias, de lo contrario, valida si el campo no fue omitido para almacenar la inconsistencia</returns>
+ <remarks>Daimer Giraldo Montoya 16/03/2015</remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.SetConfigurationFields(BOCapturer.Campo[])">
+ <summary>
+ funcion para almacenar la configuración de los campos
+ </summary>
+ <param name="Campos">Lista de campos</param>
+ <returns>Lista de configuracion original</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.BusinessRules(BOCapturer.Campo[])">
+ <summary>
+ Método encargado de validar reglas de negocio de deben tener los campos configurados
+ </summary>
+ <param name="Campos">Campos del folder</param>
+ <returns>Falso si los campos configurados por reglas de negocio no cumple con la validación de lo contrario verdadero</returns>
+ <remarks>Daimer Giraldo Montoya 21/03/2013</remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.SkipBusinessRules(System.Collections.Generic.List{IQOutsourcing.IQDoc.Common.Model.VOBusinessRuleResult}@)">
+ <summary>
+ Método encargado de omitir la validación si algun campo se encuentra en los HashTable de los F7 o F2
+ </summary>
+ <param name="listResults">Lista con las reglas y los campos que hacen parte de la regla</param>
+ <remarks>Daimer Giraldo Montoya 22/03/2013</remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.GenerateCausal(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ValidarDevolucionInconsistenciasCampos(System.Boolean@)">
+ <summary>
+ Método encargado de marcar el estado de devolución del folder para controlar los campos que fueron omitidos en los módulos de Captura o Calidad,
+ hay que tener en cuenta que las grillas no se pintan en Calidad ni en Mid.
+ </summary>
+ <param name="desmarcarDevolucion">Verdadero si en Mid no se marco ningun campo con F2 ó F7 de lo contrario Falso</param>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.LimpiarFormulario">
+ <summary>
+ Metodo para limpiar los objetos del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.SaveFolder(System.Data.DataTable)">
+ <summary>
+ Metodo Para Almacenar el Folder Con Causales de Mesa de Control
+ </summary>
+ <param name="dtData">Datatable con las causales a adicionar al Folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQDOC.FrmCapturer.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="F:IQDOC.FrmCapturer.bReference">
+ <summary>
+ Indica si el Formulario ha sido instanciado por Referencia
+ </summary>
+</member>
+<member name="M:IQDOC.FrmCapturer.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.getIp">
+ <summary>
+ IP de la máquina
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.EnableField">
+ <summary>
+ Habilitar Campos o controles
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturer.GetFieldReference(System.Int32,System.Collections.Generic.Dictionary{System.Int32,BOCapturer.Columna})">
+ <summary>
+ Determina en el proceso por referencia que campos se actualizaron y cuales son registros nuevos.
+ </summary>
+ <param name="fila">Fila de la grilla a procesar</param>
+ <param name="Valores">Valores de los campos de la fila</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSuramericana.MarcarCampo(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSuramericana.CmdSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Guarda los valores capturados de los campos
+ </summary>    
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSuramericana.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSuramericana.GenerateCausal(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSuramericana.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCapturerSuramericana.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmCertificatorColpatria.ViewImage(IQImageControl.IQImageBox@,IQImageControl.IQImageCollection@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.Frmclasiffier.ViewImage(IQImageControl.IQImageBox@,IQImageControl.IQImageCollection@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ActualizarTextoDocIlegible(System.Windows.Forms.TreeNode)">
+ <summary>
+ Actualiza el panel con la visualizacion de documentos Ilegibles
+ </summary>
+ <param name="NodoActual">Indica el nodo sobre el cual se esta procesando</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.GetIndiceSeparacion(BOClassifier.DocumentoCSFR[],System.Windows.Forms.TreeNode)">
+ <summary>
+ Metodo para obtener el indice de separacion
+ </summary>
+ <param name="documentos">Lista de documentos x Folder</param>
+ <param name="node">Nodo Principal</param>
+ <returns>Indica el indice de separacion</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.MarcarDocumento(System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ Metodo para realizar la marcacion de Nuevo Documento o Nuevo Folder
+ </summary>
+ <param name="e">Evento generado</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.CopiarACache(BOClassifier.DocumentoCSFR[])">
+ <summary>
+ Método encargado de cargar las imágenes a cache mediante Hilo
+ </summary>
+ <param name="Documentos">Documentos del folder</param>
+ <remarks>Diego Rios, Daimer Giraldo</remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.LoadUnreadableDocument">
+ <summary>
+ Funcion para realizar la carga del label de documento ilegible
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ValidateDocumentoDuplicado(System.Windows.Forms.TreeNode)">
+ <summary>
+ Valida TipoDocumental de documentos duplicados
+ </summary>
+ <param name="Result">Tree Node</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ValidateSiblingDocs(System.String,System.Windows.Forms.TreeNode)">
+ <summary>
+ Valida el tipo documental entre documentos Hijo, debe ser diferente para cada hijo
+ </summary>
+ <param name="Padre_ID">Identificacion del Padre</param>
+ <param name="Result">Nodo del arbol</param>
+ <returns>Boolean validacion</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.DeleteDuplicatedImage(System.Object)">
+ <summary>
+ Eliminar Documento Duplicado por Documento ID
+ </summary>
+ <param name="CurrentDocID">GUID Documento ID</param>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.CargarDiccionario(System.Object)">
+ <summary>
+ Llenar El Diccionario de DocumentosRelacionados
+ </summary>
+ <param name="Folder_ID"></param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.SetDuplicateDocumentColor">
+ <summary>
+ Cambiar Color a los documentos dupplicados
+ El Color del nodo padre es diferente al del nodo hijo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.DuplicateImage(System.Object)">
+ <summary>
+ Duplica el documento y su dorso con el fin de que sea clasificado con multiples tipos documentales
+ </summary>
+ <param name="CurrentDocID">Documento ID</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ViewImage(IQImageControl.IQImageBox@,IQImageControl.IQImageCollection@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSura.ActivatedReference">
+ <summary>
+
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierSuraFondoInv.ViewImage(IQImageControl.IQImageBox@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.ActualizarTextoDocIlegible(System.Windows.Forms.TreeNode)">
+ <summary>
+ Actualiza el panel con la visualizacion de documentos Ilegibles
+ </summary>
+ <param name="NodoActual">Indica el nodo sobre el cual se esta procesando</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.ViewImage(IQImageControl.IQImageBox@,IQImageControl.IQImageCollection@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.LoadUnreadableDocument">
+ <summary>
+ Funcion para realizar la carga del label de documento ilegible
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.DuplicateImage(System.Object)">
+ <summary>
+ Duplica el documento y su dorso con el fin de que sea clasificado con multiples tipos documentales
+ </summary>
+ <param name="CurrentDocID">Documento ID</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.SetDuplicateDocumentColor">
+ <summary>
+ Cambiar Color a los documentos dupplicados
+ El Color del nodo padre es diferente al del nodo hijo
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.ExistenAnexos">
+ <summary>
+ Valida si contiene Documentos sin clasificar en el folder
+ </summary>
+ <returns>Indica Si existe un anexo sin clasificar</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.DeleteDuplicatedImage(System.Object)">
+ <summary>
+ Eliminar Documento Duplicado por Documento ID
+ </summary>
+ <param name="CurrentDocID">GUID Documento ID</param>
+</member>
+<member name="M:IQDOC.FrmclasiffierxGrupo.SeparateDocuments(System.Object,System.Object)">
+ <summary>
+ Separa los documentos y sus dorsos en un nuevo Folder
+ </summary>
+ <param name="CurrentDocID">Documento ID</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.GenerateCausal(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.GenerateCausalDevolucionCliente(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud para la devolucion al cliente
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.SearchFieldBySecuencia(System.Int16)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="Secuencia">Secuencia</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.ValidarCausalesDevolucionCliente">
+ <summary>
+ Metodo para realizar las validaciones de las causales asociadas a la devolucion de la solicitud al cliente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.ValidarCausalesCampo(BOConciliator.BOConciliator_Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.MarcarCampo(BOConciliator.BOConciliator_Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.CopiarACache">
+ <summary>
+ Método encargado de cargar las imágenes a cache mediante Hilo
+ </summary>
+ <remarks>Diego Rios, Daimer Giraldo</remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.conciliateByReference">
+ <summary>
+ si el origen del formulario es el modulo de busqueda
+ </summary>
+ <returns>1 = actualizo solicitud</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.conciliateAutomatic">
+ <summary>
+ Realiza el cruce automatico vs la tabla IQ_Doc_Transferencia_TempPrecaptura
+ </summary>
+ <returns>Short, 0 cuando no cruza de lo contrario retorna 1</returns>
+</member>
+<member name="M:IQDOC.FrmConciliator.CambiarFomatoFecha(System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Devuelve una fecha en formato corto o largo
+ </summary>
+ <param name="fecha">Fecha a imprimir</param>
+ <param name="formatoCorto">Formato de texto Corto</param>
+ <param name="formatoLargo">Formato de texto largo</param>
+ <param name="aFormatoCorto">True si se va a devolver formato corto</param>
+ <returns>Cadena con la fecha convertida</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.DuplicateRejectedDocs(System.Object)">
+ <summary>
+ Duplica los documentos fisicos devueltos en conciliacion
+ </summary>
+ <param name="solicitud_id">Identificacion de la Solicitud</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.CopiarDocumentos(BOConciliator.CopiarImagenes[])">
+ <summary>
+ Copia los documentos Fisicos rechazados en Conciliacion
+ </summary>
+ <param name="Documentos">Documentos a Copiar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.ActivatedReference">
+ <summary>
+
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliator.MostrarPrecaptura">
+ <summary>
+ Metodo que carga la precaptura antes de conciliar una solicitud,
+ esta precaptura carga un formulario donde devuelve el valor que le corresponde
+ al campo desde donde fue invocado.
+
+ Jorge Sierra Beltrán
+ May 10 de 2013
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.IsTypeUltragrid(System.Windows.Forms.Control)">
+ <summary>
+ Metodo para validar si el control es una grilla
+ </summary>
+ <returns>Indica si el control activo es una grilla</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.ValidarCausalesCampo(BOCapturer.Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.SearchField(System.Windows.Forms.Control)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="Ctrl">Control Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.MarcarCampo(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.ChangeField(System.Object,System.Windows.Forms.KeyEventArgs@)">
+ <summary>
+ Metodo que se encarga de realizar el cambio de control
+ </summary>
+ <param name="sender">Generador del evento</param>
+ <param name="e">Evento generado en KeyDown</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.MarcarColumnasInconsitencia(Infragistics.Win.UltraWinGrid.UltraGrid,System.Data.DataTable)">
+ <summary>
+ Valida los valores digitados en losm modulos de captura y calidad para asignar el color y el valor correspoediente.
+ </summary>
+ <param name="Ctrl">Grilla a la cual se le van a validar los datos</param>
+ <param name="dtGrilla">Data Table con lo valore digitados en el modulo de calidad</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.MarcarCeldaIlegible(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String)">
+ <summary>
+ Marcar Celda Ilegible
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key de la celda</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.ValidarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String,Infragistics.Win.UltraWinGrid.UltraGrid)">
+ <summary>
+ Validar Causales Celda
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key Celda</param>
+ <param name="Grid">Control Grilla Activo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.CargarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String)">
+ <summary>
+ Cargar Causales x Celda
+ </summary>
+ <param name="cell">Celda</param>
+ <param name="Key">Key Celda</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.SetConfigurationFields(BOCapturer.Campo[])">
+ <summary>
+ funcion para almacenar la configuración de los campos
+ </summary>
+ <param name="Campos">Lista de campos</param>
+ <returns>Lista de configuracion original</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.GenerateCausal(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.LimpiarFormulario">
+ <summary>
+ Metodo para limpiar los objetos del formulario
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.SaveFolder(System.Data.DataTable)">
+ <summary>
+ Metodo Para Almacenar el Folder Con Causales de Mesa de Control
+ </summary>
+ <param name="dtData">Datatable con las causales a adicionar al Folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="F:IQDOC.FrmConciliaterGroup.bReference">
+ <summary>
+ Indica si el Formulario ha sido instanciado por Referencia
+ </summary>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.ValidateDocumentCritical(System.String)">
+ <summary>
+ Valida si el tipo documento es critico
+ </summary>
+ <param name="sDocument_Id">Identificador del Documento</param>
+ <returns>Indica si el documento es Critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.ContainsDocumentCritical">
+ <summary>
+ Valida si contiene Documentos Marcados Ilegibles y Criticos para Guardar el Folder
+ </summary>
+ <returns>Indica Si los documentos marcados como ilegibles si tiene documento critico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.getIp">
+ <summary>
+ IP de la máquina
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.EnableField">
+ <summary>
+ Habilitar Campos o controles
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliaterGroup.GetFieldReference(System.Int32,System.Collections.Generic.Dictionary{System.Int32,BOCapturer.Columna})">
+ <summary>
+ Determina en el proceso por referencia que campos se actualizaron y cuales son registros nuevos.
+ </summary>
+ <param name="fila">Fila de la grilla a procesar</param>
+ <param name="Valores">Valores de los campos de la fila</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmConciliatorSura.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmController.mnuReclasificar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Reclasifica el tipo documental del documento seleccionado. 
+ </summary>
+ <param name="eventSender">Object</param>
+ <param name="eventArgs">EventArgs</param>
+ <remarks> No se permite Reclasificar Documentos Principales</remarks>
+</member>
+<member name="M:IQDOC.frmController.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmReclasificarDocumento.cmdReclasificar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Reclasifica el Tipo Documental del documento seleccionado actualmente
+ </summary>
+ <param name="eventSender">Object</param>
+ <param name="eventArgs">EventArgs</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmReclasificarDocumento.SetDocumento(System.Windows.Forms.Form@,System.String,System.Object,System.String)">
+ <summary>
+ Actualiza el Documento y TipoDocumental seleccionados actualmente
+ </summary>
+ <param name="frmPadre">Formulario Padre</param>
+ <param name="Documento_Id">Identificacion del Documento</param>
+ <param name="TipoDocumento_Id">Identificacion del TipoDocumento</param>
+ <param name="User">Nombre de Usuario que realiza la modificacion</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmReclasificarDocumento.Cargartipos">
+ <summary>
+ Carga lista de Tipos Documentales para reclasificacion
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:IQDOC.FrmSearch.DialogMode">
+ <summary>
+ Indica cuando el formulario se instancia en ShowDialog
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:IQDOC.FrmSearch.DatosObtenidos">
+ <summary>
+ Datos Para realizar el procesamiento por busqueda en el modulo
+ </summary>
+ <value></value>
+ <returns>Diccionario con los parametros de FolderId, ProductoId, FechaProceso</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmSearch.ViewImage(IQImageControl.IQImageBox)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmValidarDocumentos.ViewImage(IQImageControl.IQImageBox@,IQImageControl.IQImageCollection@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.frmVerificacion.ViewImage(IQImageControl.IQImageBox@)">
+ <summary>
+ Metodo que permite la visualizacion de las imagenes a traves del Contenedor
+ </summary>
+ <param name="Img">Objeto de tipo IQImageBox con la imagen a visualizar o Adicionar</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.IsTypeUltragrid(System.Windows.Forms.Control)">
+ <summary>
+ Metodo para validar si el control es una grilla
+ </summary>
+ <returns>Indica si el control activo es una grilla</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.ValidarCausalesCelda(Infragistics.Win.UltraWinGrid.UltraGridCell,System.String,Infragistics.Win.UltraWinGrid.UltraGrid)">
+ <summary>
+ Validar Causales Celda
+ </summary>
+ <param name="cell">Celda Activa</param>
+ <param name="Key">Key Celda</param>
+ <param name="Grid">Control Grilla Activo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.MarcarCampo(BOCapturer.Campo@)">
+ <summary>
+ Marcar Campo Con Causal
+ </summary>
+ <param name="Field">BoCampo</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.ValidarCausalesCampo(BOCapturer.Campo)">
+ <summary>
+ Metodo para realizar validacion de Causales del Campo
+ </summary>
+ <param name="Field">Campo Actual</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.ChangeField(System.Object,System.Windows.Forms.KeyEventArgs@)">
+ <summary>
+ Metodo que se encarga de realizar el cambio de control
+ </summary>
+ <param name="sender">Generador del evento</param>
+ <param name="e">Evento generado en KeyDown</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.GetBusinessValidationsForInherits(System.String)">
+ <summary>
+ Método encargado de obtener los resultados de las validaciones de negocio,  (Se utilizan para habilitar o deshabilitar un campo)
+ Estas se validan de acuerdo a los resultados almacenados del registro en curso
+ </summary>
+ <param name="folderId">Identificador del Folder</param>
+ <returns>DataSet con las validaciones obtenidas</returns>
+ <remarks>Abril 19 de 2012 - Hennry García</remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.GetBusinessValidationForInheritsInField(System.Data.DataTable,System.String)">
+ <summary>
+ Método encargado de obtener una validación adicional de negocio
+ En caso que se encuentre el nombre del campo en la validación dentro del DataSet de acuerdo al nombre del campo, este retorna verdadero o falso "Resultado en el DataSet"
+ En caso que no se encuentre el nombre campo siempre retorna verdadero
+ </summary>
+ <param name="dtBusinessValidation">DataSet con los resultados del negocio. Las columnas contienen el nombre de los campos</param>
+ <param name="fieldName">Nombre del campo a buscar dentro del dataset</param>
+ <returns>Verdadero o falso en los casos indicados en la descripción del método</returns>
+ <remarks>Abril 19 de 2012 - Hennry García</remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.ActivatedReference(System.String,System.String,System.String)">
+ <summary>
+ Activa el Formulario Por Referencia
+ </summary>
+ <param name="Folder_Id">Folder_Id</param>
+ <param name="FechaProceso">FechaProceso</param>
+ <param name="Producto_Id">Producto_Id</param>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.BuscarProducto(System.String)">
+ <summary>
+ Busca el Producto x Id
+ </summary>
+ <param name="Producto_Id">Producto_Id</param>
+ <returns>String</returns>
+</member>
+<member name="F:IQDOC.FrmVerificacionTelefonica.bReference">
+ <summary>
+ Indica si el Formulario ha sido instanciado por Referencia
+ </summary>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.EnableField">
+ <summary>
+ Habilitar Campos o controles
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.GenerateCausal(System.Data.DataTable@,System.Collections.Hashtable@)">
+ <summary>
+ Metodo Para Generar las Causales de la Solicitud
+ </summary>
+ <param name="dtDatos">Datatable con las causales</param>
+ <param name="HashMensaje">Hash Table para creacion del mensaje</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.SearchField(System.String)">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.FrmVerificacionTelefonica.SaveFolder(System.Data.DataTable)">
+ <summary>
+ Metodo Para Almacenar el Folder Con Causales de Mesa de Control
+ </summary>
+ <param name="dtData">Datatable con las causales a adicionar al Folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:IQDOC.MDIPrincipal.mnuads_Click(System.Object,System.EventArgs)">
+ <summary>
+ Carga formulario ADS
+ </summary>
+ <param name="eventSender">Object</param>
+ <param name="eventArgs">EventArgs</param>
+ <remarks>Verifica el cliente y carga el formulario ADS</remarks>
+</member>
+<member name="M:IQDOC.MDIPrincipal.mnuCalidad_Click(System.Object,System.EventArgs)">
+ <summary>
+ Carga Formulario de Modulo Calidad
+ </summary>
+ <param name="eventSender">Object</param>
+ <param name="eventArgs">EventArgs</param>
+ <remarks>Verifica el cliente y carga el formulario de calidad</remarks>
+</member>
+<member name="M:IQDOC.MDIPrincipal.mnucapturer_Click(System.Object,System.EventArgs)">
+ <summary>
+ Carga formulario de Modulo captura
+ </summary>
+ <param name="eventSender">Object</param>
+ <param name="eventArgs">EventArgs</param>
+ <remarks>Verifica el cliente y carga el formulario de captura</remarks>
+</member>
+<member name="T:IQDOC.apocalipsis.IQD_Service">
+<remarks/>
+</member>
+<member name="M:IQDOC.apocalipsis.IQD_Service.#ctor">
+<remarks/>
+</member>
+<member name="E:IQDOC.apocalipsis.IQD_Service.GetAccesbyAPPCompleted">
+<remarks/>
+</member>
+<member name="M:IQDOC.apocalipsis.IQD_Service.GetAccesbyAPP(System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.apocalipsis.IQD_Service.GetAccesbyAPPAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:IQDOC.apocalipsis.IQD_Service.GetAccesbyAPPAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.apocalipsis.IQD_Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:IQDOC.apocalipsis.GetAccesbyAPPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.apocalipsis.GetAccesbyAPPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.apocalipsis.GetAccesbyAPPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.Search">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.#ctor">
+<remarks/>
+</member>
+<member name="E:IQDOC.UCMService.Search.QuickSearchCompleted">
+<remarks/>
+</member>
+<member name="E:IQDOC.UCMService.Search.AdvancedSearchCompleted">
+<remarks/>
+</member>
+<member name="E:IQDOC.UCMService.Search.NavigationSearchCompleted">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.QuickSearch(System.String,IQDOC.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.QuickSearchAsync(System.String,IQDOC.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.QuickSearchAsync(System.String,IQDOC.UCMService.IdcProperty[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.AdvancedSearch(System.String,System.String,System.String,System.Int32,System.Boolean,IQDOC.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.AdvancedSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,IQDOC.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.AdvancedSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,IQDOC.UCMService.IdcProperty[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.NavigationSearch(System.String,System.String,System.String,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,IQDOC.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.NavigationSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,IQDOC.UCMService.IdcProperty[])">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.NavigationSearchAsync(System.String,System.String,System.String,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Boolean,IQDOC.UCMService.IdcProperty[],System.Object)">
+<remarks/>
+</member>
+<member name="M:IQDOC.UCMService.Search.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.IdcProperty">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.IdcProperty.name">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.IdcProperty.value">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.NavigationSearchResult">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationSearchResult.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationSearchResult.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationSearchResult.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationSearchResult.StatusInfo">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dID">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dIDSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dRevisionID">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dRevisionIDSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dDocName">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dDocTitle">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dDocType">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dDocAuthor">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dSecurityGroup">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dDocAccount">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dExtension">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dWebExtension">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dRevLabel">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dInDate">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dOutDate">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dFormat">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dOriginalName">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.url">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.webCgiRoot">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dGif">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.webFileSize">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.webFileSizeSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.vaultFileSize">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.vaultFileSizeSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.alternateFileSize">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.alternateFileSizeSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.alternateFormat">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dPublishType">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dRendition1">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.dRendition2">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchResults.CustomDocMetaData">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.startRow">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.startRowSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.endRow">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.endRowSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.pageNumber">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.pageNumberSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.numPages">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.numPagesSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.totalRows">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.totalRowsSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.totalDocsProcessed">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.SearchInfo.totalDocsProcessedSpecified">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.headerPageNumber">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.headerPageNumberSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.pageReference">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.pageReferenceSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.pageNumber">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.pageNumberSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.startRow">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.startRowSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.endRow">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationPages.endRowSpecified">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.StatusInfo">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.StatusInfo.statusCode">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.StatusInfo.statusCodeSpecified">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.StatusInfo.statusMessage">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.AdvancedSearchResult">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.AdvancedSearchResult.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.AdvancedSearchResult.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.AdvancedSearchResult.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.AdvancedSearchResult.StatusInfo">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.QuickSearchResult">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.QuickSearchResult.SearchResults">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.QuickSearchResult.SearchInfo">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.QuickSearchResult.NavigationPages">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.QuickSearchResult.StatusInfo">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.QuickSearchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.QuickSearchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.QuickSearchCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.AdvancedSearchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.AdvancedSearchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.AdvancedSearchCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.NavigationSearchCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:IQDOC.UCMService.NavigationSearchCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:IQDOC.UCMService.NavigationSearchCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

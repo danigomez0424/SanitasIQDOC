@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="33.97s"
+		durationms="33969"
+		type="root"
+		rid="3d8732e00c7039b8"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="01/19/2021 2:20:19 PM"
+		timestampiso="2021-01-19T19:20:19"
+		endtime="01/19/2021 2:20:53 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SeleccionarProducto">
+		<detail>
+			SeleccionarProducto
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.539"
+			timeRelativeToTestModuleStartTime="00:07.539"
+			timeWallClock="14:20:26"
+			time="00:07.539"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CBOProducto
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.572"
+			timeRelativeToTestModuleStartTime="00:07.572"
+			timeWallClock="14:20:26"
+			time="00:07.572"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CboProductos' at 36;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/combobox[@controlname='cboProductos']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/combobox[@controlname='cboProductos']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CboProductos"
+				id="07b6b840ccdd48119c8d34dd553b047f"
+				timeout="60000"
+				codefile="c:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\SeleccionarProducto.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.848"
+			timeRelativeToTestModuleStartTime="00:14.848"
+			timeWallClock="14:20:34"
+			time="00:14.848"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\SeleccionarProducto.cs"
+				codeline="93"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.379"
+			timeRelativeToTestModuleStartTime="00:15.379"
+			timeWallClock="14:20:34"
+			time="00:15.379"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'List1000.ItemProducto' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']/listitem[@text='Cuentas Medicas']"
+				itempath="listitem[@text=$CBOProducto]"
+				fullname="IQDOC_SanitasRepository.List1000.ItemProducto"
+				id="51f2e20902ba439d9ac7f7fb27033eac"
+				timeout="60000"
+				codefile="c:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\SeleccionarProducto.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.000"
+			timeRelativeToTestModuleStartTime="00:33.000"
+			timeWallClock="14:20:52"
+			time="00:33.000"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CmdStart' at 93;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CmdStart"
+				id="6e1368c28a014dbb85e57c7992661d75"
+				timeout="60000"
+				codefile="c:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\SeleccionarProducto.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="27.24s"
+		durationms="27244"
+		type="root"
+		rid="38d23ef144c790eb"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DGomezA"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP1411"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="01/25/2021 3:59:53 PM"
+		timestampiso="2021-01-25T20:59:53"
+		endtime="01/25/2021 4:00:20 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Clasificacion">
+		<detail>
+			Clasificacion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.873"
+			timeRelativeToTestModuleStartTime="00:05.873"
+			timeWallClock="15:59:59"
+			time="00:05.873"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CodClasificacion
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.540"
+			timeRelativeToTestModuleStartTime="00:11.540"
+			timeWallClock="16:00:04"
+			time="00:11.540"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo' at 10;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				itempath="container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.FrmclasiffierSura.IngresarCodigo"
+				id="ec52462ce358451fba8a0f791f53df8b"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="68"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.669"
+			timeRelativeToTestModuleStartTime="00:13.669"
+			timeWallClock="16:00:06"
+			time="00:13.669"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				itempath="container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.FrmclasiffierSura.IngresarCodigo"
+				id="ec52462ce358451fba8a0f791f53df8b"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="73"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.031"
+			timeRelativeToTestModuleStartTime="00:17.031"
+			timeWallClock="16:00:10"
+			time="00:17.031"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo' at 10;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				itempath="container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.FrmclasiffierSura.IngresarCodigo"
+				id="ec52462ce358451fba8a0f791f53df8b"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="68"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.250"
+			timeRelativeToTestModuleStartTime="00:18.250"
+			timeWallClock="16:00:11"
+			time="00:18.250"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				itempath="container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.FrmclasiffierSura.IngresarCodigo"
+				id="ec52462ce358451fba8a0f791f53df8b"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="73"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.797"
+			timeRelativeToTestModuleStartTime="00:21.797"
+			timeWallClock="16:00:14"
+			time="00:21.797"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo' at 10;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				itempath="container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.FrmclasiffierSura.IngresarCodigo"
+				id="ec52462ce358451fba8a0f791f53df8b"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="68"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.083"
+			timeRelativeToTestModuleStartTime="00:23.083"
+			timeWallClock="16:00:16"
+			time="00:23.083"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				itempath="container[@controlname='SSSplitter1']/?/?/container[@controlname='Frame2']/text[@controlname='Txtcaptura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.FrmclasiffierSura.IngresarCodigo"
+				id="ec52462ce358451fba8a0f791f53df8b"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="73"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.648"
+			timeRelativeToTestModuleStartTime="00:24.648"
+			timeWallClock="16:00:17"
+			time="00:24.648"
+			level="Info"
+			category="info">
+			<message>
+				Se hace click al Botón Aceptar
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs"
+				codeline="81"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.046"
+			timeRelativeToTestModuleStartTime="00:25.046"
+			timeWallClock="16:00:18"
+			time="00:25.046"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'MDIPrincipal.Copy_of_Btn_GuadarClasi' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/button[@controlname='CmdSave' and @enabled='True']"
+				itempath="?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/button[@controlname='CmdSave' and @enabled='True']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Copy_of_Btn_GuadarClasi"
+				id="52045236b80343ceb5d4036bc7f704e6"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.cs"
+				codeline="108"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

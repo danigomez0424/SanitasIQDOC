@@ -1,0 +1,489 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOLogin
+</name>
+</assembly>
+<members>
+<member name="P:BOLogin.BOLogin_AppMgr.ConnectionString">
+ <summary>
+ Propiedad para almacenar la cadena de Conexion a la BD
+ </summary>
+ <value>String</value>
+ <returns>Cadena de conexion a la BD</returns>
+ <remarks></remarks>
+</member>
+<member name="T:BOLogin.SSO_Service.SSO_Service">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.#ctor">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.CargarUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ValidarUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ModulosXUserAppRolCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ModulosXAplicacionUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.AplicacionesXUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.CiudadesXAplicacionCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.CiudadesXAppUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.CompañiasXAplicacionCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.CompañiasXAppUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ModosXAplicacionCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ModosXAppUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.RolesXAplicacionCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.RolesXAppUsuarioCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.PermisosXAppRolModuloCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ParametrosConexionCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ConectarCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.DesconectarCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.LoginCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ValidarCaducidadPasswordCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.ValidarCambioPasswordCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.LeerContingenciaCompleted">
+<remarks/>
+</member>
+<member name="E:BOLogin.SSO_Service.SSO_Service.DeclaraContingenciaCompleted">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CargarUsuario(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CargarUsuarioAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CargarUsuarioAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModulosXUserAppRol(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModulosXUserAppRolAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModulosXUserAppRolAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModulosXAplicacionUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModulosXAplicacionUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModulosXAplicacionUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.AplicacionesXUsuario(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.AplicacionesXUsuarioAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.AplicacionesXUsuarioAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CiudadesXAplicacion(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CiudadesXAplicacionAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CiudadesXAplicacionAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CiudadesXAppUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CiudadesXAppUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CiudadesXAppUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CompañiasXAplicacion(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CompañiasXAplicacionAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CompañiasXAplicacionAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CompañiasXAppUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CompañiasXAppUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CompañiasXAppUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModosXAplicacion(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModosXAplicacionAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModosXAplicacionAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModosXAppUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModosXAppUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ModosXAppUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.RolesXAplicacion(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.RolesXAplicacionAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.RolesXAplicacionAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.RolesXAppUsuario(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.RolesXAppUsuarioAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.RolesXAppUsuarioAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.PermisosXAppRolModulo(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.PermisosXAppRolModuloAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.PermisosXAppRolModuloAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ParametrosConexion(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ParametrosConexionAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ParametrosConexionAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.Conectar(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ConectarAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ConectarAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.Desconectar(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.DesconectarAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.DesconectarAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.Login(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.LoginAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.LoginAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarCaducidadPassword(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarCaducidadPasswordAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarCaducidadPasswordAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarCambioPassword(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarCambioPasswordAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.ValidarCambioPasswordAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.LeerContingencia">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.LeerContingenciaAsync">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.LeerContingenciaAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.DeclaraContingencia(System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.DeclaraContingenciaAsync(System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.DeclaraContingenciaAsync(System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:BOLogin.SSO_Service.SSO_Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CargarUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CargarUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.CargarUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ValidarUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ValidarUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ValidarUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModulosXUserAppRolCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModulosXUserAppRolCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ModulosXUserAppRolCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModulosXAplicacionUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModulosXAplicacionUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ModulosXAplicacionUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.AplicacionesXUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.AplicacionesXUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.AplicacionesXUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CiudadesXAplicacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CiudadesXAplicacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.CiudadesXAplicacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CiudadesXAppUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CiudadesXAppUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.CiudadesXAppUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CompañiasXAplicacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CompañiasXAplicacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.CompañiasXAplicacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CompañiasXAppUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.CompañiasXAppUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.CompañiasXAppUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModosXAplicacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModosXAplicacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ModosXAplicacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModosXAppUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ModosXAppUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ModosXAppUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.RolesXAplicacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.RolesXAplicacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.RolesXAplicacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.RolesXAppUsuarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.RolesXAppUsuarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.RolesXAppUsuarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.PermisosXAppRolModuloCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.PermisosXAppRolModuloCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.PermisosXAppRolModuloCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ParametrosConexionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ParametrosConexionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ParametrosConexionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ConectarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ConectarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ConectarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.DesconectarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.DesconectarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.DesconectarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.LoginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.LoginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.LoginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ValidarCaducidadPasswordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ValidarCaducidadPasswordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ValidarCaducidadPasswordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ValidarCambioPasswordCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.ValidarCambioPasswordCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.ValidarCambioPasswordCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.LeerContingenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.LeerContingenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.LeerContingenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.DeclaraContingenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:BOLogin.SSO_Service.DeclaraContingenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:BOLogin.SSO_Service.DeclaraContingenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

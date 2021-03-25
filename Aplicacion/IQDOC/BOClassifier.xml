@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOClassifier
+</name>
+</assembly>
+<members>
+<member name="P:BOClassifier.AppMgr.ConnectionString">
+ <summary>
+ Propiedad para almacenar la cadena de Conexion a la BD
+ </summary>
+ <value>String</value>
+ <returns>Cadena de conexion a la BD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.ClasiffyGetDocumentosRelacionadosXFolder(System.String)">
+ <summary>
+ Obtiene DocumentoHijo ID y DocumentoPadre ID de los documentos duplicados
+ </summary>
+ <param name="Folder_Id">GUID Folder ID</param>
+ <returns>Data Table con registros de documentos duplicados y su padre</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.ClasiffyDeleteDocumentoDuplicado(System.String)">
+ <summary>
+ Elimina Documentos duplicados por Documento ID
+ </summary>
+ <param name="Document_Id">GUID Documento ID</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.ClassifyDuplicateDocument(System.String)">
+ <summary>
+ Duplicar documento con base en parametros de entrada
+ </summary>
+ <param name="Document_Id">GUID Documento Id</param>
+ <remarks>Retorna IDs del documento y su copia</remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Update_NuevoDoc(System.String@,System.Int16@)">
+ <summary>
+ Separar tipos documentales nuevos
+ </summary>
+ <param name="Doc_id">GUID Documento ID</param>
+ <param name="Estado">Bool Estado</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Get_TipodocByModuloImagen(System.String)">
+ <summary>
+ Obtiene los tipos de documento configurados del modulo
+ </summary>
+ <param name="modulo">Identificador del Modulo</param>
+ <returns>Cantidad de tipos documentos configurados</returns>
+ <remarks>Diego Armando Rios</remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Update_SetTipoDocumento(System.String@,System.String@,System.String@,System.Double@)">
+ <summary>
+ Actualiza el TipoDocumento con base en los parametros de entrada
+ </summary>
+ <param name="id">GUID Documento Id</param>
+ <param name="Tipodocumento_id">GUID TipoDocummento Id</param>
+ <param name="Batch_id">GUID Batch ID</param>
+ <param name="secuencia">Secuencia</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Updated_Marked_As_Unreadable(System.String,System.String,System.String,System.String)">
+ <summary>
+ Actualiza el WF del documento y del folder actual. Bloqueo por documento ilegible
+ </summary>
+ <param name="documento_id">Identificacion del documento</param>
+ <param name="solicitud_id">Identificacion del folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOClassifier.Unreadable})">
+ <summary>
+ Actualiza el WF del documento y del folder actual. 
+ Agrega los documentos marcados como ilegibles a la cola de trabajo
+ </summary>
+ <param name="unreadeableList">Lista de documentos Ilegibles</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOClassifier.Unreadable},System.String)">
+ <summary>
+ Actualiza el WF del documento y del folder actual. 
+ Agrega los documentos marcados como ilegibles a la cola de trabajo
+ </summary>
+ <param name="unreadeableList">Lista de documentos Ilegibles</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Valida el estado del documento ilegible
+ </summary>
+ <returns>Cantidad de documentos marcados Criticos</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.GetUnreadableDocumentsFlash(System.String)">
+ <summary>
+ Obtiene Documentos Marcados como ilegibles desde flash
+ </summary>
+ <param name="Folder_Id">GUID Folder ID</param>
+ <returns>Data Table con registros de documentos ilegibles</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.Update_NuevoFolder(System.String@)">
+ <summary>
+ Separar documentos a nuevos folders hijos
+ </summary>
+ <param name="Doc_id">GUID Documento ID</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DataMgr.ClassifySeparateDocuments(System.String,System.String)">
+ <summary>
+ Separa los documentos y sus dorsos en un nuevo folder
+ </summary>
+ <param name="Document_Id">GUID Documento Id</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.Get_TipodocByModuloImagen(System.String)">
+ <summary>
+ Obtiene los tipos de documento configurados del modulo
+ </summary>
+ <param name="modulo">Identificador del Modulo</param>
+ <returns>Cantidad de tipos documentos configurados</returns>
+ <remarks>Diego Armando Rios</remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.GetDocumentosRelacionadosXFolder(System.String)">
+ <summary>
+ Obtiene registros de documentos duplicados y sus padres por Folder
+ </summary>
+ <param name="Folder_ID">GUID Folder ID</param>
+ <returns>Data Table con datos del documento duplicado y su padre</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.ClasiffyDeleteDuplicatedDocument(System.String)">
+ <summary>
+ Elimina Documento duplicado
+ </summary>
+ <param name="Document_Id">GUID Documento ID</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.ClassifyDuplicateDocument(System.String)">
+ <summary>
+ Duplicar el documento en clasificacion con base en parametros de entrada
+ </summary>
+ <param name="Document_Id">Documento Id</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOClassifier.Unreadable})">
+ <summary>
+ Guarda los documentos marcados como ilegibles, recibe una coleccion de objetos
+ </summary>
+ <param name="unreadableList">Lista de los documentos ilegibles</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOClassifier.Unreadable},System.String)">
+ <summary>
+ Guarda los documentos marcados como ilegibles, recibe una coleccion de objetos y 
+ una consulta dinamica para actualizar la tabla solicitud
+ </summary>
+ <param name="unreadableList"></param>
+ <param name="query"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Carga los Tipos Documentales Criticos
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOClassifier.DefinitionMgr.ClassifySeparateDocuments(System.String,System.String)">
+ <summary>
+ Separa los documentos y sus dorsos en un nuevo folder
+ </summary>
+ <param name="Document_Id">Documento Id</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.279967" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargaDatos4" Collapsed="False">
+    <Position X="0.5" Y="3.7" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.Program" Collapsed="False">
+    <Position X="0.5" Y="6.8" Width="1.029215" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargaDatos3" Collapsed="False">
+    <Position X="0.5" Y="8.1" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.AceptarDevoluciones" Collapsed="False">
+    <Position X="0.5" Y="11.2" Width="2.722116" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CapturaEncabezado" Collapsed="False">
+    <Position X="0.5" Y="13.9" Width="2.644128" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.Validacion" Collapsed="False">
+    <Position X="0.5" Y="18.6" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.MENUCAP" Collapsed="False">
+    <Position X="0.5" Y="21.3" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.ValidacionFolder" Collapsed="False">
+    <Position X="0.5" Y="24.2" Width="2.271374" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.Finalizar" Collapsed="False">
+    <Position X="0.5" Y="30.3" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS" Collapsed="False">
+    <Position X="0.5" Y="33" Width="2.505016" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargaDatos2" Collapsed="False">
+    <Position X="0.5" Y="36.7" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargaDevolucion" Collapsed="False">
+    <Position X="0.5" Y="41" Width="2.318961" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones" Collapsed="False">
+    <Position X="0.5" Y="43.9" Width="4.007096" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.StartAUT" Collapsed="False">
+    <Position X="0.5" Y="48.5" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.IQDOC_SanitasRepository" Collapsed="False">
+    <Position X="0.5" Y="51.5" Width="4.335729" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS" Collapsed="False">
+    <Position X="0.5" Y="62.6" Width="3.214108" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.Login" Collapsed="False">
+    <Position X="0.5" Y="65.3" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargaDatosFinal" Collapsed="False">
+    <Position X="0.5" Y="68.4" Width="2.281042" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.LOGOUT" Collapsed="False">
+    <Position X="0.5" Y="71.1" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CargaDatos1" Collapsed="False">
+    <Position X="0.5" Y="73.8" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto" Collapsed="False">
+    <Position X="0.5" Y="76.9" Width="2.671735" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.CerrarVentana" Collapsed="False">
+    <Position X="0.5" Y="79.8" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders" Collapsed="False">
+    <Position X="0.5" Y="82.6" Width="5.129088" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.ScriptGeneral.CloseAUT" Collapsed="False">
+    <Position X="0.5" Y="149.7" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="IQDOC_Sanitas.CargaDatos.Clasificacion" Collapsed="False">
+    <Position X="0.5" Y="152.8" Width="2.159601" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQDOC_Sanitas", "IQDOC_Sanitas\IQDOC_Sanitas.csproj", "{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IQDOC_Sanitas.Converted", "IQDOC_Sanitas.ConvertedToVBNet\IQDOC_Sanitas.Converted.vbproj", "{F097945F-D8E3-4F78-B310-562E8BEF1988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,5 +23,9 @@ Global
 		{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}.Debug|x86.ActiveCfg = Debug|x86
 		{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}.Release|x86.Build.0 = Release|x86
 		{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}.Release|x86.ActiveCfg = Release|x86
+		{F097945F-D8E3-4F78-B310-562E8BEF1988}.Debug|x86.Build.0 = Debug|x86
+		{F097945F-D8E3-4F78-B310-562E8BEF1988}.Debug|x86.ActiveCfg = Debug|x86
+		{F097945F-D8E3-4F78-B310-562E8BEF1988}.Release|x86.Build.0 = Release|x86
+		{F097945F-D8E3-4F78-B310-562E8BEF1988}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

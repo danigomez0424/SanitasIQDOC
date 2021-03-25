@@ -1,0 +1,304 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOCapturer
+</name>
+</assembly>
+<members>
+<member name="P:BOCapturer.AppMgr.ConnectionString">
+ <summary>
+ Propiedad para almacenar la cadena de Conexion a la BD
+ </summary>
+ <value>String</value>
+ <returns>Cadena de conexion a la BD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.GetExistCausalNoOmitidos(System.String)">
+ <summary>
+ Método encargado de validar si el folder tiene inconsistencias
+ </summary>
+ <param name="folder_Id">Identificador del Folder</param>
+ <returns>Verdadero si tiene inconsistencias de lo contrario False</returns>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.Get_CamposORegistrosInconsistentes(System.String,System.Boolean)">
+ <summary>
+ Obtiene los campos que fueron marcados con F7 o F2 ó los campos que salieron Mid
+ </summary>
+ <param name="folder_Id">Identificador del Folder</param>
+ <param name="campoORegistroInconsistente">Verdadero si es campo Inconsistente de lo contrario registro inconsistente</param>
+ <returns>Cantidad de campos con inconsistencias o que salieron a Mid</returns>
+ <remarks>Daimer Giraldo M</remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.UpdateDevolutionFolder(System.String)">
+ <summary>
+ Método encargado de actualizar el estado de devolución del folder
+ </summary>
+ <param name="folder_Id">Identificador del folder</param>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.DeleteDevolutionField(System.String,System.String)">
+ <summary>
+ Método encargado de eliminar la causal del campo
+ </summary>
+ <param name="folder_Id">Identificador del folder</param>
+ <param name="campo_Id">Identificador del campo</param>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.DeAssingWorkReference(System.String@,System.String@,System.String@)">
+ <summary>
+ Desasignar Captura referenciada
+ Jorge Sierra
+ Abr 17 de 2013
+ </summary>
+ <param name="Modulo"></param>
+ <param name="Folder_id"></param>
+ <param name="User"></param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.GetGrupoCampos(System.String,System.String)">
+ <summary>
+ Obtiene los campos de un grupo por parametros de entrada
+ </summary>
+ <param name="TipoDocumento_id">Identificacion Tipo Documento</param>
+ <param name="CampoAgrupacion">Identificacion Campo Agrupacion</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.ValorRegistryXCampo(System.String,System.String)">
+ <summary>
+ Retorna el valor de un campo de la Registry con base en parametros de entrada
+ </summary>
+ <param name="Cia_Id">Compañia ID</param>
+ <param name="Campo">Nombre Campo</param>
+ <returns>Valor Campo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.Updated_Marked_As_Unreadable(System.String,System.String,System.String,System.String)">
+ <summary>
+ Actualiza el WF del documento y del folder actual. Bloqueo por documento ilegible
+ </summary>
+ <param name="documento_id">Identificacion del documento</param>
+ <param name="solicitud_id">Identificacion del folder</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOCapturer.Unreadable})">
+ <summary>
+ Actualiza el WF del documento y del folder actual. 
+ Agrega los documentos marcados como ilegibles a la cola de trabajo
+ </summary>
+ <param name="unreadeableList">Lista de documentos Ilegibles</param>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Valida el estado del documento ilegible
+ </summary>
+ <returns>Cantidad de documentos marcados Criticos</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.IsGuid(System.String)">
+ <summary>
+ Funcion para validar si el dato enviado es Guid
+ </summary>
+ <param name="Value">Valor a validar</param>
+ <returns>Indica si el valor es Guid</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.SearchField(System.String,BOCapturer.Campo[])">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.ConciliaiconXGrupo(System.String,System.String,System.Boolean)">
+ <summary>
+ Conciliaicon Xgrupo
+ </summary>
+ <param name="valores">parametros para el procedimiento</param>
+ <param name="separador">caracter para separar los valores de los parametros</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.grdConciliados(System.String,System.String)">
+ <summary>
+ obtiene los registros conciliados de la solicitud
+ </summary>
+ <param name="id"></param>
+ <param name="productoId"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.grdConciliacionManual(System.String,System.String)">
+ <summary>
+ metodo que carga los campos para la conciliacion manual.
+ </summary>
+ <param name="valores">parametros</param>
+ <param name="separador">separador de parametros</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.Get_BusinessValidationsForInherits(System.String)">
+ <summary>
+ Método que se encarga del acceso a datos para obtener los parámetros heredados
+ </summary>
+ <param name="folder_Id">Identificador del folder</param>
+ <returns>DataTable con los resultados obtenidos</returns>
+ <remarks>Abril 19 de 2012 - Hennry García</remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.GetDynamicFieldsByParentField(System.String)">
+ <summary>
+ Ejecuta el procedimiento almacenado para obtener los campos dinámicos asociados a un campo padre
+ </summary> 
+ <param name="parentNameField">Nombre del campo padre</param>
+ <returns>Datatable con los campos asociados</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DataMgr.GetDataForParentField(System.String,System.String)">
+ <summary>
+ Ejecuta el procedimiento almacenado para obtener los datos que se van a cargar en los campos dinámicos
+ </summary>
+ <param name="parentNameField">Nombre campo padre</param>
+ <param name="parentValueField">Valor campo padre</param>
+ <returns>Datatable con los datos a cargar en los campos dinámicos</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.Get_CamposORegistrosInconsistentes(System.String,System.Boolean)">
+ <summary>
+ Obtiene los campos que fueron marcados con F7 o F2 ó los campos que se pintaron en Mid
+ </summary>
+ <param name="folder_Id">Identificador del Folder</param>
+ <param name="campoORegistroInconsistente">Verdadero si es campo Inconsistente de lo contrario registro inconsistente</param>
+ <returns>Cantidad de campos con inconsistencias o que salieron a Mid</returns>
+ <remarks>Daimer Giraldo M</remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.UpdateDevolutionFolder(System.String)">
+ <summary>
+ Método encargado de actualizar el estado de devolución del folder
+ </summary>
+ <param name="folder_Id">Identificador del folder</param>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.DeleteDevolutionField(System.String,System.String)">
+ <summary>
+ Método encargado de eliminar la causal del campo
+ </summary>
+ <param name="folder_Id">Identificador del folder</param>
+ <param name="campo_Id">Identificador del campo</param>
+ <remarks>Daimer Giraldo M.</remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.SearchField(System.String,BOCapturer.Campo[])">
+ <summary>
+ Busca el campo Activo en el arreglo de campos
+ </summary>
+ <param name="NombreCampo">Campo Activo</param>
+ <returns>BoCampo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.BusinessRules(System.String,System.String)">
+ <summary>
+ Retorna Datos para realizar validaciones sobre los campos
+ </summary>
+ <param name="Folder_Id">Identificador del folder</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.Updated_Marked_As_Unreadable(System.Collections.Generic.List{BOCapturer.Unreadable})">
+ <summary>
+ Guarda los documentos marcados como ilegibles
+ </summary>
+ <param name="unreadableList">Lista de los documentos ilegibles</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.Get_GrupoCampo(System.String,System.String)">
+ <summary>
+ Obtiene los campos parametros de entrada
+ </summary>
+ <param name="TipoDocumento_id">Tipo de Documento</param>
+ <param name="CampoAgrupacion">Guid de agrupacion del campo</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.ValorRegistryXCampo(System.String,System.String)">
+ <summary>
+ Retorna valor en Registry por parametros de entrada
+ </summary>
+ <param name="Compañia_Id">Compañia ID</param>
+ <param name="Campo">Nombre Campo</param>
+ <returns>Valor Campo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.UnreadableCriticalDocumentType">
+ <summary>
+ Carga los Tipos Documentales Criticos
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.GetValueExportacion(System.String)">
+ <summary>
+ Obtiene valor del campo para exportacion
+ </summary>
+ <param name="Query"></param>
+ <returns>DataTable valor campo</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.Get_BusinessValidationsForInherits(System.String)">
+ <summary>
+ Método que se encarga del acceso a datos para obtener los parámetros heredados
+ </summary>
+ <param name="folder_Id">Identificador del folder</param>
+ <returns>DataTable con los resultados obtenidos</returns>
+ <remarks>Abril 19 de 2012 - Hennry García</remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.ConciliaiconXGrupo(System.String,System.String,System.Boolean)">
+ <summary>
+ verifica la conciliacion
+ </summary>
+ <param name="valores"></param>
+ <param name="separador"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.grdConciliados(System.String,System.String)">
+ <summary>
+ obtiene los registros de la grilla conciliados 
+ </summary>
+ <param name="id">folder id</param>
+ <param name="productoId">producto id</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.GetDynamicFieldsByParentField(System.String)">
+ <summary>
+ Invoca al método que ejecuta el procedimiento almacenado encargado de retornar los campos dinámicos asociados a un campo padre
+ </summary>
+ <param name="parentNameField">Nombre del campo padre</param>
+ <returns>Datatable con los campos dinámicos asociados</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.DefinitionMgr.GetDataForParentField(System.String,System.String)">
+ <summary>
+ Invoca al método que ejecuta el procedimiento almacenado encargado de consultar los datos a cargar en cada campo dinámico
+ </summary>
+ <param name="parentNameField">Nombre campo padre</param>
+ <param name="valueParentField">Valor campo padre</param>
+ <returns>Datatable con los datos a cargar en cada campo dinámico</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOCapturer.FactoryMgr.DeAssingWorkReference(System.String@,System.String@,System.String@)">
+ <summary>
+ Desasignar Captura referenciada
+ Jorge Sierra
+ Abr 17 de 2013
+ </summary>
+ <param name="Modulo"></param>
+ <param name="Folder_id"></param>
+ <param name="User"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

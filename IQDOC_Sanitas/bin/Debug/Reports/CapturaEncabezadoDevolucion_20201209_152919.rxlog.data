@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.5m"
+		durationms="89704"
+		type="root"
+		rid="11c566535094f84"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dgomeza"
+		rxversion="9.3.3.0"
+		host="MEDLAPDESPP2BTR"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="12/09/2020 3:29:23 PM"
+		timestampiso="2020-12-09T20:29:23"
+		endtime="12/09/2020 3:30:53 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CapturaEncabezadoDevolucion">
+		<detail>
+			CapturaEncabezadoDevolucion
+		</detail>
+		<errormessage>
+			Failed to find item 'IQDOC_SanitasRepository.FormHash32770.Button'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.613"
+			timeRelativeToTestModuleStartTime="00:05.613"
+			timeWallClock="15:29:29"
+			time="00:05.613"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.CmdStart' at 102;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				itempath="?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdStart']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.CmdStart"
+				id="6e1368c28a014dbb85e57c7992661d75"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.195"
+			timeRelativeToTestModuleStartTime="00:10.195"
+			timeWallClock="15:29:34"
+			time="00:10.195"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 12660)<br/>https://www.ranorex.com/help/v9.3/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.759"
+			timeRelativeToTestModuleStartTime="00:12.759"
+			timeWallClock="15:29:36"
+			time="00:12.759"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '86' with focus on 'MDIPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']"
+				itempath="/form[@controlname='MDIPrincipal']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Self"
+				id="82394fdb329f4b8d815a99012d7ba622"
+				timeout="30000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.159"
+			timeRelativeToTestModuleStartTime="00:14.159"
+			timeWallClock="15:29:38"
+			time="00:14.159"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '0035' with focus on 'MDIPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']"
+				itempath="/form[@controlname='MDIPrincipal']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Self"
+				id="82394fdb329f4b8d815a99012d7ba622"
+				timeout="30000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.293"
+			timeRelativeToTestModuleStartTime="00:18.293"
+			timeWallClock="15:29:42"
+			time="00:18.293"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '99' with focus on 'MDIPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']"
+				itempath="/form[@controlname='MDIPrincipal']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Self"
+				id="82394fdb329f4b8d815a99012d7ba622"
+				timeout="30000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.627"
+			timeRelativeToTestModuleStartTime="00:18.627"
+			timeWallClock="15:29:42"
+			time="00:18.627"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'MDIPrincipal.TabMain.NumeroFactura' at 47;0.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				itempath="text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.NumeroFactura"
+				id="ca7fdf8ac5cc4429951d248361ba04cb"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="101"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.519"
+			timeRelativeToTestModuleStartTime="00:21.519"
+			timeWallClock="15:29:45"
+			time="00:21.519"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'MDIPrincipal.TabMain.NumeroFactura' at 43;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				itempath="text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.NumeroFactura"
+				id="ca7fdf8ac5cc4429951d248361ba04cb"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="106"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.552"
+			timeRelativeToTestModuleStartTime="00:23.552"
+			timeWallClock="15:29:47"
+			time="00:23.552"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.LabelOpciones' at 652;141.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/text[@controlname='LabelOpciones']"
+				itempath="?/?/form[@controlname='FrmCapturer']/text[@controlname='LabelOpciones']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.LabelOpciones"
+				id="c8e76f2d686442aa83f95112253a5aa5"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="111"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.098"
+			timeRelativeToTestModuleStartTime="00:24.098"
+			timeWallClock="15:29:48"
+			time="00:24.098"
+			level="Warn"
+			category="Click"
+			errimg="images_CapturaE_85188d37\CapturaE_44a60e00_rxlog.jpg"
+			errthumb="images_CapturaE_85188d37\CapturaE_44a60e00_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="112"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.514"
+			timeRelativeToTestModuleStartTime="00:24.514"
+			timeWallClock="15:29:48"
+			time="00:24.514"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'PRUE' with focus on 'MDIPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']"
+				itempath="/form[@controlname='MDIPrincipal']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Self"
+				id="82394fdb329f4b8d815a99012d7ba622"
+				timeout="30000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="115"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.038"
+			timeRelativeToTestModuleStartTime="00:25.038"
+			timeWallClock="15:29:49"
+			time="00:25.038"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '-DEV' with focus on 'MDIPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']"
+				itempath="/form[@controlname='MDIPrincipal']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Self"
+				id="82394fdb329f4b8d815a99012d7ba622"
+				timeout="30000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="120"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.424"
+			timeRelativeToTestModuleStartTime="00:25.424"
+			timeWallClock="15:29:49"
+			time="00:25.424"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '12' with focus on 'MDIPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']"
+				itempath="/form[@controlname='MDIPrincipal']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.Self"
+				id="82394fdb329f4b8d815a99012d7ba622"
+				timeout="30000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="125"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.703"
+			timeRelativeToTestModuleStartTime="00:25.703"
+			timeWallClock="15:29:49"
+			time="00:25.703"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MDIPrincipal.TabMain.NumeroFactura' at 548;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				itempath="text[@controlname='TXTNUMEROFACTURA']/text[@accessiblename='Numero Factura']"
+				fullname="IQDOC_SanitasRepository.MDIPrincipal.TabMain.NumeroFactura"
+				id="ca7fdf8ac5cc4429951d248361ba04cb"
+				timeout="90000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="130"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.266"
+			timeRelativeToTestModuleStartTime="00:27.266"
+			timeWallClock="15:29:51"
+			time="00:27.266"
+			level="Warn"
+			category="Click"
+			errimg="images_CapturaE_85188d37\CapturaE_44a60e01_rxlog.jpg"
+			errthumb="images_CapturaE_85188d37\CapturaE_44a60e01_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="131"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.668"
+			timeRelativeToTestModuleStartTime="00:27.668"
+			timeWallClock="15:29:51"
+			time="00:27.668"
+			level="Info"
+			category="Mouse"
+			errimg="images_CapturaE_85188d37\CapturaE_85188d37_c79b6083_trace.jpg"
+			errthumb="images_CapturaE_85188d37\CapturaE_85188d37_c79b6083_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'InformacionRIPS_cof.Aceptar' at 44;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Informacion RIPS']/button[@text='Aceptar']"
+				itempath="button[@text='Aceptar']"
+				fullname="IQDOC_SanitasRepository.InformacionRIPS_cof.Aceptar"
+				id="18baa6fba1c04518ba69e26e90230e8d"
+				timeout="6000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="134"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.942"
+			timeRelativeToTestModuleStartTime="00:28.942"
+			timeWallClock="15:29:52"
+			time="00:28.942"
+			level="Info"
+			category="Mouse"
+			errimg="images_CapturaE_85188d37\CapturaE_85188d37_54267a0f_trace.jpg"
+			errthumb="images_CapturaE_85188d37\CapturaE_85188d37_54267a0f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FormHash32770.Button' at 805;520.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='#32770']/button"
+				itempath="button"
+				fullname="IQDOC_SanitasRepository.FormHash32770.Button"
+				id="de688fdc0e42432da3aa7aebe3931d97"
+				timeout="60000"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="138"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:29.582"
+			timeRelativeToTestModuleStartTime="01:29.582"
+			timeWallClock="15:30:53"
+			time="01:29.582"
+			level="Error"
+			category="Module"
+			errimg="images_CapturaE_85188d37\CapturaE_85188d37_2386f984_trace.jpg"
+			errthumb="images_CapturaE_85188d37\CapturaE_85188d37_2386f984_trace_thumb.jpg">
+			<message>
+				Failed to find item 'IQDOC_SanitasRepository.FormHash32770.Button'.<br/>No element found for path '/form[@class='#32770']/button' at step 'button' after 103 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   en Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   en IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FormHash32770AppFolder.get_Button() en C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_SanitasRepository.cs:línea 2042&#13;&#10;   en IQDOC_Sanitas.CapturaEncabezadoDevolucion.Ranorex.Core.Testing.ITestModule.Run() en C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs:línea 139&#13;&#10;   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\dgomeza\Documents\Ranorex\RanorexStudio Projects\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CapturaEncabezadoDevolucion.cs"
+				codeline="139"
+				type="repoitem"
+				path="/form[@class='#32770']/button"
+				itempath="button"
+				fullname="IQDOC_SanitasRepository.FormHash32770.Button"
+				id="de688fdc0e42432da3aa7aebe3931d97"
+				timeout="60000"
+				failedStep="button"
+				bestPathPrefix="/form[@class='#32770']"
+				loglvl="Error"
+				itemindex="12">
+			</metainfo>
+		</item>
+	</activity>
+</report>

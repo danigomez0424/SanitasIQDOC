@@ -40,6 +40,8 @@ namespace IQDOC_Sanitas
         IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder _mensajepantalla;
         IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder _auxiliardeauditoriamedica;
         IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder _salir_cof;
+        IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder _frmdatosimagen;
+        IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder _blackclovertvepisodio168subespan;
         RepoItemInfo _txtsucursalInfo;
 
         /// <summary>
@@ -70,6 +72,8 @@ namespace IQDOC_Sanitas
             _mensajepantalla = new IQDOC_SanitasRepositoryFolders.MensajePantallaAppFolder(this);
             _auxiliardeauditoriamedica = new IQDOC_SanitasRepositoryFolders.AuxiliarDeAuditoriaMedicaAppFolder(this);
             _salir_cof = new IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder(this);
+            _frmdatosimagen = new IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder(this);
+            _blackclovertvepisodio168subespan = new IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder(this);
             _txtsucursalInfo = new RepoItemInfo(this, "TXTSUCURSAL", "/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBOSUCURSAL']/text[@controlid='1001']", 30000, null, "fed33902-d429-43b5-bba2-beac725114a5");
         }
 
@@ -360,6 +364,24 @@ namespace IQDOC_Sanitas
         public virtual IQDOC_SanitasRepositoryFolders.Salir_CofAppFolder Salir_Cof
         {
             get { return _salir_cof; }
+        }
+
+        /// <summary>
+        /// The FrmDatosImagen folder.
+        /// </summary>
+        [RepositoryFolder("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+        public virtual IQDOC_SanitasRepositoryFolders.FrmDatosImagenAppFolder FrmDatosImagen
+        {
+            get { return _frmdatosimagen; }
+        }
+
+        /// <summary>
+        /// The BlackCloverTVEpisodio168SubEspan folder.
+        /// </summary>
+        [RepositoryFolder("ff8abe39-586c-4a3f-b1b1-9fbed3926a48")]
+        public virtual IQDOC_SanitasRepositoryFolders.BlackCloverTVEpisodio168SubEspanAppFolder BlackCloverTVEpisodio168SubEspan
+        {
+            get { return _blackclovertvepisodio168subespan; }
         }
     }
 
@@ -818,9 +840,9 @@ namespace IQDOC_Sanitas
                 _cmdstartInfo = new RepoItemInfo(this, "CmdStart", ".//button[@controlname='CmdStart']", 30000, null, "6e1368c2-8a01-4dbb-85e5-7c7992661d75");
                 _cmdsaveInfo = new RepoItemInfo(this, "CmdSave", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']", 30000, null, "9a2f0242-bbee-43c8-bf71-746d233abb68");
                 _copy_of_cmdsaveInfo = new RepoItemInfo(this, "Copy_of_CmdSave", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']", 1000, null, "49183410-23dc-46d4-98ab-6ba322071033");
-                _tabmain1Info = new RepoItemInfo(this, "TabMain1", "?/?/form[@controlname='FrmCapturer']/?/?/container[@controlname='pnlCampos']/?/?/tabpage[@controlname='tabMain']", 30000, null, "a3abedd3-2a88-4b81-9bdf-fd2159751429");
+                _tabmain1Info = new RepoItemInfo(this, "TabMain1", "?/?//?/?/container[@controlname='pnlCampos']/?/?/tabpage[@controlname='tabMain']", 30000, null, "a3abedd3-2a88-4b81-9bdf-fd2159751429");
                 _cmdterminarInfo = new RepoItemInfo(this, "CmdTerminar", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdTerminar']", 30000, null, "223dc3f2-9ad1-4535-819e-d10a7462f816");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']", 30000, null, "10b5a593-3270-469f-a0db-ec2e4b0c30c6");
+                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?//container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']", 30000, null, "10b5a593-3270-469f-a0db-ec2e4b0c30c6");
                 _labelopcionesInfo = new RepoItemInfo(this, "LabelOpciones", "?/?/form[@controlname='FrmCapturer']/text[@controlname='LabelOpciones']", 30000, null, "c8e76f2d-6864-42aa-83f9-5112253a5aa5");
                 _cboproductosInfo = new RepoItemInfo(this, "CboProductos", ".//combobox[@controlname~'(?i:CboProductos)']", 30000, null, "07b6b840-ccdd-4811-9c8d-34dd553b047f");
                 _copy_of_btn_guadarclasiInfo = new RepoItemInfo(this, "Copy_of_Btn_GuadarClasi", "?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/button[@controlname='CmdSave' and @enabled='True']", 30000, null, "52045236-b803-43ce-b5d4-036bc7f704e6");
@@ -1137,6 +1159,8 @@ namespace IQDOC_Sanitas
             RepoItemInfo _abrir2Info;
             RepoItemInfo _cerrar2Info;
             RepoItemInfo _fechafacturaInfo;
+            RepoItemInfo _textarea2Info;
+            RepoItemInfo _text1001Info;
 
             /// <summary>
             /// Creates a new TabMain  folder.
@@ -1166,6 +1190,8 @@ namespace IQDOC_Sanitas
                 _abrir2Info = new RepoItemInfo(this, "Abrir2", "combobox[@controlname='CBOPLAN']/button[@accessiblename='Abrir']", 30000, null, "2ba1b4e7-877b-461e-bea9-c230f99dbe85");
                 _cerrar2Info = new RepoItemInfo(this, "Cerrar2", "combobox[@controlname='CBOPLAN']/button[@accessiblename='Cerrar']", 30000, null, "139b6771-be54-47a1-b664-d05bb8f0f138");
                 _fechafacturaInfo = new RepoItemInfo(this, "FechaFactura", "element[@controlname='MSKFECHAEMISIONFACTURA']//text[@accessiblename='Text area']", 30000, null, "a158edd3-116c-411b-b7bd-e1dca524d807");
+                _textarea2Info = new RepoItemInfo(this, "TextArea2", "element[@controlname='MSKPERIODOINICIAL']//text[@accessiblename='Text area']", 30000, null, "27c6a541-0053-45d0-81a3-11349a55daa8");
+                _text1001Info = new RepoItemInfo(this, "Text1001", "combobox[@controlname='CBONOPBS']/text[@controlid='1001']", 30000, null, "fd9f8e71-032f-4448-809a-4c15e8f7545e");
             }
 
             /// <summary>
@@ -1719,6 +1745,54 @@ namespace IQDOC_Sanitas
                     return _fechafacturaInfo;
                 }
             }
+
+            /// <summary>
+            /// The TextArea2 item.
+            /// </summary>
+            [RepositoryItem("27c6a541-0053-45d0-81a3-11349a55daa8")]
+            public virtual Ranorex.Text TextArea2
+            {
+                get
+                {
+                    return _textarea2Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TextArea2 item info.
+            /// </summary>
+            [RepositoryItemInfo("27c6a541-0053-45d0-81a3-11349a55daa8")]
+            public virtual RepoItemInfo TextArea2Info
+            {
+                get
+                {
+                    return _textarea2Info;
+                }
+            }
+
+            /// <summary>
+            /// The Text1001 item.
+            /// </summary>
+            [RepositoryItem("fd9f8e71-032f-4448-809a-4c15e8f7545e")]
+            public virtual Ranorex.Text Text1001
+            {
+                get
+                {
+                    return _text1001Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text1001 item info.
+            /// </summary>
+            [RepositoryItemInfo("fd9f8e71-032f-4448-809a-4c15e8f7545e")]
+            public virtual RepoItemInfo Text1001Info
+            {
+                get
+                {
+                    return _text1001Info;
+                }
+            }
         }
 
         /// <summary>
@@ -1899,6 +1973,7 @@ namespace IQDOC_Sanitas
         {
             RepoItemInfo _capturadeencabezadoInfo;
             RepoItemInfo _salirInfo;
+            RepoItemInfo _datosimagenInfo;
 
             /// <summary>
             /// Creates a new IQDOC  folder.
@@ -1908,6 +1983,7 @@ namespace IQDOC_Sanitas
             {
                 _capturadeencabezadoInfo = new RepoItemInfo(this, "CapturaDeEncabezado", "menuitem[@accessiblename=$Modulo]", 30000, null, "22b26a84-b9b2-4fb9-8b4c-48a73bc5e905");
                 _salirInfo = new RepoItemInfo(this, "Salir", "menuitem[@accessiblename='Salir']", 30000, null, "441156eb-2665-481c-9fc1-f34b450dd8cb");
+                _datosimagenInfo = new RepoItemInfo(this, "DatosImagen", "menuitem[@accessiblename='Datos Imagen']", 30000, null, "e0b175de-6dd2-4dc1-a694-dbf739250cfb");
             }
 
             /// <summary>
@@ -1979,6 +2055,30 @@ namespace IQDOC_Sanitas
                 get
                 {
                     return _salirInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DatosImagen item.
+            /// </summary>
+            [RepositoryItem("e0b175de-6dd2-4dc1-a694-dbf739250cfb")]
+            public virtual Ranorex.MenuItem DatosImagen
+            {
+                get
+                {
+                    return _datosimagenInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DatosImagen item info.
+            /// </summary>
+            [RepositoryItemInfo("e0b175de-6dd2-4dc1-a694-dbf739250cfb")]
+            public virtual RepoItemInfo DatosImagenInfo
+            {
+                get
+                {
+                    return _datosimagenInfo;
                 }
             }
         }
@@ -2497,9 +2597,9 @@ namespace IQDOC_Sanitas
             /// Creates a new MensajePantalla  folder.
             /// </summary>
             public MensajePantallaAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("MensajePantalla", "/form[@class='#32770']", parentFolder, 30000, null, true, "0b958bd4-d0bb-484a-bda9-906676cc9f3c", "")
+                    base("MensajePantalla", "/form[@class='#32770']", parentFolder, 10000, null, true, "0b958bd4-d0bb-484a-bda9-906676cc9f3c", "")
             {
-                _buttonInfo = new RepoItemInfo(this, "Button", "button", 30000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
+                _buttonInfo = new RepoItemInfo(this, "Button", "button", 5000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
                 _staticInfo = new RepoItemInfo(this, "Static", "text", 30000, null, "a3e03ec5-dbb3-405a-b536-eab479635086");
                 _findocumentoInfo = new RepoItemInfo(this, "FinDocumento", "text[@windowtext~'Esta ubicado en el último documento']", 30000, null, "d97473c4-24fb-4ce1-ba9f-762e20d87d57");
             }
@@ -2729,6 +2829,190 @@ namespace IQDOC_Sanitas
                 get
                 {
                     return _aceptarInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The FrmDatosImagenAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+        public partial class FrmDatosImagenAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _txtpropiedadesInfo;
+            RepoItemInfo _cmdcerrarInfo;
+
+            /// <summary>
+            /// Creates a new FrmDatosImagen  folder.
+            /// </summary>
+            public FrmDatosImagenAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("FrmDatosImagen", "/form[@controlname='FrmDatosImagen']", parentFolder, 30000, null, true, "fe7afa24-7db0-4418-bf65-3d930c60d4d0", "")
+            {
+                _txtpropiedadesInfo = new RepoItemInfo(this, "TxtPropiedades", "?/?/text[@controlname='txtPropiedades']", 30000, null, "b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843");
+                _cmdcerrarInfo = new RepoItemInfo(this, "CmdCerrar", "button[@controlname='CmdCerrar']", 30000, null, "fb90e698-b08d-4787-9f42-12504023f74d");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fe7afa24-7db0-4418-bf65-3d930c60d4d0")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtPropiedades item.
+            /// </summary>
+            [RepositoryItem("b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843")]
+            public virtual Ranorex.Text TxtPropiedades
+            {
+                get
+                {
+                    return _txtpropiedadesInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtPropiedades item info.
+            /// </summary>
+            [RepositoryItemInfo("b14cb0c5-1b4c-4ccc-8d6b-0768d83dc843")]
+            public virtual RepoItemInfo TxtPropiedadesInfo
+            {
+                get
+                {
+                    return _txtpropiedadesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CmdCerrar item.
+            /// </summary>
+            [RepositoryItem("fb90e698-b08d-4787-9f42-12504023f74d")]
+            public virtual Ranorex.Button CmdCerrar
+            {
+                get
+                {
+                    return _cmdcerrarInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CmdCerrar item info.
+            /// </summary>
+            [RepositoryItemInfo("fb90e698-b08d-4787-9f42-12504023f74d")]
+            public virtual RepoItemInfo CmdCerrarInfo
+            {
+                get
+                {
+                    return _cmdcerrarInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The BlackCloverTVEpisodio168SubEspanAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ff8abe39-586c-4a3f-b1b1-9fbed3926a48")]
+        public partial class BlackCloverTVEpisodio168SubEspanAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _atagepisodioInfo;
+            RepoItemInfo _https00f74ba44bd8fc8b6a07c9f7b255b0c5Info;
+
+            /// <summary>
+            /// Creates a new BlackCloverTVEpisodio168SubEspan  folder.
+            /// </summary>
+            public BlackCloverTVEpisodio168SubEspanAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("BlackCloverTVEpisodio168SubEspan", "/dom[@domain='www3.animeflv.net']", parentFolder, 30000, null, false, "ff8abe39-586c-4a3f-b1b1-9fbed3926a48", "")
+            {
+                _atagepisodioInfo = new RepoItemInfo(this, "ATagEpisodio", ".//div[#'XpndCn']//a[@innertext=' Episodio']", 30000, null, "24b2004a-9cea-4cd1-911c-99f3f06726ad");
+                _https00f74ba44bd8fc8b6a07c9f7b255b0c5Info = new RepoItemInfo(this, "Https00f74ba44bd8fc8b6a07c9f7b255b0c5", ".//div[#'video_box']/iframe[@src='https://streamium.xyz/gocdn.html#TmN6NG1EUjBLSmZNRzJQODBkNHcvMm40TFpzelpSaittMzRFeStvNVk1TStVZlpBZUZZaGRpd2ZLRU52VFpFZlMrQUtHYXIycHFaRStIR2t6N25pRWxDZnRHNlkxeS9zSGlzcVJvRHUwNVFUNGQxZHB4M1YvQWpGOVVOcVJaZSs=']//div[#'player']//video[@src='https://00f74ba44bd8fc8b6a07c9f7b255b0c503ad4e2e24-apidata.googleusercontent.com/download/storage/v1/b/olakease/o/16ba6b3dbd5f703c5a441804dc17b7b4?jk=AFshE3Ue1zSbDyNiPJgyEuOLXAm6z_9149ZuSXxgJQeLZ72uJRCDP2FAnHpMilLaGZ1sMv-a7T-2Pj9aq6dbNK9szfqPE_5seNM01chSe6G0HP46VAhDxwqTsmToPSrnaN_JmrPXp-a-3ZsmVQlYl7rJ0zrzOR0v7PPMVCYE0u475yTl2aqrD6oLyWFfdMyFumnGiAghCV_kI7eq-k9JodkVXvgDu6t-dyfCUTCWcn45BTJRoruRUoZpzBrUUz0KBPRVgFEFlMv7B85pcnvBeaSQeRR2T1Q4IEDo518EgHFPz1L1vQZxk9FWgaBoYmllcOMUbL7IVKlj2PzmDVbL-pKW44V8_8kLKqQNSZVRUEuxFsGzwPCPEKzbLldNg32tiEeV29iM2jlvSPw1xjep85P1YoMFPhS73rSMIF4Y57McjBVIMsH-uDyz1OgbwvehywNOJZhRyd4UosCDgGcCAZzQnMG8QyTTFCCx_32Qm8IEPCjniEzydJ5gilqfGIj6h98nNMr_E6Ngk1z8twXoAycDiP5NHNkint6Ur2HlZBgCc7AxkBm0Z-0qJj1H7N7Cj1SNg2vz62CbcfzeDFnsNmvFGiHErH3-s1XfczzRsGVXn-75GGAELYcAXHcTAR_kfhgZsdFs98JfWHvKW6N-i8I6n-OUf7nUC5gsE6TYZ_gJDgD_g536JEMuRzL6EZbGHr205UZMjLxvmNzGixDdSrivSigO2wfeFpJEWdXcspwRG0uVOHktJXqDtZGAPJAqtUxzTJKtG0BHSvJff6PgyLxf0yMC69QBVvz5ezam-fJzzxuP_A0R9I9AsGEo5BSjiuaNU3Mvwi9QX7DUInn35nm9KpC4OdgtSYFSReXQVsPehjLwnjWp432IvSVB_4lKaZs-7T2Dh5u2lLJgq4jPi7IX4MjD3ooqWdrsa1DH_TsCjlMN-ePHr64uOKkGhatDqcu_B6Y3BVvIk7vGRBrdTYA&isca=1']", 30000, null, "343d1c3e-5a0c-4755-97eb-5e5e4b630a18");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ff8abe39-586c-4a3f-b1b1-9fbed3926a48")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ff8abe39-586c-4a3f-b1b1-9fbed3926a48")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ATagEpisodio item.
+            /// </summary>
+            [RepositoryItem("24b2004a-9cea-4cd1-911c-99f3f06726ad")]
+            public virtual Ranorex.ATag ATagEpisodio
+            {
+                get
+                {
+                    return _atagepisodioInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ATagEpisodio item info.
+            /// </summary>
+            [RepositoryItemInfo("24b2004a-9cea-4cd1-911c-99f3f06726ad")]
+            public virtual RepoItemInfo ATagEpisodioInfo
+            {
+                get
+                {
+                    return _atagepisodioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Https00f74ba44bd8fc8b6a07c9f7b255b0c5 item.
+            /// </summary>
+            [RepositoryItem("343d1c3e-5a0c-4755-97eb-5e5e4b630a18")]
+            public virtual Ranorex.VideoTag Https00f74ba44bd8fc8b6a07c9f7b255b0c5
+            {
+                get
+                {
+                    return _https00f74ba44bd8fc8b6a07c9f7b255b0c5Info.CreateAdapter<Ranorex.VideoTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Https00f74ba44bd8fc8b6a07c9f7b255b0c5 item info.
+            /// </summary>
+            [RepositoryItemInfo("343d1c3e-5a0c-4755-97eb-5e5e4b630a18")]
+            public virtual RepoItemInfo Https00f74ba44bd8fc8b6a07c9f7b255b0c5Info
+            {
+                get
+                {
+                    return _https00f74ba44bd8fc8b6a07c9f7b255b0c5Info;
                 }
             }
         }

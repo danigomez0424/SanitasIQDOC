@@ -85,9 +85,11 @@ namespace IQDOC_Sanitas.ScriptGeneral
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.CmdTerminar' at Center.", repo.MDIPrincipal.CmdTerminarInfo, new RecordItemIndex(1));
-            repo.MDIPrincipal.CmdTerminar.Click();
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'MDIPrincipal.CmdTerminar' at Center.", repo.MDIPrincipal.CmdTerminarInfo, new RecordItemIndex(1));
+                repo.MDIPrincipal.CmdTerminar.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
             
         }
 

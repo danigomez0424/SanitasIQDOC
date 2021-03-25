@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.71s"
+		durationms="2709"
+		type="root"
+		rid="1e24ce27192e5708"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="duvanra"
+		rxversion="9.3.2.0"
+		host="BOGWKSDESPP5ELS"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-ES"
+		dtnlanguage="es-CO"
+		screenresolution="1366x768"
+		timestamp="11/25/2020 3:55:13 PM"
+		timestampiso="2020-11-25T20:55:13"
+		endtime="11/25/2020 3:55:15 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.691"
+			timeRelativeToTestModuleStartTime="00:02.691"
+			timeWallClock="15:55:15"
+			time="00:02.691"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Subproceso anulado.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Reporting.TestReport.SaveReportFile()
+   en Ranorex.Core.Reporting.TestReport.SaveReportInternal()
+   en Ranorex.Core.Reporting.TestReport.Setup(ReportLevel minLevel, String fileName, Boolean logToConsole, Boolean enableTracingScreenshots, Duration writeInterval, String customReportFileLocation, Boolean saveImmediately)
+   en Ranorex.Core.Testing.TestSuiteRunner.SetUpReportFromTestSuite(RunParams rp, TestSuite testSuite, ReportLevel reportLevel, String customReportFileLocation)
+   en Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

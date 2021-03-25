@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="IQDOC_Sanitas"
+      id="28ce992e-a82c-403c-acd1-526ba252c63f"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="IQDOC_Sanitas"
+      id="28ce992e-a82c-403c-acd1-526ba252c63f"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
