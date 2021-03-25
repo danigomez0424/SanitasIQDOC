@@ -128,18 +128,6 @@
 					variablename="CodCausal">
 					</var>
 					<var
-					dataname="SolicitudID"
-					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
-					variableid="478bfbc6-408f-470a-a323-609874a6d8f0"
-					variablename="SolicitudID">
-					</var>
-					<var
-					dataname="NFacturaOriginal"
-					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
-					variableid="1cb6f052-de6e-4f24-8813-0523927d4244"
-					variablename="NFacturaOriginal">
-					</var>
-					<var
 					dataname="ParFolderId"
 					datasourceid="9aff082e-e7ac-4a14-8011-8123b2dce44f"
 					variableid="7dbad027-2d8d-4446-aece-e29e376e2259"
@@ -161,9 +149,15 @@
 				<missingdatabinding>
 					<var
 					dataname="SolicitudID"
-					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
 					variableid="478bfbc6-408f-470a-a323-609874a6d8f0"
 					variablename="SolicitudID">
+					</var>
+					<var
+					dataname="NFacturaOriginal"
+					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
+					variableid="1cb6f052-de6e-4f24-8813-0523927d4244"
+					variablename="NFacturaOriginal">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -1282,7 +1276,7 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\CapturaRIP.xlsx"
+		filename="..\CapturaRIP.xlsx"
 		id="dd3c6c91-60d1-427a-80ba-e9aa0230f1b7"
 		includefile="Unchecked"
 		lastknownrowcount="5"
@@ -1317,7 +1311,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\Captura.xlsx"
+		filename="..\Captura.xlsx"
 		id="d28ca636-fef2-41b9-8af2-f1721e24594c"
 		includefile="Unchecked"
 		lastknownrowcount="2"
@@ -1370,20 +1364,53 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\Captura.xlsx"
+		filename="..\Captura.xlsx"
 		id="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
 		includefile="Unchecked"
 		lastknownrowcount="2"
 		name="ListaSolicitud"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Hoja3"
+		worksheetname="Hoja1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
-					SolicitudID
+					NitIPS
 				</column>
 				<column>
-					NFacturaOriginal
+					Nfactura
+				</column>
+				<column>
+					Sucursal
+				</column>
+				<column>
+					FechaFactura
+				</column>
+				<column>
+					Periodo
+				</column>
+				<column>
+					TipHonorario
+				</column>
+				<column>
+					Producto
+				</column>
+				<column>
+					Plan
+				</column>
+				<column>
+					ValBruto
+				</column>
+				<column>
+					CBOProducto
+				</column>
+				<column>
+					CodCausal
+				</column>
+				<column>
+					Modulo
+				</column>
+				<column>
+					TipoNoPbs
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
