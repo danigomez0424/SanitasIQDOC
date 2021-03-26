@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BOExportacion
+</name>
+</assembly>
+<members>
+<member name="P:BOExportacion.AppMgr.ConnectionString">
+ <summary>
+ Propiedad para almacenar la cadena de Conexion a la BD
+ </summary>
+ <value>String</value>
+ <returns>Cadena de conexion a la BD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:BOExportacion.DataMgr.fill_RecordsetCamposExportacionFolder(System.String)">
+ <summary>
+ Obtiene los campos para la exportación por folders
+ </summary>
+ <param name="Producto_id">Producto actual</param>
+ <returns>Retorna el resultado del Sp para la exportación</returns>
+ <remarks>Julio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DataMgr.fill_RecordsetCajasFolder(System.String,System.String,System.String)">
+ <summary>
+ Carga los folders de cajas no terminadas.
+ </summary>
+ <param name="Caja">La Caja q ha sido digitada por el usuario</param>
+ <param name="Producto_id">El producto actual a exportar</param>
+ <param name="FechaProceso">La fecha de proceso </param>
+ <returns>Folders terminados</returns>
+ <remarks>Juliio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DataMgr.fill_RecordsetCajasRechazosFolder(System.String,System.String,System.String)">
+ <summary>
+ Devuelve las cajas rechazadas sin terminar
+ </summary>
+ <param name="Caja">Numero de la caja</param>
+ <param name="Producto_id">producto actual</param>
+ <param name="FechaProceso">Fecha de proceso de la Batch</param>
+ <returns>Cajas sin terminar </returns>
+ <remarks>Julio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DataMgr.MarcarExportadosFolder(System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="Producto_id"></param>
+ <param name="Caja"></param>
+ <remarks></remarks>
+</member>
+<member name="M:BOExportacion.DataMgr.DesmarcarCajasFolder(System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="Caja"></param>
+ <remarks></remarks>
+</member>
+<member name="M:BOExportacion.DataMgr.DesmarcarRechazosCajasFolder(System.String)">
+ <summary>
+ Llama al SP DesmarcarRechazosCajaFolder, para desmarcar folder, cola de exportacion y batch de la caja que se está exportando actualmente
+ </summary>
+ <param name="Caja">El numero de caja que se está exportando actualemente</param>
+ <remarks>Julio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DefinitionMgr.Get_CamposExportacionFolder(System.String)">
+ <summary>
+ Obtiene la ruta de destino del XML y el worker para la exportación de folders
+ </summary>
+ <param name="Producto_id">Es el producto el cual se desea exportar</param>
+ <returns>Campos para la exportación</returns>
+ <remarks>Julio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DefinitionMgr.Get_CajasRechazosFolder(System.String,System.String,System.String)">
+ <summary>
+ Se encarga de davolver las cajas rechazadas para los clientes que las necesitan por folder o cajas sin terminar
+ </summary>
+ <param name="Producto_id">Producto actual</param>
+ <param name="FechaProceso">Fecha de proceso del Batch</param>
+ <param name="Caja">Numero de la caja</param>
+ <returns>Cajas o folders rechazados</returns>
+ <remarks>Julio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DefinitionMgr.DesmarcarRechazosCajasFolder(System.String)">
+ <summary>
+ Llama a la funcion DesmarcarRechazosCajasFolder
+ </summary>
+ <param name="Caja">El numero de la caja que se está exportando actualmente</param>
+ <remarks>Julio César Páez Castro</remarks>
+</member>
+<member name="M:BOExportacion.DefinitionMgr.DesmarcarCajasFolder(System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="Caja"></param>
+ <remarks></remarks>
+</member>
+<member name="M:BOExportacion.DefinitionMgr.MarcarExportadosFolder(System.String,System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="Producto_id"></param>
+ <param name="Caja"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
