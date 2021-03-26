@@ -145,8 +145,6 @@
 					variableid="4da9608c-7426-432a-b6ca-2e301e030daf"
 					variablename="CBOProducto">
 					</var>
-				</databinding>
-				<missingdatabinding>
 					<var
 					dataname="SolicitudID"
 					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
@@ -159,7 +157,7 @@
 					variableid="1cb6f052-de6e-4f24-8813-0523927d4244"
 					variablename="NFacturaOriginal">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="17ca1da3-b7ac-4f33-9290-0b0aa7e8c32a"
@@ -513,6 +511,12 @@
 			id="9ced17f6-5fc6-4925-b7e2-291b57460c3b"
 			name="AceptarDevoluciones"
 			ref="1303436b-b7e7-4a1d-b93e-cf185c12c7b0"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="9dd3c748-fa89-46b3-b2cb-ba8ee62915d6"
+			name="CerrarVentana"
+			ref="30577740-bd96-408e-9563-928d2ec44b80"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1054,6 +1058,10 @@
 						name="SeleccionarProducto">
 						</testmodule>
 						<testmodule
+						id="9dd3c748-fa89-46b3-b2cb-ba8ee62915d6"
+						name="CerrarVentana">
+						</testmodule>
+						<testmodule
 						id="463bc346-1068-4b0c-b57d-0dc3154fc16c"
 						name="AceptarNoHay">
 						</testmodule>
@@ -1314,7 +1322,7 @@
 		filename="..\Captura.xlsx"
 		id="d28ca636-fef2-41b9-8af2-f1721e24594c"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="1000"
 		name="CapturaSanitas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1367,50 +1375,17 @@
 		filename="..\Captura.xlsx"
 		id="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="1000"
 		name="ListaSolicitud"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="Hoja1"
+		worksheetname="Hoja3"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
-					NitIPS
+					SolicitudID
 				</column>
 				<column>
-					Nfactura
-				</column>
-				<column>
-					Sucursal
-				</column>
-				<column>
-					FechaFactura
-				</column>
-				<column>
-					Periodo
-				</column>
-				<column>
-					TipHonorario
-				</column>
-				<column>
-					Producto
-				</column>
-				<column>
-					Plan
-				</column>
-				<column>
-					ValBruto
-				</column>
-				<column>
-					CBOProducto
-				</column>
-				<column>
-					CodCausal
-				</column>
-				<column>
-					Modulo
-				</column>
-				<column>
-					TipoNoPbs
+					NFacturaOriginal
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>

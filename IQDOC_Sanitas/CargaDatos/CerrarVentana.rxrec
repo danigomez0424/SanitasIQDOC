@@ -25,6 +25,24 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="08019ce0-8aad-433d-ba90-a9b186227146"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1a59d709-799b-438a-aeb1-32d6775c1ec4"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='FrmPOPUp']/?/?/button[@accessiblename='Cerrar']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"

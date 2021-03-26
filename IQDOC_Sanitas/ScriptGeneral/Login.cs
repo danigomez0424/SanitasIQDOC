@@ -103,8 +103,8 @@ namespace IQDOC_Sanitas.ScriptGeneral
             repo.FrmLogin.TxtLogin.Click("18;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'pruebassanitas4' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(1));
-            repo.FrmLogin.TxtLogin.PressKeys("pruebassanitas4");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'PruebasAuto' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(1));
+            repo.FrmLogin.TxtLogin.PressKeys("PruebasAuto");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.TxtPassword' at 33;5.", repo.FrmLogin.TxtPasswordInfo, new RecordItemIndex(2));

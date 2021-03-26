@@ -79,11 +79,16 @@ namespace IQDOC_Sanitas.CargaDatos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(0));
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s to exist. Associated repository item: 'FrmPOPUp_cof.Btn_CerrarVentana'", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new ActionTimeout(5000), new RecordItemIndex(0));
+                repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo.WaitForExists(5000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(1));
             repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(1));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(2));
             //repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
             //Delay.Milliseconds(0);
             

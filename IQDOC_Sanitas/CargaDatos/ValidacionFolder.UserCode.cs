@@ -35,8 +35,8 @@ namespace IQDOC_Sanitas.CargaDatos
 
 		public void CargaDatos()
 		{
-		
-		//	TestSuite.CurrentTestContainer.Parameters.TryGetValue("ParFolderId", out folderid);
+			
+			//	TestSuite.CurrentTestContainer.Parameters.TryGetValue("ParFolderId", out folderid);
 			
 			string folderid=ParFolderId,TiProducto=CBOProducto;
 			
@@ -44,7 +44,7 @@ namespace IQDOC_Sanitas.CargaDatos
 				
 				
 				if (NFacturaOriginal==Nfactura) {
-							
+					
 					
 					#region CargaDatos1
 					Mouse.DefaultMoveTime = 300;
@@ -103,10 +103,10 @@ namespace IQDOC_Sanitas.CargaDatos
 					if(TiProducto=="Cuentas Medicas Recobrables")
 					{
 						Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'MDIPrincipal.TabMain.Text1001'.", repo.MDIPrincipal.TabMain.Text1001Info, new RecordItemIndex(1));
-            			repo.MDIPrincipal.TabMain.Text1001.PressKeys(TipoNoPbs);
-            			Delay.Milliseconds(0);
+						repo.MDIPrincipal.TabMain.Text1001.PressKeys(TipoNoPbs);
+						Delay.Milliseconds(0);
 					}
-            
+					
 					
 					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$TipHonorario' with focus on 'MDIPrincipal.TabMain.TipoHonorarioText'.", repo.MDIPrincipal.TabMain.TipoHonorarioTextInfo, new RecordItemIndex(7));
 					repo.MDIPrincipal.TabMain.TipoHonorarioText.PressKeys(TipHonorario);
@@ -201,8 +201,18 @@ namespace IQDOC_Sanitas.CargaDatos
 					Delay.Milliseconds(0);
 					#endregion
 					
+					
+					try {
+						Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 5s to exist. Associated repository item: 'FrmPOPUp_cof.Btn_CerrarVentana'", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new ActionTimeout(5000), new RecordItemIndex(0));
+						repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo.WaitForExists(5000);
+					} catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
+					
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmPOPUp_cof.Btn_CerrarVentana' at Center.", repo.FrmPOPUp_cof.Btn_CerrarVentanaInfo, new RecordItemIndex(1));
+					repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
+					Delay.Milliseconds(0);
+					
 					#region Screenshot
-					  Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(2));
+					Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(2));
 					#endregion
 				}
 			}

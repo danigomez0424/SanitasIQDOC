@@ -1235,7 +1235,7 @@ KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApaKKAFpaKKAP/2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="pruebassanitas4"
+		KeySequence="PruebasAuto"
 		duration="20ms"
 		enabled="True"
 		optional="False"

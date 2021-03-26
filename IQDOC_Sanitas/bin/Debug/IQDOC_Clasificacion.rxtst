@@ -36,7 +36,7 @@
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
-			reporttemplatefolder="..\..\NewCustomTemplate2"
+			reporttemplatefolder="NewCustomTemplate2"
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
