@@ -27,6 +27,11 @@ mode="Desktop">
 		id="734dc1c9-e2a9-44bd-95d5-081b813e29ff"
 		name="StartAutProcessIDVar">
 		</var>
+		<var
+		id="a5a5dbb4-c5d3-4468-8e26-1b9c5caf4dc6"
+		name="Ruta">
+			.\Aplicacion\IQDOC\IQDOC.exe
+		</var>
 	</variables>
 	<recorditems>
 		<runapprecorditem
@@ -38,10 +43,10 @@ mode="Desktop">
 			<bindings>
 			</bindings>
 			<filename>
-				C:\Compartido\IQDOC\IQDOC.exe
+				\\aquiles\softlib\Salud\Sanitas\PruebasAuto\IQDoc\AplicaciónIQDOC\IQDOC.exe
 			</filename>
 			<workingdir>
-				C:\Compartido\IQDOC
+				\\aquiles\softlib\Salud\Sanitas\PruebasAuto\IQDoc\AplicaciónIQDOC
 			</workingdir>
 			<args>
 			</args>

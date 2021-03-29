@@ -42,6 +42,7 @@ namespace IQDOC_Sanitas.ScriptGeneral
         public StartAUT()
         {
             StartAutProcessIDVar = "";
+            Ruta = ".\\Aplicacion\\IQDOC\\IQDOC.exe";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace IQDOC_Sanitas.ScriptGeneral
         {
             get { return _StartAutProcessIDVar; }
             set { _StartAutProcessIDVar = value; }
+        }
+
+        string _Ruta;
+
+        /// <summary>
+        /// Gets or sets the value of variable Ruta.
+        /// </summary>
+        [TestVariable("a5a5dbb4-c5d3-4468-8e26-1b9c5caf4dc6")]
+        public string Ruta
+        {
+            get { return _Ruta; }
+            set { _Ruta = value; }
         }
 
 #endregion
@@ -92,8 +105,8 @@ namespace IQDOC_Sanitas.ScriptGeneral
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Compartido\\IQDOC\\IQDOC.exe' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("C:\\Compartido\\IQDOC\\IQDOC.exe", "", "C:\\Compartido\\IQDOC", false);
+            Report.Log(ReportLevel.Info, "Application", "Run application '\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQDoc\\AplicaciónIQDOC\\IQDOC.exe' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQDoc\\AplicaciónIQDOC\\IQDOC.exe", "", "\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQDoc\\AplicaciónIQDOC", false);
             Delay.Milliseconds(0);
             
         }

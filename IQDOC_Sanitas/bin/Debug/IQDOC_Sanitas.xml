@@ -2446,6 +2446,11 @@
             Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Ruta">
+            <summary>
+            Gets or sets the value of variable Ruta.
+            </summary>
+        </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Instance"/>.
