@@ -37,9 +37,9 @@ namespace IQDOC_Sanitas.CargaDatos
 		{
 			// TODO: Replace the following line with your code implementation.
 			//   throw new NotImplementedException();
-			string folderid=ParFolderId;
-			
-			if (SolicitudId==folderid){
+//			string folderid=ParFolderId;
+//			
+//			if (SolicitudId==folderid){
 				
 				int index=0;
 				String codigo=string.Empty;
@@ -83,7 +83,7 @@ namespace IQDOC_Sanitas.CargaDatos
 				
 				Report.Info("info","Se hace click al Botón Aceptar");
 				repo.MensajePantalla.Button.Click();
-			}
+//			}
 		}
 
 	}

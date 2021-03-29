@@ -3,6 +3,7 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			enabled="False"
 			id="227fa0ab-cc85-4dfc-932c-c1cec8de0beb"
 			name="AbrirVentanaInfo"
 			ref="1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d"
@@ -214,7 +215,7 @@
 		filename="..\Clasificación.xlsx"
 		id="0e699ea1-f3de-4f84-b507-86d4cc9b09ec"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="999"
 		name="Clasificacion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
