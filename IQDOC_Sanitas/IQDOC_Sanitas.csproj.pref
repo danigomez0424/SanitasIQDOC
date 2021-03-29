@@ -2,19 +2,18 @@
   <Array name="active">
     <Element value="ScriptGeneral\StartAUT.rxrec" />
   </Array>
-  <Array name="bookmarks">
-    <Element value="Breakpoint|C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos\Clasificacion.UserCode.cs|40|4|True|Break||" />
-  </Array>
+  <Array name="bookmarks" />
   <Array name="files">
     <Element value="ScriptGeneral\StartAUT.rxrec" />
     <Element value="ScriptGeneral\Finalizar.rxrec" />
     <Element value="CargaDatos\ValidacionFolder.rxrec" />
-    <Element value="CargaDatos\Clasificacion.UserCode.cs" />
     <Element value="CargaDatos\AbrirVentanaInfo.rxrec" />
     <Element value="IQDOC_Captura.rxtst" />
     <Element value="CargaDatos\ValidacionFolder.UserCode.cs" />
     <Element value="IQDOC_Clasificacion.rxtst" />
     <Element value="CargaDatos\AbrirVentanaInfo.UserCode.cs" />
+    <Element value="CargaDatos\Clasificacion.UserCode.cs" />
+    <Element value="CargaDatos\Clasificacion.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

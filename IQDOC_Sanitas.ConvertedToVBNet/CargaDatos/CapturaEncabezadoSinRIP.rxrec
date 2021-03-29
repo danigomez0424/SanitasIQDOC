@@ -56,7 +56,7 @@ mode="Global">
 		<var
 		id="9c5bd106-8ee2-428e-bc23-310f5502aaca"
 		name="NitIPS">
-			842000144 - ESE UBA NUESTRA SEÑORA DEL CARMEN
+			842000144 - ESE UBA NUESTRA SE&#209;ORA DEL CARMEN
 		</var>
 		<var
 		id="f53dbe53-95a3-40e9-b9f5-2b741287451a"
@@ -1066,12 +1066,12 @@ FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAKrFWDKSCOQR2pKKKAP/Z
 					<attribute
 					name="selectiontext"
 					type="System.String">
-						842000144 - ESE UBA NUESTRA SEÑORA DEL CARMEN
+						842000144 - ESE UBA NUESTRA SE&#209;ORA DEL CARMEN
 					</attribute>
 					<attribute
 					name="text"
 					type="System.String">
-						842000144 - ESE UBA NUESTRA SEÑORA DEL CARMEN
+						842000144 - ESE UBA NUESTRA SE&#209;ORA DEL CARMEN
 					</attribute>
 					<attribute
 					name="apphung"
@@ -1121,7 +1121,7 @@ FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAKrFWDKSCOQR2pKKKAP/Z
 					<attribute
 					name="windowtext"
 					type="System.String">
-						842000144 - ESE UBA NUESTRA SEÑORA DEL CARMEN
+						842000144 - ESE UBA NUESTRA SE&#209;ORA DEL CARMEN
 					</attribute>
 					<dynamicattribute
 					description="The default action of the accessible object."
@@ -6419,7 +6419,7 @@ yfc0+quzNxi90f/Z
 					<attribute
 					name="title"
 					type="System.String">
-						Control de Validación de Campos
+						Control de Validaci&#243;n de Campos
 					</attribute>
 					<attribute
 					name="apphung"
@@ -6464,7 +6464,7 @@ yfc0+quzNxi90f/Z
 					<attribute
 					name="windowtext"
 					type="System.String">
-						Control de Validación de Campos
+						Control de Validaci&#243;n de Campos
 					</attribute>
 					<dynamicattribute
 					description="The default action of the accessible object."
@@ -6542,8 +6542,8 @@ yfc0+quzNxi90f/Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CapturaEncabezadoSinRIP.UserCode.cs
+	lang="VBNet">
+		CapturaEncabezadoSinRIP.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

@@ -38,51 +38,61 @@ namespace IQDOC_Sanitas.CargaDatos
 			// TODO: Replace the following line with your code implementation.
 			//   throw new NotImplementedException();
 //			string folderid=ParFolderId;
-//			
+//
 //			if (SolicitudId==folderid){
+			
+			int index=0;
+			String codigo=string.Empty;
+			Random rnd = new Random();
+			
+			
+			while (!repo.MensajePantalla.FinDocumentoInfo.Exists(2000))
 				
-				int index=0;
-				String codigo=string.Empty;
-				Random rnd = new Random();
-				
-				
-				while (!repo.MensajePantalla.FinDocumentoInfo.Exists(2000))
-					
+			{
+				try {
+					Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'MensajePantalla.Button' at Center.", repo.MensajePantalla.ButtonInfo, new RecordItemIndex(3));
+					repo.MensajePantalla.Button.Click();
+					Delay.Milliseconds(0);
+				} catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+				int num = rnd.Next(1,44);
+				//WinForms.MessageBox.Show(num.ToString());
+				if (index==0)
 				{
-					
-					int num = rnd.Next(1,44);
-					//WinForms.MessageBox.Show(num.ToString());
-					if (index==0)
+					codigo="00";
+				}
+				else
+				{
+					if (num<10)
 					{
-						codigo="00";
+						codigo="0"+num.ToString();
 					}
-					else
-					{
-						if (num<10)
-						{
-							codigo="0"+num.ToString();
-						}
-						
-						else{
-							codigo=num.ToString();
-						}
-						
+					
+					else{
+						codigo=num.ToString();
 					}
-					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo' at 10;13.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(1));
-					repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.DoubleClick();
-					// repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.Click("10;13");
-					Delay.Milliseconds(0);
 					
-					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(2));
-					repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.PressKeys(codigo);
-					Delay.Milliseconds(0);
-					
-					index++;
-					codigo=string.Empty;
 				}
 				
-				Report.Info("info","Se hace click al Botón Aceptar");
-				repo.MensajePantalla.Button.Click();
+				
+				
+				Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo' at 10;13.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(1));
+				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.DoubleClick();
+				// repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.Click("10;13");
+				Delay.Milliseconds(0);
+				
+				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(2));
+				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.PressKeys(codigo);
+				Delay.Milliseconds(0);
+				
+				index++;
+				codigo=string.Empty;
+				
+				
+				
+			}
+			
+			Report.Info("info","Se hace click al Botón Aceptar");
+			repo.MensajePantalla.Button.Click();
 //			}
 		}
 

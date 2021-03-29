@@ -2369,8 +2369,8 @@ Z/w/mKAOSooooA//2Q==
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CargaDevolucion.UserCode.cs
+	lang="VBNet">
+		CargaDevolucion.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

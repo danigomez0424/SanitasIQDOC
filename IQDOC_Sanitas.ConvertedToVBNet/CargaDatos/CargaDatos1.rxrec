@@ -976,8 +976,8 @@ oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CargaDatos1.UserCode.cs
+	lang="VBNet">
+		CargaDatos1.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>
