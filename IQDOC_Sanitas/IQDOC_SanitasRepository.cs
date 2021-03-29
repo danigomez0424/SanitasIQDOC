@@ -842,7 +842,7 @@ namespace IQDOC_Sanitas
                 _copy_of_cmdsaveInfo = new RepoItemInfo(this, "Copy_of_CmdSave", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdSave']", 1000, null, "49183410-23dc-46d4-98ab-6ba322071033");
                 _tabmain1Info = new RepoItemInfo(this, "TabMain1", "?/?//?/?/container[@controlname='pnlCampos']/?/?/tabpage[@controlname='tabMain']", 30000, null, "a3abedd3-2a88-4b81-9bdf-fd2159751429");
                 _cmdterminarInfo = new RepoItemInfo(this, "CmdTerminar", "?/?/form[@controlname='FrmCapturer']/?/?/button[@controlname='CmdTerminar']", 30000, null, "223dc3f2-9ad1-4535-819e-d10a7462f816");
-                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?//container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']", 30000, null, "10b5a593-3270-469f-a0db-ec2e4b0c30c6");
+                _somecontainerInfo = new RepoItemInfo(this, "SomeContainer", "?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']", 30000, null, "10b5a593-3270-469f-a0db-ec2e4b0c30c6");
                 _labelopcionesInfo = new RepoItemInfo(this, "LabelOpciones", "?/?/form[@controlname='FrmCapturer']/text[@controlname='LabelOpciones']", 30000, null, "c8e76f2d-6864-42aa-83f9-5112253a5aa5");
                 _cboproductosInfo = new RepoItemInfo(this, "CboProductos", ".//combobox[@controlname~'(?i:CboProductos)']", 30000, null, "07b6b840-ccdd-4811-9c8d-34dd553b047f");
                 _copy_of_btn_guadarclasiInfo = new RepoItemInfo(this, "Copy_of_Btn_GuadarClasi", "?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='SSSplitter1']/?/?/button[@controlname='CmdSave' and @enabled='True']", 30000, null, "52045236-b803-43ce-b5d4-036bc7f704e6");
@@ -2599,7 +2599,7 @@ namespace IQDOC_Sanitas
             public MensajePantallaAppFolder(RepoGenBaseFolder parentFolder) :
                     base("MensajePantalla", "/form[@class='#32770']", parentFolder, 10000, null, true, "0b958bd4-d0bb-484a-bda9-906676cc9f3c", "")
             {
-                _buttonInfo = new RepoItemInfo(this, "Button", "button", 1000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
+                _buttonInfo = new RepoItemInfo(this, "Button", "button", 30000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
                 _staticInfo = new RepoItemInfo(this, "Static", "text", 30000, null, "a3e03ec5-dbb3-405a-b536-eab479635086");
                 _findocumentoInfo = new RepoItemInfo(this, "FinDocumento", "text[@windowtext~'Esta ubicado en el último documento']", 30000, null, "d97473c4-24fb-4ce1-ba9f-762e20d87d57");
             }
