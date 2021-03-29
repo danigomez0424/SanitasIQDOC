@@ -42,7 +42,6 @@ namespace IQDOC_Sanitas.ScriptGeneral
         public StartAUT()
         {
             StartAutProcessIDVar = "";
-            Ruta = ".\\Aplicacion\\IQDOC\\IQDOC.exe";
         }
 
         /// <summary>
@@ -65,18 +64,6 @@ namespace IQDOC_Sanitas.ScriptGeneral
         {
             get { return _StartAutProcessIDVar; }
             set { _StartAutProcessIDVar = value; }
-        }
-
-        string _Ruta;
-
-        /// <summary>
-        /// Gets or sets the value of variable Ruta.
-        /// </summary>
-        [TestVariable("a5a5dbb4-c5d3-4468-8e26-1b9c5caf4dc6")]
-        public string Ruta
-        {
-            get { return _Ruta; }
-            set { _Ruta = value; }
         }
 
 #endregion

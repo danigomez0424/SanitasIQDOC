@@ -1041,7 +1041,7 @@ QmCC
 			name="Button"
 			refimgid="812d57b3-67d2-486d-bdb9-bba8c2f268ed"
 			refpath="/form[@class='#32770']/button"
-			searchtimeout="5000ms">
+			searchtimeout="1000ms">
 				/form[@class='#32770']/button
 			</item>
 			<item

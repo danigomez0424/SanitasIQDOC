@@ -29,6 +29,12 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="03218748-0f78-4c37-8bbb-5dd8b23aede3"
+			name="CerrarVentana"
+			ref="30577740-bd96-408e-9563-928d2ec44b80"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="0634dcc1-2c59-4c9e-9eee-8a39e1014872"
 			name="CargaDatosFinal"
 			ref="1082ab58-4f54-48fc-b87c-c199e87779ab"
@@ -68,6 +74,7 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="17a4a13d-f767-45d0-87ac-f0fc124e4d3e"
 			name="ValidacionFolder"
 			ref="1de422d3-6c34-4bb9-86fb-80de3ace7aa3"
@@ -187,6 +194,12 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="3460df46-9aee-4950-b9ae-481c2dbd10be"
+			name="CargaDatosFinal"
+			ref="1082ab58-4f54-48fc-b87c-c199e87779ab"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="CapturaRIPS"
 			id="381ef81c-7df9-4304-94cb-095922a3a4bc"
@@ -214,13 +227,13 @@
 			name="setup">
 			</setup>
 			<testmodule
+			enabled="False"
 			id="463bc346-1068-4b0c-b57d-0dc3154fc16c"
 			name="AceptarNoHay"
 			ref="72070569-0d20-43bc-b8a4-830e3dfd3c1f"
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="4b8cb056-14e0-4617-b537-8ff6af5e237e"
 			name="CargaDatos4"
 			ref="447d2d85-1269-425b-bf56-108d6d5926a5"
@@ -239,8 +252,17 @@
 			name="Login"
 			ref="2ba9adbb-a40f-4ce1-93a5-6ce1377abf3c"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Usuario"
+					datasourceid="97bf85df-b80a-4497-a637-ded3e3306ac3"
+					variableid="07e8eff5-4ed2-47d1-964f-1542d38d635e"
+					variablename="Usuario">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="514bb546-b43c-486d-a4e1-c248f1208457"
 			name="AbrirVentanaInfo"
 			ref="1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d"
@@ -428,7 +450,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="8cf50fd9-231f-4abc-871e-d4cbfcd93ea1"
 			name="CargaDevolucion"
 			ref="350af07b-c0bc-4558-ac35-9ca5dc87b773"
@@ -443,7 +464,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="8fa345bd-6913-4fa8-b800-560e22e95ddb"
 			name="CargaDatos1"
 			ref="bfcefec9-b881-4f15-a319-ba9007457abe"
@@ -583,6 +603,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="Usuaio"
+			id="add01a51-eb28-4a18-ac49-b052692e9f9d"
+			name="Login">
+			</testcase>
 			<testmodule
 			id="b1b72531-c391-4e2f-b692-83d8d6a0d309"
 			name="CargaDatos1"
@@ -621,6 +646,9 @@
 			datasource="ListaSolicitud"
 			id="b434ca11-39e7-43f4-9680-3cd5addcb899"
 			name="SmartFolder">
+				<description>
+					<![CDATA[Verificación Folder_ID por codigo]]>
+				</description>
 			</smartfoldernode>
 			<testmodule
 			id="b7d2d125-9d1c-4a4f-997f-7a1ac18d0212"
@@ -694,7 +722,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="c2c1043b-0491-4bae-ad15-bfe2c67a4dbf"
 			name="CargaDatos3"
 			ref="2a2f6d57-9bb4-4fb1-9d0f-244755663ab8"
@@ -718,6 +745,12 @@
 			id="c39da7f0-1ae7-440c-bd5e-4e39762a7bf6"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="caad2dd4-f0d7-47b9-baef-4b4feb39434c"
+			name="AceptarDevoluciones"
+			ref="1303436b-b7e7-4a1d-b93e-cf185c12c7b0"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="cb3e4715-c52c-4a4e-b837-7c64c3b9478b"
 			name="CargaDatos1"
@@ -911,7 +944,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="f2dbf3ee-12e6-4c9a-8b57-3533933c0ff1"
 			name="CargaDatos2"
 			ref="efdb6eb4-334f-4ba0-8203-3ff7442ffb76"
@@ -992,18 +1024,22 @@
 				<testcase
 				id="78a08fb4-b2b1-4dd3-ba06-8a67a5cf997d"
 				name="IQDOC_Captura">
-					<setup
-					id="5626d03a-de88-4d18-8135-1f26843d8811"
-					name="setup">
-						<testmodule
-						id="814c2521-85bf-4601-8ca7-119c1d79613a"
-						name="StartAUT">
-						</testmodule>
-						<testmodule
-						id="50519117-002c-4d98-8208-e4010e806026"
-						name="Login">
-						</testmodule>
-					</setup>
+					<testcase
+					id="add01a51-eb28-4a18-ac49-b052692e9f9d"
+					name="Login">
+						<setup
+						id="5626d03a-de88-4d18-8135-1f26843d8811"
+						name="setup">
+							<testmodule
+							id="814c2521-85bf-4601-8ca7-119c1d79613a"
+							name="StartAUT">
+							</testmodule>
+							<testmodule
+							id="50519117-002c-4d98-8208-e4010e806026"
+							name="Login">
+							</testmodule>
+						</setup>
+					</testcase>
 					<testcase
 					id="f6cb97b2-0052-4d9c-a136-a5603b5e3386"
 					name="Test_Case_01">
@@ -1082,6 +1118,18 @@
 						<testmodule
 						id="8cf50fd9-231f-4abc-871e-d4cbfcd93ea1"
 						name="CargaDevolucion">
+						</testmodule>
+						<testmodule
+						id="3460df46-9aee-4950-b9ae-481c2dbd10be"
+						name="CargaDatosFinal">
+						</testmodule>
+						<testmodule
+						id="caad2dd4-f0d7-47b9-baef-4b4feb39434c"
+						name="AceptarDevoluciones">
+						</testmodule>
+						<testmodule
+						id="03218748-0f78-4c37-8bbb-5dd8b23aede3"
+						name="CerrarVentana">
 						</testmodule>
 						<testmodule
 						id="514bb546-b43c-486d-a4e1-c248f1208457"
@@ -1389,9 +1437,38 @@
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
+		<DataSource
+		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\Captura.xlsx"
+		id="97bf85df-b80a-4497-a637-ded3e3306ac3"
+		includefile="Unchecked"
+		lastknownrowcount="1"
+		name="Usuaio"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Usuario"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Usuario
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="Captura">
+		<testconfiguration
+		name="Captura">
+			<testcontainer
+			id="78a08fb4-b2b1-4dd3-ba06-8a67a5cf997d">
+			</testcontainer>
+			<testcontainer
+			id="9aff082e-e7ac-4a14-8011-8123b2dce44f">
+			</testcontainer>
+			<testcontainer
+			id="add01a51-eb28-4a18-ac49-b052692e9f9d">
+			</testcontainer>
+		</testconfiguration>
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
@@ -1401,7 +1478,7 @@
 			id="9aff082e-e7ac-4a14-8011-8123b2dce44f">
 			</testcontainer>
 			<testcontainer
-			id="b434ca11-39e7-43f4-9680-3cd5addcb899">
+			id="add01a51-eb28-4a18-ac49-b052692e9f9d">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

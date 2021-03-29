@@ -2265,6 +2265,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Login.Usuario">
+            <summary>
+            Gets or sets the value of variable Usuario.
+            </summary>
+        </member>
         <member name="P:IQDOC_Sanitas.ScriptGeneral.Login.Compania">
             <summary>
             Gets or sets the value of variable Compania.
@@ -2444,11 +2449,6 @@
         <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.StartAutProcessIDVar">
             <summary>
             Gets or sets the value of variable StartAutProcessIDVar.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Ruta">
-            <summary>
-            Gets or sets the value of variable Ruta.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Start">

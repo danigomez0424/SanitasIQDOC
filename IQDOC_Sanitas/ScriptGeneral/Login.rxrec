@@ -23,6 +23,11 @@ mode="Desktop">
 	namespace="IQDOC_Sanitas.ScriptGeneral">
 	</codegen>
 	<variables>
+		<var
+		id="07e8eff5-4ed2-47d1-964f-1542d38d635e"
+		name="Usuario">
+			PruebasAuto
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -1244,6 +1249,10 @@ KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApaKKAFpaKKAP/2Q==
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Usuario">
+				</binding>
 			</bindings>
 			<info
 			id="a429c1ce-ef31-4c2c-9b21-a7619017f546"
@@ -3665,7 +3674,7 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUtFFAC0tFFAH//2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="Test.2019"
+		KeySequence="Test.2021"
 		duration="20ms"
 		enabled="True"
 		optional="False"

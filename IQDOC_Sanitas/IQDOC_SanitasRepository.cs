@@ -2599,7 +2599,7 @@ namespace IQDOC_Sanitas
             public MensajePantallaAppFolder(RepoGenBaseFolder parentFolder) :
                     base("MensajePantalla", "/form[@class='#32770']", parentFolder, 10000, null, true, "0b958bd4-d0bb-484a-bda9-906676cc9f3c", "")
             {
-                _buttonInfo = new RepoItemInfo(this, "Button", "button", 5000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
+                _buttonInfo = new RepoItemInfo(this, "Button", "button", 1000, null, "de688fdc-0e42-432d-a3aa-7aebe3931d97");
                 _staticInfo = new RepoItemInfo(this, "Static", "text", 30000, null, "a3e03ec5-dbb3-405a-b536-eab479635086");
                 _findocumentoInfo = new RepoItemInfo(this, "FinDocumento", "text[@windowtext~'Esta ubicado en el último documento']", 30000, null, "d97473c4-24fb-4ce1-ba9f-762e20d87d57");
             }

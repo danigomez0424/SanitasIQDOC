@@ -1603,17 +1603,28 @@ h3#testCasesHeader {
     display: none !important;
 }
 
-/* Uncomment to customize your report
+/* Uncomment to customize your report */
         body {
-            background-color: #EEEEEE;
-            background-image: url(YourBackgroundImage.png);
-            background-position: 0;
+            background-color: #ffffff;
+            background-image: url(Background_IQ.png);
+            background-position: -1px -17px;
        }
 
         #header-top #logo span {
-            height: 32px;
-            width: 128px;
-            background-image: url(YourLogo.png);
+            height: 100px;
+            width: auto;
+            background-image: url(header_IQ.png);
             background-position: 0;
         }
-        */
+
+        div#page {
+            margin-top: 30px;
+        }
+
+        /*Success Validation*/
+        tr.Success {
+            color: #272460;
+            font-weight: bold;
+        }
+
+        
