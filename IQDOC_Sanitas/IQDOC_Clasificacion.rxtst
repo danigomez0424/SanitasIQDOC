@@ -234,7 +234,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\Captura.xlsx"
+		filename="..\Captura.xlsx"
 		id="e84d44e5-3399-4014-9256-8e0bd2eb4711"
 		includefile="Unchecked"
 		lastknownrowcount="1"
