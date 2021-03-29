@@ -1303,8 +1303,8 @@ KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		lOGOUT.UserCode.cs
+	lang="VBNet">
+		lOGOUT.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

@@ -376,8 +376,8 @@ KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		MENUCAP.UserCode.cs
+	lang="VBNet">
+		MENUCAP.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

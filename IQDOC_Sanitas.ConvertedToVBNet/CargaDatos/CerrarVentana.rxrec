@@ -88,8 +88,8 @@ mode="Global">
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CerrarVentana.UserCode.cs
+	lang="VBNet">
+		CerrarVentana.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

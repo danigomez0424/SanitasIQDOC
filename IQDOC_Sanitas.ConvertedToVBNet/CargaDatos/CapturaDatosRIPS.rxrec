@@ -3099,8 +3099,8 @@ j//Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CapturaDatosRIPS.UserCode.cs
+	lang="VBNet">
+		CapturaDatosRIPS.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

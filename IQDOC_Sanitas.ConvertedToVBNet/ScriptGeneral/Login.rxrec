@@ -8652,8 +8652,8 @@ BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		Login.UserCode.cs
+	lang="VBNet">
+		Login.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

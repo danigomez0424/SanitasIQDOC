@@ -1033,7 +1033,7 @@ QmCC
 		isrooted="True"
 		name="MensajePantalla"
 		refpath="/form[@class='#32770']"
-		searchtimeout="10000ms"
+		searchtimeout="5000ms"
 		usecache="True">
 			<item
 			addcaps="button,nativewindow"

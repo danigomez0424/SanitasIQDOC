@@ -88,8 +88,8 @@ mode="Global">
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		Finalizar.UserCode.cs
+	lang="VBNet">
+		Finalizar.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

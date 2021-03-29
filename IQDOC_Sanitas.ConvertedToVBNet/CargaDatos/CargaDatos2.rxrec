@@ -622,8 +622,8 @@ mode="Global">
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CargaDatos2.UserCode.cs
+	lang="VBNet">
+		CargaDatos2.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

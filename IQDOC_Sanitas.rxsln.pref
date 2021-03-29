@@ -16,6 +16,10 @@
       <string>29867efc-28ff-43ec-a1a4-05870effbafa</string>
     </ArrayOfString>
   </SerializedValue>
+<<<<<<< HEAD
   <ProjectBrowserState value="[Solution IQDOC_Sanitas[Solution Items[]IQDOC_Sanitas[IQDOC_SanitasRepository.rxrep[]]]]&#xD;&#xA;Solution IQDOC_Sanitas&#xD;&#xA;Solution IQDOC_Sanitas" />
+=======
+  <ProjectBrowserState value="[Solution IQDOC_Sanitas[Solution Items[]IQDOC_Sanitas[IQDOC_SanitasRepository.rxrep[]]]]&#xD;&#xA;Solution IQDOC_Sanitas\IQDOC_Sanitas\ScriptGeneral&#xD;&#xA;Solution IQDOC_Sanitas\IQDOC_Sanitas\References" />
+>>>>>>> 14650d193505d2e0ce9b559299c0a9c243862a76
   <StartupProject value="{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}" />
 </Properties>

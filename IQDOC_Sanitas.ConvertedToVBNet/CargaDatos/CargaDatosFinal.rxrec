@@ -978,8 +978,8 @@ j//Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CargaDatosFinal.UserCode.cs
+	lang="VBNet">
+		CargaDatosFinal.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>
