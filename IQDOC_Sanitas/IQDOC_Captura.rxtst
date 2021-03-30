@@ -1375,7 +1375,7 @@
 		filename="..\Captura.xlsx"
 		id="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
 		includefile="Unchecked"
-		lastknownrowcount="1000"
+		lastknownrowcount="993"
 		name="ListaSolicitud"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja3"
