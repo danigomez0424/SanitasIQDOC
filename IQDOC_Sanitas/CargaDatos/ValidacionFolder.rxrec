@@ -68,7 +68,6 @@ mode="Global">
 		id="7dbad027-2d8d-4446-aece-e29e376e2259"
 		name="ParFolderId">
 		</var>
-<<<<<<< HEAD
 		<var
 		id="9699049f-17bb-454d-8b7e-01c2f33c6f90"
 		name="TipoNoPbs">
@@ -77,8 +76,6 @@ mode="Global">
 		id="4da9608c-7426-432a-b6ca-2e301e030daf"
 		name="CBOProducto">
 		</var>
-=======
->>>>>>> d5fc6b8932ba0c5016568e4e8c9d1084b9ad779b
 	</variables>
 	<recorditems>
 		<userrecorditem
