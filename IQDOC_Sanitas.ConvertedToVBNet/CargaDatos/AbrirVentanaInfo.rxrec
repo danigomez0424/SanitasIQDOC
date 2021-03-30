@@ -76,17 +76,17 @@ mode="Global">
 					<attribute
 					name="controlname"
 					type="System.String">
-						&#57350;
+						
 					</attribute>
 					<attribute
 					name="controltype"
 					type="System.String">
-						&#57345;
+						
 					</attribute>
 					<attribute
 					name="controltypename"
 					type="System.String">
-						&#57345;
+						
 					</attribute>
 					<attribute
 					name="apphung"
@@ -799,7 +799,7 @@ mode="Global">
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='&#57350;']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']
 				</path>
 			</info>
 			<helperscreenshot

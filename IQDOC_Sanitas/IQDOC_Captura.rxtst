@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -1363,7 +1363,7 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="..\CapturaRIP.xlsx"
+		filename="..\DataSource\CapturaRIP.xlsx"
 		id="dd3c6c91-60d1-427a-80ba-e9aa0230f1b7"
 		includefile="Unchecked"
 		lastknownrowcount="5"
@@ -1398,7 +1398,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="..\Captura.xlsx"
+		filename="..\DataSource\Captura.xlsx"
 		id="d28ca636-fef2-41b9-8af2-f1721e24594c"
 		includefile="Unchecked"
 		lastknownrowcount="1000"
@@ -1451,7 +1451,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="..\Captura.xlsx"
+		filename="..\DataSource\Captura.xlsx"
 		id="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
 		includefile="Unchecked"
 		lastknownrowcount="993"
@@ -1471,7 +1471,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="..\Captura.xlsx"
+		filename="..\DataSource\Captura.xlsx"
 		id="97bf85df-b80a-4497-a637-ded3e3306ac3"
 		includefile="Unchecked"
 		lastknownrowcount="1"

@@ -149,7 +149,7 @@ mode="Global">
 					</dynamicaction>
 				</element>
 				<path>
-					/form[@title='Facturaci&#243;n Electr&#243;nica']/button[@text='Aceptar']
+					/form[@title='Facturación Electrónica']/button[@text='Aceptar']
 				</path>
 			</info>
 		</mouseitem>

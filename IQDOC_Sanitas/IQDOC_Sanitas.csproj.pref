@@ -1,32 +1,15 @@
 ﻿<Properties>
   <Array name="active">
-<<<<<<< HEAD
     <Element value="CargaDatos\Clasificacion.UserCode.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="CargaDatos\Clasificacion.rxrec" />
-=======
-    <Element value="ScriptGeneral\StartAUT.rxrec" />
-  </Array>
-  <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="ScriptGeneral\StartAUT.rxrec" />
-    <Element value="ScriptGeneral\Finalizar.rxrec" />
-    <Element value="CargaDatos\ValidacionFolder.rxrec" />
-    <Element value="CargaDatos\AbrirVentanaInfo.rxrec" />
->>>>>>> 14650d193505d2e0ce9b559299c0a9c243862a76
     <Element value="IQDOC_Captura.rxtst" />
     <Element value="ScriptGeneral\Login.rxrec" />
-    <Element value="CargaDatos\Clasificacion.UserCode.cs" />
     <Element value="ScriptGeneral\StartAUT.rxrec" />
     <Element value="IQDOC_Clasificacion.rxtst" />
-<<<<<<< HEAD
-=======
-    <Element value="CargaDatos\AbrirVentanaInfo.UserCode.cs" />
     <Element value="CargaDatos\Clasificacion.UserCode.cs" />
-    <Element value="CargaDatos\Clasificacion.rxrec" />
->>>>>>> 14650d193505d2e0ce9b559299c0a9c243862a76
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
