@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="3232176a-0082-4e37-8bf1-1a1522285d1b"
-mode="Desktop">
+id="95498a60-111c-4ec1-b77c-846eb8c02e14"
+mode="Global">
 	<repeatcount>
 		1
 	</repeatcount>
@@ -19,33 +19,36 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="StartAUT"
+	classname="AceptarNoHay"
 	namespace="IQDOC_Sanitas.ScriptGeneral">
 	</codegen>
 	<variables>
-		<var
-		id="734dc1c9-e2a9-44bd-95d5-081b813e29ff"
-		name="StartAutProcessIDVar">
-		</var>
 	</variables>
 	<recorditems>
-		<runapprecorditem
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
 		enabled="True"
-		maximized="False"
-		optional="False">
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="6a12d8d1-a43b-4f92-9952-fbaa21f6fa6f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<filename>
-				\\aquiles\softlib\Salud\Sanitas\PruebasAuto\IQDoc\AplicaciónIQDOC\IQDOC.exe
-			</filename>
-			<workingdir>
-				\\aquiles\softlib\Salud\Sanitas\PruebasAuto\IQDoc\AplicaciónIQDOC
-			</workingdir>
-			<args>
-			</args>
-		</runapprecorditem>
+			<info
+			id="de688fdc-0e42-432d-a3aa-7aebe3931d97"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@class='#32770']/button
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"
@@ -62,7 +65,7 @@ mode="Desktop">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		StartAUT.UserCode.cs
+		AceptarNoHay.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

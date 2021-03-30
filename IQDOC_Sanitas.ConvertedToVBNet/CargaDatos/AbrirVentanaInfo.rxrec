@@ -3014,8 +3014,8 @@ opKWgAooooAKKKKACiiigAooooAKKSigBaKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		AbrirVentanaInfo.UserCode.cs
+	lang="VBNet">
+		AbrirVentanaInfo.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

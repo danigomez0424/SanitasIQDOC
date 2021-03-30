@@ -1,4 +1,5 @@
-﻿<repository
+<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"
 name="IQDOC_SanitasRepository">
 	<codegen
@@ -554,7 +555,7 @@ OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
 			name="SomeContainer"
 			refimgid="44b2dc50-3d9e-4cc9-9492-0cb5af30db87"
 			searchtimeout="30000ms">
-				/form[@controlname='MDIPrincipal']/?/?//container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']
+				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']
 			</item>
 			<item
 			addcaps="text,control,nativewindow"
@@ -1032,7 +1033,7 @@ QmCC
 		isrooted="True"
 		name="MensajePantalla"
 		refpath="/form[@class='#32770']"
-		searchtimeout="10000ms"
+		searchtimeout="5000ms"
 		usecache="True">
 			<item
 			addcaps="button,nativewindow"
@@ -1041,7 +1042,7 @@ QmCC
 			name="Button"
 			refimgid="812d57b3-67d2-486d-bdb9-bba8c2f268ed"
 			refpath="/form[@class='#32770']/button"
-			searchtimeout="5000ms">
+			searchtimeout="30000ms">
 				/form[@class='#32770']/button
 			</item>
 			<item

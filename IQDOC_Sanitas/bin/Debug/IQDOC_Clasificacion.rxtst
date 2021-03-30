@@ -3,6 +3,7 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			enabled="False"
 			id="227fa0ab-cc85-4dfc-932c-c1cec8de0beb"
 			name="AbrirVentanaInfo"
 			ref="1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d"
@@ -40,11 +41,18 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
-			enabled="False"
 			id="4f168ac2-296f-41c4-9d5f-2d5ad31e5c72"
 			name="Login"
 			ref="2ba9adbb-a40f-4ce1-93a5-6ce1377abf3c"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Usuario"
+					datasourceid="e84d44e5-3399-4014-9256-8e0bd2eb4711"
+					variableid="07e8eff5-4ed2-47d1-964f-1542d38d635e"
+					variablename="Usuario">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="4fc9bbf0-82c2-424d-bd1a-d3318724bc1a"
@@ -114,7 +122,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="ea86d655-e651-4f42-8234-103a5f272e7c"
 			name="StartAUT"
 			ref="3232176a-0082-4e37-8bf1-1a1522285d1b"
@@ -128,6 +135,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="Usuario"
+			id="f30d6758-9030-4907-ad2c-66ef66058fa4"
+			name="Login">
+			</testcase>
 			<testmodule
 			id="fd1e4633-c118-4496-8e55-28773b6bd76a"
 			name="SeleccionarProducto"
@@ -150,18 +162,22 @@
 				<testcase
 				id="61d8571e-53d9-4e0e-96e1-e4604e98d40e"
 				name="IQDOC_Clasificacion">
-					<setup
-					id="9e3dd726-1522-46e9-91de-3f0b76c5a6c8"
-					name="setup">
-						<testmodule
-						id="ea86d655-e651-4f42-8234-103a5f272e7c"
-						name="StartAUT">
-						</testmodule>
-						<testmodule
-						id="4f168ac2-296f-41c4-9d5f-2d5ad31e5c72"
-						name="Login">
-						</testmodule>
-					</setup>
+					<testcase
+					id="f30d6758-9030-4907-ad2c-66ef66058fa4"
+					name="Login">
+						<setup
+						id="9e3dd726-1522-46e9-91de-3f0b76c5a6c8"
+						name="setup">
+							<testmodule
+							id="ea86d655-e651-4f42-8234-103a5f272e7c"
+							name="StartAUT">
+							</testmodule>
+							<testmodule
+							id="4f168ac2-296f-41c4-9d5f-2d5ad31e5c72"
+							name="Login">
+							</testmodule>
+						</setup>
+					</testcase>
 					<testcase
 					id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa"
 					name="TestCase_01">
@@ -196,10 +212,10 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Proyectos\Ranorex\IQDOC_Sanitas\IQDOC_Sanitas\Clasificación.xlsx"
+		filename="..\..\..\Clasificación.xlsx"
 		id="0e699ea1-f3de-4f84-b507-86d4cc9b09ec"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="999"
 		name="Clasificacion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -218,9 +234,38 @@
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
+		<DataSource
+		filename="..\..\..\Captura.xlsx"
+		id="e84d44e5-3399-4014-9256-8e0bd2eb4711"
+		includefile="Unchecked"
+		lastknownrowcount="1"
+		name="Usuario"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Usuario"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Usuario
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="Calsificacion">
+		<testconfiguration
+		name="Calsificacion">
+			<testcontainer
+			id="61d8571e-53d9-4e0e-96e1-e4604e98d40e">
+			</testcontainer>
+			<testcontainer
+			id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa">
+			</testcontainer>
+			<testcontainer
+			id="f30d6758-9030-4907-ad2c-66ef66058fa4">
+			</testcontainer>
+		</testconfiguration>
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
@@ -228,6 +273,9 @@
 			</testcontainer>
 			<testcontainer
 			id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa">
+			</testcontainer>
+			<testcontainer
+			id="f30d6758-9030-4907-ad2c-66ef66058fa4">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

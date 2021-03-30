@@ -41,6 +41,7 @@ namespace IQDOC_Sanitas.ScriptGeneral
         /// </summary>
         public Login()
         {
+            Usuario = "PruebasAuto";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace IQDOC_Sanitas.ScriptGeneral
         }
 
 #region Variables
+
+        string _Usuario;
+
+        /// <summary>
+        /// Gets or sets the value of variable Usuario.
+        /// </summary>
+        [TestVariable("07e8eff5-4ed2-47d1-964f-1542d38d635e")]
+        public string Usuario
+        {
+            get { return _Usuario; }
+            set { _Usuario = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Compania.
@@ -103,16 +116,16 @@ namespace IQDOC_Sanitas.ScriptGeneral
             repo.FrmLogin.TxtLogin.Click("18;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'PruebasAuto' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(1));
-            repo.FrmLogin.TxtLogin.PressKeys("PruebasAuto");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Usuario' with focus on 'FrmLogin.TxtLogin'.", repo.FrmLogin.TxtLoginInfo, new RecordItemIndex(1));
+            repo.FrmLogin.TxtLogin.PressKeys(Usuario);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.TxtPassword' at 33;5.", repo.FrmLogin.TxtPasswordInfo, new RecordItemIndex(2));
             repo.FrmLogin.TxtPassword.Click("33;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test.2019' with focus on 'FrmLogin.TxtPassword'.", repo.FrmLogin.TxtPasswordInfo, new RecordItemIndex(3));
-            repo.FrmLogin.TxtPassword.PressKeys("Test.2019");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test.2021' with focus on 'FrmLogin.TxtPassword'.", repo.FrmLogin.TxtPasswordInfo, new RecordItemIndex(3));
+            repo.FrmLogin.TxtPassword.PressKeys("Test.2021");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmLogin.CmbCompania' at 66;16.", repo.FrmLogin.CmbCompaniaInfo, new RecordItemIndex(4));

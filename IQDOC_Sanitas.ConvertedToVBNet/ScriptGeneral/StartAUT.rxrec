@@ -61,8 +61,8 @@ mode="Desktop">
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		StartAUT.UserCode.cs
+	lang="VBNet">
+		StartAUT.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

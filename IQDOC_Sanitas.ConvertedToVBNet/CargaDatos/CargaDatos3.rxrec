@@ -96,8 +96,8 @@ mode="Global">
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CargaDatos3.UserCode.cs
+	lang="VBNet">
+		CargaDatos3.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

@@ -1026,8 +1026,8 @@ j//Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CargarDatosFinalSinRIPS.UserCode.cs
+	lang="VBNet">
+		CargarDatosFinalSinRIPS.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

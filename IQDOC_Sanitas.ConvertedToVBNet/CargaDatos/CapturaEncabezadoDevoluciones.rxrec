@@ -8847,8 +8847,8 @@ FFFFABRRRQAUUUUAf//Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CapturaEncabezadoDevoluciones.UserCode.cs
+	lang="VBNet">
+		CapturaEncabezadoDevoluciones.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

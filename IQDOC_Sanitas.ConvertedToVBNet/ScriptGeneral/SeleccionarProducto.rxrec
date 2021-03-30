@@ -2087,8 +2087,8 @@ RzMPq9PsH2b/AG/0o+zf7f6UUUczD6vT7CrAVYMshBHIIHSk+z/7f6UUUczD6vT7H//Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		SeleccionarProducto.UserCode.cs
+	lang="VBNet">
+		SeleccionarProducto.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

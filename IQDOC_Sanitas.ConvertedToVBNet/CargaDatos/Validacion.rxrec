@@ -1282,8 +1282,8 @@ mode="Global">
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		Validacion.UserCode.cs
+	lang="VBNet">
+		Validacion.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>

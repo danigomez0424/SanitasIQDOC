@@ -24,47 +24,34 @@ namespace IQDOC_Sanitas.ScriptGeneral
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The StartAUT recording.
+    ///The AceptarNoHay recording.
     /// </summary>
-    [TestModule("3232176a-0082-4e37-8bf1-1a1522285d1b", ModuleType.Recording, 1)]
-    public partial class StartAUT : ITestModule
+    [TestModule("95498a60-111c-4ec1-b77c-846eb8c02e14", ModuleType.Recording, 1)]
+    public partial class AceptarNoHay : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
         /// </summary>
         public static global::IQDOC_Sanitas.IQDOC_SanitasRepository repo = global::IQDOC_Sanitas.IQDOC_SanitasRepository.Instance;
 
-        static StartAUT instance = new StartAUT();
+        static AceptarNoHay instance = new AceptarNoHay();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public StartAUT()
+        public AceptarNoHay()
         {
-            StartAutProcessIDVar = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static StartAUT Instance
+        public static AceptarNoHay Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _StartAutProcessIDVar;
-
-        /// <summary>
-        /// Gets or sets the value of variable StartAutProcessIDVar.
-        /// </summary>
-        [TestVariable("734dc1c9-e2a9-44bd-95d5-081b813e29ff")]
-        public string StartAutProcessIDVar
-        {
-            get { return _StartAutProcessIDVar; }
-            set { _StartAutProcessIDVar = value; }
-        }
 
 #endregion
 
@@ -92,9 +79,11 @@ namespace IQDOC_Sanitas.ScriptGeneral
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application '\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQDoc\\AplicaciónIQDOC\\IQDOC.exe' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQDoc\\AplicaciónIQDOC\\IQDOC.exe", "", "\\\\aquiles\\softlib\\Salud\\Sanitas\\PruebasAuto\\IQDoc\\AplicaciónIQDOC", false);
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'MensajePantalla.Button' at Center.", repo.MensajePantalla.ButtonInfo, new RecordItemIndex(0));
+                repo.MensajePantalla.Button.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
         }
 

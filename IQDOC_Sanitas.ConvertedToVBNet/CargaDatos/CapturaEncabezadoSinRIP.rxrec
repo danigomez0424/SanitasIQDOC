@@ -6542,8 +6542,8 @@ yfc0+quzNxi90f/Z
 		</rootfolder>
 	</repository>
 	<usercodefile
-	lang="CSharp">
-		CapturaEncabezadoSinRIP.UserCode.cs
+	lang="VBNet">
+		CapturaEncabezadoSinRIP.UserCode.vb
 	</usercodefile>
 	<references>
 	</references>
