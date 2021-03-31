@@ -217,7 +217,7 @@
 		filename="..\DataSource\Clasificación.xlsx"
 		id="0e699ea1-f3de-4f84-b507-86d4cc9b09ec"
 		includefile="Unchecked"
-		lastknownrowcount="999"
+		lastknownrowcount="14"
 		name="Clasificacion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
