@@ -91,3 +91,17 @@ C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\Ranorex.Core.Re
 C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.csprojResolveAssemblyReference.cache
 C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.exe
 C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.pdb
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Clasificacion.rxtst
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.rxsqc
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.rxtmg
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Captura.rxtst
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.exe.config
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.xml
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.exe
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.pdb
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\bin\Debug\Ranorex.Core.Resolver.dll
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.csprojAssemblyReference.cache
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.csproj.CoreCompileInputs.cache
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.csproj.CopyComplete
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.exe
+C:\RanorexProyectos\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.pdb

@@ -41,6 +41,7 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			enabled="False"
 			id="4f168ac2-296f-41c4-9d5f-2d5ad31e5c72"
 			name="Login"
 			ref="2ba9adbb-a40f-4ce1-93a5-6ce1377abf3c"
@@ -122,6 +123,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="ea86d655-e651-4f42-8234-103a5f272e7c"
 			name="StartAUT"
 			ref="3232176a-0082-4e37-8bf1-1a1522285d1b"
@@ -261,9 +263,6 @@
 			</testcontainer>
 			<testcontainer
 			id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa">
-			</testcontainer>
-			<testcontainer
-			id="f30d6758-9030-4907-ad2c-66ef66058fa4">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

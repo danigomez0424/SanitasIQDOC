@@ -254,6 +254,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="50519117-002c-4d98-8208-e4010e806026"
 			name="Login"
 			ref="2ba9adbb-a40f-4ce1-93a5-6ce1377abf3c"
@@ -398,6 +399,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="814c2521-85bf-4601-8ca7-119c1d79613a"
 			name="StartAUT"
 			ref="3232176a-0082-4e37-8bf1-1a1522285d1b"

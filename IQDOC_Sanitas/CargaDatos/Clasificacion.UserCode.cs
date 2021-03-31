@@ -54,6 +54,7 @@ namespace IQDOC_Sanitas.CargaDatos
 					repo.MensajePantalla.Button.Click();
 					Delay.Milliseconds(0);
 				} catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+				
 				int num = rnd.Next(1,44);
 				//WinForms.MessageBox.Show(num.ToString());
 				if (index==0)
@@ -93,6 +94,14 @@ namespace IQDOC_Sanitas.CargaDatos
 			
 			Report.Info("info","Se hace click al Botón Aceptar");
 			repo.MensajePantalla.Button.Click();
+			
+			     Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Copy_of_Btn_GuadarClasi' at Center.", repo.MDIPrincipal.Copy_of_Btn_GuadarClasiInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.Copy_of_Btn_GuadarClasi.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.Btn_Salir' at Center.", repo.MDIPrincipal.FrmclasiffierSura.Btn_SalirInfo, new RecordItemIndex(2));
+            repo.MDIPrincipal.FrmclasiffierSura.Btn_Salir.Click();
+            Delay.Milliseconds(0);
 //			}
 		}
 
