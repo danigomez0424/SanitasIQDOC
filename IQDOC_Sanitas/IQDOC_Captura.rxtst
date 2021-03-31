@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -171,14 +171,6 @@
 					variablename="CBOProducto">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="SolicitudID"
-					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
-					variableid="478bfbc6-408f-470a-a323-609874a6d8f0"
-					variablename="SolicitudID">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="17ca1da3-b7ac-4f33-9290-0b0aa7e8c32a"
@@ -248,7 +240,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="4b8cb056-14e0-4617-b537-8ff6af5e237e"
 			name="CargaDatos4"
 			ref="447d2d85-1269-425b-bf56-108d6d5926a5"
@@ -329,12 +320,6 @@
 			id="5626d03a-de88-4d18-8135-1f26843d8811"
 			name="setup">
 			</setup>
-			<testmodule
-			id="56cc00c2-95d8-4591-9050-c5875beb66a2"
-			name="AceptarNoHay"
-			ref="72070569-0d20-43bc-b8a4-830e3dfd3c1f"
-			type="Recording">
-			</testmodule>
 			<testcase
 			datasource="CapturaRIPS"
 			id="645cc21b-af29-46d3-9f77-033164460915"
@@ -465,7 +450,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="8cf50fd9-231f-4abc-871e-d4cbfcd93ea1"
 			name="CargaDevolucion"
 			ref="350af07b-c0bc-4558-ac35-9ca5dc87b773"
@@ -480,7 +464,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="8fa345bd-6913-4fa8-b800-560e22e95ddb"
 			name="CargaDatos1"
 			ref="bfcefec9-b881-4f15-a319-ba9007457abe"
@@ -725,6 +708,7 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			enabled="False"
 			id="bb7c3204-8528-48cb-b153-87bb8e7090a9"
 			name="AceptarNoHay"
 			ref="95498a60-111c-4ec1-b77c-846eb8c02e14"
@@ -745,7 +729,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="c2c1043b-0491-4bae-ad15-bfe2c67a4dbf"
 			name="CargaDatos3"
 			ref="2a2f6d57-9bb4-4fb1-9d0f-244755663ab8"
@@ -968,7 +951,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="f2dbf3ee-12e6-4c9a-8b57-3533933c0ff1"
 			name="CargaDatos2"
 			ref="efdb6eb4-334f-4ba0-8203-3ff7442ffb76"
@@ -1179,10 +1161,6 @@
 						<testmodule
 						id="9ced17f6-5fc6-4925-b7e2-291b57460c3b"
 						name="AceptarDevoluciones">
-						</testmodule>
-						<testmodule
-						id="56cc00c2-95d8-4591-9050-c5875beb66a2"
-						name="AceptarNoHay">
 						</testmodule>
 						<testmodule
 						id="0057683c-6470-4cbf-b9df-38b672afa94f"
@@ -1499,7 +1477,7 @@
 			id="9aff082e-e7ac-4a14-8011-8123b2dce44f">
 			</testcontainer>
 			<testcontainer
-			id="add01a51-eb28-4a18-ac49-b052692e9f9d">
+			id="b434ca11-39e7-43f4-9680-3cd5addcb899">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

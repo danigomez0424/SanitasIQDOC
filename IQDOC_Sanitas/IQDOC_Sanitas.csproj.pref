@@ -6,6 +6,7 @@
   <Array name="files">
     <Element value="IQDOC_Clasificacion.rxtst" />
     <Element value="CargaDatos\Clasificacion.rxrec" />
+    <Element value="ScriptGeneral\Login.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Array name="recentusercodeselections" />
