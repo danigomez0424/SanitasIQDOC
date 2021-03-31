@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿<Properties>
   <Array name="active" />
   <ActiveConfiguration value="Debug" />
@@ -8,24 +7,11 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>de986c34-f12e-4cb3-a6c6-947101014073</string>
-      <string>316d74d5-686b-4a09-a308-b0298212f764</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution IQDOC_Sanitas[Solution Items[]IQDOC_Sanitas[IQDOC_SanitasRepository.rxrep[]]]]&#xD;&#xA;Solution IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos&#xD;&#xA;Solution IQDOC_Sanitas" />
+  <ProjectBrowserState value="[Solution IQDOC_Sanitas[IQDOC_Sanitas[]]]&#xD;&#xA;Solution IQDOC_Sanitas\IQDOC_Sanitas\IQDOC_Clasificacion.rxtst&#xD;&#xA;Solution IQDOC_Sanitas" />
   <StartupProject value="{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}" />
-=======
-﻿<Properties>
-  <Array name="active" />
-  <ActiveConfiguration value="Debug" />
-  <ActivePlatform value="x86" />
-  <Array name="bookmarks" />
-  <Array name="files" />
-  <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
-  </SerializedValue>
-  <ProjectBrowserState value="[Solution IQDOC_Sanitas[Solution Items[]IQDOC_Sanitas[IQDOC_SanitasRepository.rxrep[]]]]&#xD;&#xA;Solution IQDOC_Sanitas\IQDOC_Sanitas\CargaDatos&#xD;&#xA;Solution IQDOC_Sanitas" />
-  <StartupProject value="{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}" />
->>>>>>> 7a58c0ac4248b82e7a9b3a2eeb434498c0e632a4
 </Properties>

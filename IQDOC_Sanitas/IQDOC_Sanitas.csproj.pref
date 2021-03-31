@@ -1,48 +1,13 @@
-<<<<<<< HEAD
 ﻿<Properties>
   <Array name="active">
-    <Element value="CargaDatos\ValidacionFolder.UserCode.cs" />
-  </Array>
-  <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="CargaDatos\ValidacionFolder.UserCode.cs" />
-    <Element value="CargaDatos\CerrarVentana.cs" />
-  </Array>
-  <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <runOnBuild value="False" />
-    </Properties>
-    <Array name="recentusercodeselections">
-      <Element value="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.ObtenerSolicitudId()" />
-      <Element value="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.ObtenerSolicitudId()" />
-      <Element value="IQDOC_Sanitas.CargaDatos.ValidacionFolder.CargaDatos()" />
-      <Element value="IQDOC_Sanitas.CargaDatos.Clasificacion.Clasificar()" />
-    </Array>
-  </Properties>
-=======
-﻿<Properties>
-  <Array name="active">
-    <Element value="CargaDatos\Clasificacion.UserCode.cs" />
-  </Array>
-  <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="CargaDatos\Clasificacion.rxrec" />
-    <Element value="IQDOC_Captura.rxtst" />
-    <Element value="ScriptGeneral\Login.rxrec" />
-    <Element value="ScriptGeneral\StartAUT.rxrec" />
     <Element value="IQDOC_Clasificacion.rxtst" />
-    <Element value="CargaDatos\Clasificacion.UserCode.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="IQDOC_Clasificacion.rxtst" />
+    <Element value="CargaDatos\Clasificacion.rxrec" />
   </Array>
   <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <runOnBuild value="False" />
-    </Properties>
-    <Array name="recentusercodeselections">
-      <Element value="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.ObtenerSolicitudId()" />
-      <Element value="IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.ObtenerSolicitudId()" />
-      <Element value="IQDOC_Sanitas.CargaDatos.ValidacionFolder.CargaDatos()" />
-      <Element value="IQDOC_Sanitas.CargaDatos.Clasificacion.Clasificar()" />
-    </Array>
+    <Array name="recentusercodeselections" />
   </Properties>
->>>>>>> 7a58c0ac4248b82e7a9b3a2eeb434498c0e632a4
 </Properties>

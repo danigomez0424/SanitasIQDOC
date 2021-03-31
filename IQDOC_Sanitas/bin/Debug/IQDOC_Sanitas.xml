@@ -19,16 +19,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.FolderId">
-            <summary>
-            Gets or sets the value of variable FolderId.
-            </summary>
-        </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Instance"/>.
@@ -48,6 +38,16 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.FolderId">
+            <summary>
+            Gets or sets the value of variable FolderId.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones">
              <summary>
             The AceptarDevoluciones recording.
@@ -61,11 +61,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Start">
@@ -87,6 +82,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AceptarDevoluciones.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.AceptarNoHay">
              <summary>
             The AceptarNoHay recording.
@@ -100,11 +100,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.AceptarNoHay.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Start">
@@ -126,6 +121,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AceptarNoHay.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS">
              <summary>
             The CapturaDatosRIPS recording.
@@ -139,6 +139,25 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Instance">
@@ -166,25 +185,6 @@
             Gets or sets the value of variable Producto.
             </summary>
         </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaDatosRIPS.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones">
              <summary>
             The CapturaEncabezadoDevoluciones recording.
@@ -198,6 +198,25 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Instance">
@@ -245,25 +264,6 @@
             Gets or sets the value of variable Plan.
             </summary>
         </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezadoDevoluciones.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CapturaEncabezado">
              <summary>
             The CapturaEncabezadoSinRIP recording.
@@ -277,6 +277,25 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Instance">
@@ -324,25 +343,6 @@
             Gets or sets the value of variable NFactura.
             </summary>
         </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CapturaEncabezado.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos1">
              <summary>
             The CargaDatos1 recording.
@@ -356,21 +356,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos1.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.NitIPS">
-            <summary>
-            Gets or sets the value of variable NitIPS.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Nfactura">
-            <summary>
-            Gets or sets the value of variable Nfactura.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos1.Start">
@@ -392,6 +377,21 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Nfactura">
+            <summary>
+            Gets or sets the value of variable Nfactura.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos2">
              <summary>
             The CargaDatos2 recording.
@@ -405,6 +405,25 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Instance">
@@ -437,25 +456,6 @@
             Gets or sets the value of variable Sucursal.
             </summary>
         </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.CargaDatos2.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos2.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos3">
              <summary>
             The CargaDatos3 recording.
@@ -469,21 +469,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos3.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Producto">
-            <summary>
-            Gets or sets the value of variable Producto.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Plan">
-            <summary>
-            Gets or sets the value of variable Plan.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos3.Start">
@@ -505,6 +490,21 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos3.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatos4">
              <summary>
             The CargaDatos4 recording.
@@ -518,16 +518,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos4.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.ValBruto">
-            <summary>
-            Gets or sets the value of variable ValBruto.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatos4.Start">
@@ -549,6 +539,16 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos4.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargaDatosFinal">
              <summary>
             The CargaDatosFinal recording.
@@ -562,11 +562,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Start">
@@ -588,6 +583,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatosFinal.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargaDevolucion">
              <summary>
             The CargaDevolucion recording.
@@ -601,16 +601,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDevolucion.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.CodCausal">
-            <summary>
-            Gets or sets the value of variable CodCausal.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Start">
@@ -632,6 +622,16 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDevolucion.CodCausal">
+            <summary>
+            Gets or sets the value of variable CodCausal.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS">
              <summary>
             The CargarDatosFinalSinRIPS recording.
@@ -645,11 +645,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Start">
@@ -671,6 +666,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargarDatosFinalSinRIPS.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.CerrarVentana">
              <summary>
             The CerrarVentana recording.
@@ -684,11 +684,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.CerrarVentana.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.CerrarVentana.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.CerrarVentana.Start">
@@ -710,6 +705,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CerrarVentana.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.Clasificacion">
              <summary>
             The Clasificacion recording.
@@ -723,21 +723,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.Clasificacion.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.SolicitudId">
-            <summary>
-            Gets or sets the value of variable SolicitudId.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.ParFolderId">
-            <summary>
-            Gets or sets the value of variable ParFolderId.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.Clasificacion.Start">
@@ -759,6 +744,21 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.SolicitudId">
+            <summary>
+            Gets or sets the value of variable SolicitudId.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Clasificacion.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.Validacion">
              <summary>
             The Validacion recording.
@@ -772,11 +772,6 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.Validacion.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.CargaDatos.Validacion.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.Validacion.Start">
@@ -798,6 +793,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.Validacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.CargaDatos.ValidacionFolder">
              <summary>
             The ValidacionFolder recording.
@@ -811,6 +811,25 @@
         <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Instance">
@@ -888,38 +907,19 @@
             Gets or sets the value of variable CBOProducto.
             </summary>
         </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepository">
             <summary>
             The class representing the IQDOC_SanitasRepository element repository.
             </summary>
         </member>
-        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Instance">
-            <summary>
-            Gets the singleton class instance representing the IQDOC_SanitasRepository element repository.
-            </summary>
-        </member>
         <member name="M:IQDOC_Sanitas.IQDOC_SanitasRepository.#ctor">
             <summary>
             Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the IQDOC_SanitasRepository element repository.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepository.Compania">
@@ -2177,11 +2177,6 @@
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.AceptarNoHay.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.AceptarNoHay.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.AceptarNoHay.Instance"/>.
@@ -2201,6 +2196,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.AceptarNoHay.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.CloseAUT">
              <summary>
             The CloseAUT recording.
@@ -2214,16 +2214,6 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.CloseAUT.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.CloseAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable CloseAutProcessIDVar.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Start">
@@ -2245,6 +2235,16 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.Finalizar">
              <summary>
             The Finalizar recording.
@@ -2258,11 +2258,6 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.Finalizar.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.Finalizar.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.Finalizar.Start">
@@ -2284,6 +2279,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Finalizar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.Login">
              <summary>
             The Login recording.
@@ -2297,6 +2297,25 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.#ctor">
             <summary>
             Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.ScriptGeneral.Login.Instance">
@@ -2319,25 +2338,6 @@
             Gets or sets the value of variable Linea.
             </summary>
         </member>
-        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.Login.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:IQDOC_Sanitas.ScriptGeneral.Login.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.LOGOUT">
              <summary>
             The LOGOUT recording.
@@ -2351,11 +2351,6 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.LOGOUT.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Start">
@@ -2377,6 +2372,11 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.LOGOUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.MENUCAP">
              <summary>
             The MENUCAP recording.
@@ -2390,16 +2390,6 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.MENUCAP.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Modulo">
-            <summary>
-            Gets or sets the value of variable Modulo.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Start">
@@ -2421,6 +2411,16 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.MENUCAP.Modulo">
+            <summary>
+            Gets or sets the value of variable Modulo.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto">
              <summary>
             The SeleccionarProducto recording.
@@ -2434,16 +2434,6 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.CBOProducto">
-            <summary>
-            Gets or sets the value of variable CBOProducto.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Start">
@@ -2465,6 +2455,16 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.SeleccionarProducto.CBOProducto">
+            <summary>
+            Gets or sets the value of variable CBOProducto.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.StartAUT">
              <summary>
             The StartAUT recording.
@@ -2478,16 +2478,6 @@
         <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.#ctor">
             <summary>
             Constructs a new instance.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.StartAutProcessIDVar">
-            <summary>
-            Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Start">
@@ -2507,6 +2497,16 @@
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

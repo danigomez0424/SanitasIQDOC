@@ -72,3 +72,22 @@ C:\Program Files (x86)\Ranorex\Studio\proyectos_IQ\IQDOC\IQDOC_Sanitas\bin\Debug
 C:\Program Files (x86)\Ranorex\Studio\proyectos_IQ\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Ranorex\Studio\proyectos_IQ\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.exe
 C:\Program Files (x86)\Ranorex\Studio\proyectos_IQ\IQDOC\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.pdb
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\Background_IQ.png
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\header_IQ.png
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\RanorexReport.css
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\RanorexReport.png
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\RanorexReport.xsl
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\View.rxlog
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\NewCustomTemplate2\View.rxlog.data
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Clasificacion.rxtst
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.rxsqc
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.rxtmg
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Captura.rxtst
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.exe.config
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.xml
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.exe
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\IQDOC_Sanitas.pdb
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.csprojResolveAssemblyReference.cache
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.exe
+C:\Users\SDparraF\Desktop\IQDOC_SOLUCION\IQDOC_Sanitas\obj\x86\Debug\IQDOC_Sanitas.pdb

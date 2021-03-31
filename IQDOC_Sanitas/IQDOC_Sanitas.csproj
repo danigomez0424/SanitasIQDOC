@@ -1,650 +1,658 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<PropertyGroup>
-		<ProjectGuid>{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}</ProjectGuid>
-		<TargetFrameworkProfile></TargetFrameworkProfile>
-		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-		<Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-		<OutputType>Exe</OutputType>
-		<RootNamespace>IQDOC_Sanitas</RootNamespace>
-		<AssemblyName>IQDOC_Sanitas</AssemblyName>
-		<NoWarn>1591</NoWarn>
-		<TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
-		<RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
-		<RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-		<projectdefaultrepository>959d45d0-3c1d-481a-b3de-698943227c4c</projectdefaultrepository>
-		<StartAction>Project</StartAction>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Platform)' == 'x86' ">
-		<PlatformTarget>x86</PlatformTarget>
-		<Prefer32Bit>True</Prefer32Bit>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-		<OutputPath>bin\Debug\</OutputPath>
-		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
-		<DebugSymbols>True</DebugSymbols>
-		<DebugType>Full</DebugType>
-		<Optimize>False</Optimize>
-		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
-		<DefineConstants>DEBUG;TRACE</DefineConstants>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-		<OutputPath>bin\Release\</OutputPath>
-		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
-		<DebugSymbols>False</DebugSymbols>
-		<DebugType>None</DebugType>
-		<Optimize>True</Optimize>
-		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-		<DefineConstants>TRACE</DefineConstants>
-	</PropertyGroup>
-	<ItemGroup>
-		<Reference Include="Ranorex.Bootstrapper">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Core.Resolver">
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Cef">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.ChromeWeb">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Delphi">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.FirefoxWeb">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Flex">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Java">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Mobile">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Msaa">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Office">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Qt">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.RawText">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Sap">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Uia">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Web">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WebDriver">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Win32">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WinForms">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WinForms.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Wpf">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Wpf.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="System"></Reference>
-		<Reference Include="System.Core">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-		<Reference Include="System.Data"></Reference>
-		<Reference Include="System.Data.DataSetExtensions">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-		<Reference Include="System.Drawing"></Reference>
-		<Reference Include="System.Windows.Forms"></Reference>
-		<Reference Include="System.Xml"></Reference>
-		<Reference Include="System.Xml.Linq">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-	</ItemGroup>
-	<ItemGroup>
-		<Compile Include="AssemblyInfo.cs">
-			<id>7a77648a-848a-44e8-b2bd-8a3c6616b52b</id>
-		</Compile>
-		<Compile Include="CargaDatos\AbrirVentanaInfo.cs">
-			<BoundTo>643e74fa-da91-433f-babb-70b0fa3220d9</BoundTo>
-			<DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>f6bf2760-3412-4997-a9dd-3218c826c038</id>
-		</Compile>
-		<Compile Include="CargaDatos\AbrirVentanaInfo.UserCode.cs">
-			<BoundTo>643e74fa-da91-433f-babb-70b0fa3220d9</BoundTo>
-			<DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>18e6dff4-ede2-4604-ab09-51a1fa06cfe9</id>
-		</Compile>
-		<Compile Include="CargaDatos\AceptarDevoluciones.cs">
-			<DependentUpon>AceptarDevoluciones.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>726d2806-6235-48dc-b668-09b11eb80bf9</id>
-			<BoundTo>2c83d164-441c-48ab-a3fa-2dafc10998c3</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\AceptarDevoluciones.UserCode.cs">
-			<DependentUpon>AceptarDevoluciones.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>7b7d57f2-d694-49f4-a675-4b84748e481b</id>
-			<BoundTo>2c83d164-441c-48ab-a3fa-2dafc10998c3</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\AceptarNoHay.cs">
-			<BoundTo>e4a18f3a-62cb-43d9-9c42-bf13aa88f549</BoundTo>
-			<DependentUpon>AceptarNoHay.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>b836313f-98bc-45aa-a1e5-95cda793909c</id>
-		</Compile>
-		<Compile Include="CargaDatos\AceptarNoHay.UserCode.cs">
-			<BoundTo>e4a18f3a-62cb-43d9-9c42-bf13aa88f549</BoundTo>
-			<DependentUpon>AceptarNoHay.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>b4f6e01f-9d2c-4344-97f0-3506f9971f24</id>
-		</Compile>
-		<Compile Include="CargaDatos\CapturaDatosRIPS.cs">
-			<DependentUpon>CapturaDatosRIPS.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>8d6939cc-6cea-4962-a3f6-14567c96bc34</id>
-			<BoundTo>31ad5ec3-7f66-44c9-928b-d6fa87798869</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CapturaDatosRIPS.UserCode.cs">
-			<DependentUpon>CapturaDatosRIPS.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1f009885-9657-4780-b4d6-19f3149ca8a6</id>
-			<BoundTo>31ad5ec3-7f66-44c9-928b-d6fa87798869</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CapturaEncabezadoDevoluciones.cs">
-			<DependentUpon>CapturaEncabezadoDevoluciones.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>4d65d4d3-4a52-4b84-bca1-b1e4685c467c</id>
-			<BoundTo>08e79896-680a-44af-91de-eecd5314b858</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CapturaEncabezadoDevoluciones.UserCode.cs">
-			<DependentUpon>CapturaEncabezadoDevoluciones.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>4d2a8aec-a37b-40c8-ae43-6dd3b2227707</id>
-			<BoundTo>08e79896-680a-44af-91de-eecd5314b858</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CapturaEncabezadoSinRIP.cs">
-			<DependentUpon>CapturaEncabezadoSinRIP.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>abf865de-20ad-43b3-bc96-32c10bdd13f2</id>
-			<BoundTo>a2b62f40-e572-4bf1-8b17-534410e41c26</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CapturaEncabezadoSinRIP.UserCode.cs">
-			<DependentUpon>CapturaEncabezadoSinRIP.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>72f5da90-838b-4bda-adff-45b67be6f70b</id>
-			<BoundTo>a2b62f40-e572-4bf1-8b17-534410e41c26</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos1.cs">
-			<DependentUpon>CargaDatos1.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0866b234-fc74-444d-ae00-d335fe62cd73</id>
-			<BoundTo>faca1e23-5a26-4b0f-9655-a7e9abe8c80c</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos1.UserCode.cs">
-			<DependentUpon>CargaDatos1.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>cefe342a-d4d5-409c-93ff-16a0babab88a</id>
-			<BoundTo>faca1e23-5a26-4b0f-9655-a7e9abe8c80c</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos2.cs">
-			<DependentUpon>CargaDatos2.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>798e175c-cee9-4b78-b134-8dac45adf391</id>
-			<BoundTo>66cb81ad-933e-4fd3-8c2b-b96a390efc6e</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos2.UserCode.cs">
-			<DependentUpon>CargaDatos2.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>4fad9351-1752-4ad5-9e0c-94c6d7b4c648</id>
-			<BoundTo>66cb81ad-933e-4fd3-8c2b-b96a390efc6e</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos3.cs">
-			<DependentUpon>CargaDatos3.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>677a9471-69dc-45a3-a1d7-7f2f8f58ea6e</id>
-			<BoundTo>51218fc5-aafa-4cca-9d2c-331bc39bd148</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos3.UserCode.cs">
-			<DependentUpon>CargaDatos3.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>319356a1-0f6f-45eb-a080-c6fe33008a93</id>
-			<BoundTo>51218fc5-aafa-4cca-9d2c-331bc39bd148</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos4.cs">
-			<DependentUpon>CargaDatos4.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0d590d0f-04f3-41fd-b73b-384450cfa6eb</id>
-			<BoundTo>53d2eb78-043b-4dcc-be03-e10553ea3187</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatos4.UserCode.cs">
-			<DependentUpon>CargaDatos4.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>f9903ab5-d959-433c-a444-2734c72064bd</id>
-			<BoundTo>53d2eb78-043b-4dcc-be03-e10553ea3187</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatosFinal.cs">
-			<DependentUpon>CargaDatosFinal.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>f82c4b85-bdab-4e9f-9e76-08dd5d54b48e</id>
-			<BoundTo>0e2f7b3a-4fa5-471f-ae1e-f38840354b43</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDatosFinal.UserCode.cs">
-			<DependentUpon>CargaDatosFinal.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>8f72cc2b-049f-40ef-991a-d4b8de207902</id>
-			<BoundTo>0e2f7b3a-4fa5-471f-ae1e-f38840354b43</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDevolucion.cs">
-			<DependentUpon>CargaDevolucion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>3a9b9631-2b4e-4a67-9b67-380abab6a70f</id>
-			<BoundTo>8a4a3782-7bbf-46f5-a726-198b8073d7cb</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargaDevolucion.UserCode.cs">
-			<DependentUpon>CargaDevolucion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>fd4748fb-8384-433b-8cfd-2190205aae07</id>
-			<BoundTo>8a4a3782-7bbf-46f5-a726-198b8073d7cb</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargarDatosFinalSinRIPS.cs">
-			<DependentUpon>CargarDatosFinalSinRIPS.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>dcf2a60e-eb4a-45a8-ab28-884b629c38d7</id>
-			<BoundTo>ed89f2bf-55f0-4bed-84b8-cc338f5ec4c9</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CargarDatosFinalSinRIPS.UserCode.cs">
-			<DependentUpon>CargarDatosFinalSinRIPS.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>60aef111-a8f9-4d7e-9dd3-d39e17c9c39f</id>
-			<BoundTo>ed89f2bf-55f0-4bed-84b8-cc338f5ec4c9</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\CerrarVentana.cs">
-			<BoundTo>2c8bed2d-d6b6-4eb0-b5ba-f1f668162c34</BoundTo>
-			<DependentUpon>CerrarVentana.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>3c2229b1-62cc-4a9e-93d0-88115035b811</id>
-		</Compile>
-		<Compile Include="CargaDatos\CerrarVentana.UserCode.cs">
-			<BoundTo>2c8bed2d-d6b6-4eb0-b5ba-f1f668162c34</BoundTo>
-			<DependentUpon>CerrarVentana.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>e68c2983-10a8-4f3e-836c-d6391ee6f979</id>
-		</Compile>
-		<Compile Include="CargaDatos\Clasificacion.cs">
-			<BoundTo>b0d16661-af91-43d6-8d63-ae68600358e2</BoundTo>
-			<DependentUpon>Clasificacion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>3dba139a-9b05-45a8-914b-1d7e0e05648a</id>
-		</Compile>
-		<Compile Include="CargaDatos\Clasificacion.UserCode.cs">
-			<BoundTo>b0d16661-af91-43d6-8d63-ae68600358e2</BoundTo>
-			<DependentUpon>Clasificacion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>a568e417-97bb-4f76-a8f6-f84da238289b</id>
-		</Compile>
-		<Compile Include="CargaDatos\Validacion.cs">
-			<DependentUpon>Validacion.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>0b4d5565-5eae-4f17-ba99-96f9007f3422</id>
-			<BoundTo>1da398f1-10e2-4c08-834a-95439d77244a</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\Validacion.UserCode.cs">
-			<DependentUpon>Validacion.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>2e9a58da-17d4-4cea-9cea-a2a2c649ffab</id>
-			<BoundTo>1da398f1-10e2-4c08-834a-95439d77244a</BoundTo>
-		</Compile>
-		<Compile Include="CargaDatos\ValidacionFolder.cs">
-			<BoundTo>019ef1ce-f504-4439-8fe7-252876c8ff5f</BoundTo>
-			<DependentUpon>ValidacionFolder.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>573895bb-ba14-4c6f-8d17-34e9dfb2fa07</id>
-		</Compile>
-		<Compile Include="CargaDatos\ValidacionFolder.UserCode.cs">
-			<BoundTo>019ef1ce-f504-4439-8fe7-252876c8ff5f</BoundTo>
-			<DependentUpon>ValidacionFolder.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>26e20799-be23-4351-80a9-aee60a8b4fc7</id>
-		</Compile>
-		<Compile Include="IQDOC_SanitasRepository.cs">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<DependentUpon>IQDOC_SanitasRepository.rxrep</DependentUpon>
-			<RepositoryCode>true</RepositoryCode>
-			<id>5a5f54d8-d3f0-4617-8c39-9f3d13f6cc2e</id>
-		</Compile>
-		<Compile Include="Program.cs">
-			<id>ea990e83-839b-478e-ad09-abb65da2af2e</id>
-		</Compile>
-		<Compile Include="ScriptGeneral\AceptarNoHay.cs">
-			<BoundTo>5d4b9a3d-c471-458b-a4b8-9347eb58d773</BoundTo>
-			<DependentUpon>AceptarNoHay.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>5122d441-6884-4faf-bf9f-c1805df2ce1a</id>
-		</Compile>
-		<Compile Include="ScriptGeneral\AceptarNoHay.UserCode.cs">
-			<BoundTo>5d4b9a3d-c471-458b-a4b8-9347eb58d773</BoundTo>
-			<DependentUpon>AceptarNoHay.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>c3cd1725-5af0-496b-a24c-44c0393ab120</id>
-		</Compile>
-		<Compile Include="ScriptGeneral\CloseAUT.cs">
-			<DependentUpon>CloseAUT.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d9085273-ffd9-436a-9e38-6f48897b486f</id>
-			<BoundTo>717044a6-1ea2-4cfe-ba23-6a3301801f0b</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\CloseAUT.UserCode.cs">
-			<DependentUpon>CloseAUT.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>87f24584-ef51-4d14-a867-51ed915cc98a</id>
-			<BoundTo>717044a6-1ea2-4cfe-ba23-6a3301801f0b</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\Finalizar.cs">
-			<DependentUpon>Finalizar.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>8f6a849c-ff94-4241-b0d3-24a5bf0ccf2f</id>
-			<BoundTo>12e35625-78d6-4994-aeef-5c9eafb4aee2</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\Finalizar.UserCode.cs">
-			<DependentUpon>Finalizar.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>4f628cbc-6055-437d-886f-b1066ba73edb</id>
-			<BoundTo>12e35625-78d6-4994-aeef-5c9eafb4aee2</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\Login.cs">
-			<DependentUpon>Login.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>f552c072-f59f-4669-bb5f-626ab144778b</id>
-			<BoundTo>f6bb3f5d-4120-429d-8ef9-3f2d6fd961cc</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\Login.UserCode.cs">
-			<DependentUpon>Login.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>cdb61f3f-a419-4a03-a492-9f45c81b36c1</id>
-			<BoundTo>f6bb3f5d-4120-429d-8ef9-3f2d6fd961cc</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\LOGOUT.cs">
-			<DependentUpon>LOGOUT.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>06b9dc7b-7212-465d-9dba-a3e78d906364</id>
-			<BoundTo>52c4db64-e669-4b8a-9206-51b7920ede35</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\lOGOUT.UserCode.cs">
-			<DependentUpon>LOGOUT.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>b1bd6fc9-2b58-4989-8c43-e2ad1e45a82d</id>
-			<BoundTo>52c4db64-e669-4b8a-9206-51b7920ede35</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\MENUCAP.cs">
-			<DependentUpon>MENUCAP.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>fc226104-4d02-41bb-81c6-2fbff908553c</id>
-			<BoundTo>04430cf0-cf2e-47a5-8e02-5c3851622d1c</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\MENUCAP.UserCode.cs">
-			<DependentUpon>MENUCAP.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>e119b2a0-6315-48b1-8f52-476b997dfab4</id>
-			<BoundTo>04430cf0-cf2e-47a5-8e02-5c3851622d1c</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\SeleccionarProducto.cs">
-			<DependentUpon>SeleccionarProducto.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>e17ea14d-7abb-4415-88de-e1564a0eb5a3</id>
-			<BoundTo>e10710fd-b113-458c-ba40-0af115d7c4c7</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\SeleccionarProducto.UserCode.cs">
-			<DependentUpon>SeleccionarProducto.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>c4fc8e94-c50b-42cc-8a2a-36d505a29fcb</id>
-			<BoundTo>e10710fd-b113-458c-ba40-0af115d7c4c7</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\StartAUT.cs">
-			<DependentUpon>StartAUT.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>d2bb7e1f-47e9-4a4e-8c57-96cca48ddc50</id>
-			<BoundTo>fd6ec620-999c-41ec-931a-233f5e3db918</BoundTo>
-		</Compile>
-		<Compile Include="ScriptGeneral\StartAUT.UserCode.cs">
-			<DependentUpon>StartAUT.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>1006d58d-9289-439f-902b-9f9e28bc571d</id>
-			<BoundTo>fd6ec620-999c-41ec-931a-233f5e3db918</BoundTo>
-		</Compile>
-	</ItemGroup>
-	<ItemGroup>
-		<Content Include="IQDOC_Clasificacion.rxtst">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>67aafa00-e68e-46bf-9c81-afdbb49b6850</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\Background_IQ.png">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>17561f21-a928-405b-a93d-24fa93957611</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\header_IQ.png">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>39593737-425a-4c05-90b6-7c598388add1</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\RanorexReport.css">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>25462b2b-09d2-415e-9930-fac299fd8eeb</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\RanorexReport.png">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>a8f575ab-5edf-4ade-9f91-cdfbf13ed333</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\RanorexReport.xsl">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>728f4fbe-9fd1-44e8-ab90-2419bf60fd04</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\View.rxlog">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>f64a99d1-01fb-4d26-bfa4-36ead8c43e3e</id>
-		</Content>
-		<Content Include="NewCustomTemplate2\View.rxlog.data">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>af367ab0-7949-4475-90f9-73a921eadbfc</id>
-		</Content>
-		<None Include="..\IQDOC_Sanitas.ConvertedToVBNet\IQDOC_SanitasRepository.rximg">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<DependentUpon>IQDOC_SanitasRepository.rxrep</DependentUpon>
-			<Link>IQDOC_SanitasRepository.rximg</Link>
-			<imageblob>true</imageblob>
-			<id>13caff56-01ef-4e14-80d0-7f8824016f88</id>
-		</None>
-		<None Include="app.config">
-			<id>0d46b54b-254e-4830-8a8e-aaac03cd8f19</id>
-		</None>
-		<None Include="CargaDatos\AbrirVentanaInfo.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>643e74fa-da91-433f-babb-70b0fa3220d9</id>
-			<recordtableid>1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d</recordtableid>
-		</None>
-		<None Include="CargaDatos\AceptarDevoluciones.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>2c83d164-441c-48ab-a3fa-2dafc10998c3</id>
-			<recordtableid>1303436b-b7e7-4a1d-b93e-cf185c12c7b0</recordtableid>
-		</None>
-		<None Include="CargaDatos\AceptarNoHay.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>e4a18f3a-62cb-43d9-9c42-bf13aa88f549</id>
-			<recordtableid>72070569-0d20-43bc-b8a4-830e3dfd3c1f</recordtableid>
-		</None>
-		<None Include="CargaDatos\CapturaDatosRIPS.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>31ad5ec3-7f66-44c9-928b-d6fa87798869</id>
-			<recordtableid>850ea7ed-60bf-46d4-904c-12c11675d774</recordtableid>
-		</None>
-		<None Include="CargaDatos\CapturaEncabezadoDevoluciones.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>08e79896-680a-44af-91de-eecd5314b858</id>
-			<recordtableid>254bd34c-3252-41ae-9913-2d1751744911</recordtableid>
-		</None>
-		<None Include="CargaDatos\CapturaEncabezadoSinRIP.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>a2b62f40-e572-4bf1-8b17-534410e41c26</id>
-			<recordtableid>981b09da-5476-4da7-9032-d8331b58e3a3</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargaDatos1.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>faca1e23-5a26-4b0f-9655-a7e9abe8c80c</id>
-			<recordtableid>bfcefec9-b881-4f15-a319-ba9007457abe</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargaDatos2.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>66cb81ad-933e-4fd3-8c2b-b96a390efc6e</id>
-			<recordtableid>efdb6eb4-334f-4ba0-8203-3ff7442ffb76</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargaDatos3.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>51218fc5-aafa-4cca-9d2c-331bc39bd148</id>
-			<recordtableid>2a2f6d57-9bb4-4fb1-9d0f-244755663ab8</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargaDatos4.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>53d2eb78-043b-4dcc-be03-e10553ea3187</id>
-			<recordtableid>447d2d85-1269-425b-bf56-108d6d5926a5</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargaDatosFinal.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>0e2f7b3a-4fa5-471f-ae1e-f38840354b43</id>
-			<recordtableid>1082ab58-4f54-48fc-b87c-c199e87779ab</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargaDevolucion.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>8a4a3782-7bbf-46f5-a726-198b8073d7cb</id>
-			<recordtableid>350af07b-c0bc-4558-ac35-9ca5dc87b773</recordtableid>
-		</None>
-		<None Include="CargaDatos\CargarDatosFinalSinRIPS.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>ed89f2bf-55f0-4bed-84b8-cc338f5ec4c9</id>
-			<recordtableid>3a6c9957-442f-4ffc-ab58-2cde6110cd51</recordtableid>
-		</None>
-		<None Include="CargaDatos\CerrarVentana.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>2c8bed2d-d6b6-4eb0-b5ba-f1f668162c34</id>
-			<recordtableid>30577740-bd96-408e-9563-928d2ec44b80</recordtableid>
-		</None>
-		<None Include="CargaDatos\Clasificacion.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>b0d16661-af91-43d6-8d63-ae68600358e2</id>
-			<recordtableid>9cd5143d-47fd-4f5d-b2c0-3eacfdde5e7f</recordtableid>
-		</None>
-		<None Include="CargaDatos\Validacion.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>1da398f1-10e2-4c08-834a-95439d77244a</id>
-			<recordtableid>75df2d03-1e31-46db-b926-98ca115ccaf2</recordtableid>
-		</None>
-		<Content Include="IQDOC_Sanitas.cd">
-			<id>c62eaf3f-b531-4b32-abcb-e19f06406acd</id>
-		</Content>
-		<Content Include="IQDOC_Sanitas.rxsqc">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>a9c0fbd2-4187-4e31-b83b-76b33de83b56</id>
-		</Content>
-		<None Include="CargaDatos\ValidacionFolder.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>019ef1ce-f504-4439-8fe7-252876c8ff5f</id>
-			<recordtableid>1de422d3-6c34-4bb9-86fb-80de3ace7aa3</recordtableid>
-		</None>
-		<None Include="IQDOC_SanitasRepository.rximg">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<DependentUpon>IQDOC_SanitasRepository.rxrep</DependentUpon>
-			<imageblob>true</imageblob>
-			<id>1f6d1093-58e7-4d2e-a467-71c5254414a4</id>
-		</None>
-		<None Include="IQDOC_SanitasRepository.rxrep">
-			<id>959d45d0-3c1d-481a-b3de-698943227c4c</id>
-			<repoid>2d318ab7-a7ed-4725-9cc3-b5528a11ce0f</repoid>
-			<reporootid>fb3b63a5-e776-41d5-b719-29f20d032d65</reporootid>
-		</None>
-		<None Include="ScriptGeneral\AceptarNoHay.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>5d4b9a3d-c471-458b-a4b8-9347eb58d773</id>
-			<recordtableid>95498a60-111c-4ec1-b77c-846eb8c02e14</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\CloseAUT.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>717044a6-1ea2-4cfe-ba23-6a3301801f0b</id>
-			<recordtableid>e1558c17-c348-4dd3-a444-53982418bbe6</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\Finalizar.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>12e35625-78d6-4994-aeef-5c9eafb4aee2</id>
-			<recordtableid>6c2700a8-5b72-41b4-88dc-6791600aa0df</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\Login.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>f6bb3f5d-4120-429d-8ef9-3f2d6fd961cc</id>
-			<recordtableid>2ba9adbb-a40f-4ce1-93a5-6ce1377abf3c</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\LOGOUT.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>52c4db64-e669-4b8a-9206-51b7920ede35</id>
-			<recordtableid>685d8117-0203-44cd-a54e-60c354c38aa8</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\MENUCAP.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>04430cf0-cf2e-47a5-8e02-5c3851622d1c</id>
-			<recordtableid>f5c81106-aeab-4179-82e1-a02472412b24</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\SeleccionarProducto.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>e10710fd-b113-458c-ba40-0af115d7c4c7</id>
-			<recordtableid>0d161523-5705-403b-8bdf-4683e6027372</recordtableid>
-		</None>
-		<None Include="ScriptGeneral\StartAUT.rxrec">
-			<BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
-			<id>fd6ec620-999c-41ec-931a-233f5e3db918</id>
-			<recordtableid>3232176a-0082-4e37-8bf1-1a1522285d1b</recordtableid>
-		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<Content Include="IQDOC_Sanitas.rxtmg">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>9d90a897-8db2-4b26-b70a-2f2cd01558bf</id>
-		</Content>
-		<Content Include="IQDOC_Captura.rxtst">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>950eeab6-5750-4366-9953-c1fa3812b49f</id>
-		</Content>
-	</ItemGroup>
-	<ItemGroup>
-		<Folder Include="CargaDatos">
-			<id>de986c34-f12e-4cb3-a6c6-947101014073</id>
-		</Folder>
-		<Folder Include="NewCustomTemplate2">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<id>030b9e78-bedf-467b-8682-b9eb5b6d637c</id>
-		</Folder>
-		<Folder Include="ScriptGeneral">
-			<id>316d74d5-686b-4a09-a308-b0298212f764</id>
-		</Folder>
-	</ItemGroup>
-	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"></Import>
-	<Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)"></Import>
+  <PropertyGroup>
+    <ProjectGuid>{25E886D6-ACD9-42B3-958E-5C7CCDF2C248}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>IQDOC_Sanitas</RootNamespace>
+    <AssemblyName>IQDOC_Sanitas</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>959d45d0-3c1d-481a-b3de-698943227c4c</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>7a77648a-848a-44e8-b2bd-8a3c6616b52b</id>
+    </Compile>
+    <Compile Include="CargaDatos\AbrirVentanaInfo.cs">
+      <BoundTo>643e74fa-da91-433f-babb-70b0fa3220d9</BoundTo>
+      <DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6bf2760-3412-4997-a9dd-3218c826c038</id>
+    </Compile>
+    <Compile Include="CargaDatos\AbrirVentanaInfo.UserCode.cs">
+      <BoundTo>643e74fa-da91-433f-babb-70b0fa3220d9</BoundTo>
+      <DependentUpon>AbrirVentanaInfo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>18e6dff4-ede2-4604-ab09-51a1fa06cfe9</id>
+    </Compile>
+    <Compile Include="CargaDatos\AceptarDevoluciones.cs">
+      <DependentUpon>AceptarDevoluciones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>726d2806-6235-48dc-b668-09b11eb80bf9</id>
+      <BoundTo>2c83d164-441c-48ab-a3fa-2dafc10998c3</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\AceptarDevoluciones.UserCode.cs">
+      <DependentUpon>AceptarDevoluciones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7b7d57f2-d694-49f4-a675-4b84748e481b</id>
+      <BoundTo>2c83d164-441c-48ab-a3fa-2dafc10998c3</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\AceptarNoHay.cs">
+      <BoundTo>e4a18f3a-62cb-43d9-9c42-bf13aa88f549</BoundTo>
+      <DependentUpon>AceptarNoHay.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b836313f-98bc-45aa-a1e5-95cda793909c</id>
+    </Compile>
+    <Compile Include="CargaDatos\AceptarNoHay.UserCode.cs">
+      <BoundTo>e4a18f3a-62cb-43d9-9c42-bf13aa88f549</BoundTo>
+      <DependentUpon>AceptarNoHay.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4f6e01f-9d2c-4344-97f0-3506f9971f24</id>
+    </Compile>
+    <Compile Include="CargaDatos\CapturaDatosRIPS.cs">
+      <DependentUpon>CapturaDatosRIPS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d6939cc-6cea-4962-a3f6-14567c96bc34</id>
+      <BoundTo>31ad5ec3-7f66-44c9-928b-d6fa87798869</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CapturaDatosRIPS.UserCode.cs">
+      <DependentUpon>CapturaDatosRIPS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1f009885-9657-4780-b4d6-19f3149ca8a6</id>
+      <BoundTo>31ad5ec3-7f66-44c9-928b-d6fa87798869</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CapturaEncabezadoDevoluciones.cs">
+      <DependentUpon>CapturaEncabezadoDevoluciones.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4d65d4d3-4a52-4b84-bca1-b1e4685c467c</id>
+      <BoundTo>08e79896-680a-44af-91de-eecd5314b858</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CapturaEncabezadoDevoluciones.UserCode.cs">
+      <DependentUpon>CapturaEncabezadoDevoluciones.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4d2a8aec-a37b-40c8-ae43-6dd3b2227707</id>
+      <BoundTo>08e79896-680a-44af-91de-eecd5314b858</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CapturaEncabezadoSinRIP.cs">
+      <DependentUpon>CapturaEncabezadoSinRIP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>abf865de-20ad-43b3-bc96-32c10bdd13f2</id>
+      <BoundTo>a2b62f40-e572-4bf1-8b17-534410e41c26</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CapturaEncabezadoSinRIP.UserCode.cs">
+      <DependentUpon>CapturaEncabezadoSinRIP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>72f5da90-838b-4bda-adff-45b67be6f70b</id>
+      <BoundTo>a2b62f40-e572-4bf1-8b17-534410e41c26</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos1.cs">
+      <DependentUpon>CargaDatos1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0866b234-fc74-444d-ae00-d335fe62cd73</id>
+      <BoundTo>faca1e23-5a26-4b0f-9655-a7e9abe8c80c</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos1.UserCode.cs">
+      <DependentUpon>CargaDatos1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cefe342a-d4d5-409c-93ff-16a0babab88a</id>
+      <BoundTo>faca1e23-5a26-4b0f-9655-a7e9abe8c80c</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos2.cs">
+      <DependentUpon>CargaDatos2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>798e175c-cee9-4b78-b134-8dac45adf391</id>
+      <BoundTo>66cb81ad-933e-4fd3-8c2b-b96a390efc6e</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos2.UserCode.cs">
+      <DependentUpon>CargaDatos2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4fad9351-1752-4ad5-9e0c-94c6d7b4c648</id>
+      <BoundTo>66cb81ad-933e-4fd3-8c2b-b96a390efc6e</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos3.cs">
+      <DependentUpon>CargaDatos3.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>677a9471-69dc-45a3-a1d7-7f2f8f58ea6e</id>
+      <BoundTo>51218fc5-aafa-4cca-9d2c-331bc39bd148</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos3.UserCode.cs">
+      <DependentUpon>CargaDatos3.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>319356a1-0f6f-45eb-a080-c6fe33008a93</id>
+      <BoundTo>51218fc5-aafa-4cca-9d2c-331bc39bd148</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos4.cs">
+      <DependentUpon>CargaDatos4.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d590d0f-04f3-41fd-b73b-384450cfa6eb</id>
+      <BoundTo>53d2eb78-043b-4dcc-be03-e10553ea3187</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatos4.UserCode.cs">
+      <DependentUpon>CargaDatos4.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9903ab5-d959-433c-a444-2734c72064bd</id>
+      <BoundTo>53d2eb78-043b-4dcc-be03-e10553ea3187</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatosFinal.cs">
+      <DependentUpon>CargaDatosFinal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f82c4b85-bdab-4e9f-9e76-08dd5d54b48e</id>
+      <BoundTo>0e2f7b3a-4fa5-471f-ae1e-f38840354b43</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDatosFinal.UserCode.cs">
+      <DependentUpon>CargaDatosFinal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f72cc2b-049f-40ef-991a-d4b8de207902</id>
+      <BoundTo>0e2f7b3a-4fa5-471f-ae1e-f38840354b43</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDevolucion.cs">
+      <DependentUpon>CargaDevolucion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a9b9631-2b4e-4a67-9b67-380abab6a70f</id>
+      <BoundTo>8a4a3782-7bbf-46f5-a726-198b8073d7cb</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargaDevolucion.UserCode.cs">
+      <DependentUpon>CargaDevolucion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fd4748fb-8384-433b-8cfd-2190205aae07</id>
+      <BoundTo>8a4a3782-7bbf-46f5-a726-198b8073d7cb</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargarDatosFinalSinRIPS.cs">
+      <DependentUpon>CargarDatosFinalSinRIPS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dcf2a60e-eb4a-45a8-ab28-884b629c38d7</id>
+      <BoundTo>ed89f2bf-55f0-4bed-84b8-cc338f5ec4c9</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CargarDatosFinalSinRIPS.UserCode.cs">
+      <DependentUpon>CargarDatosFinalSinRIPS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>60aef111-a8f9-4d7e-9dd3-d39e17c9c39f</id>
+      <BoundTo>ed89f2bf-55f0-4bed-84b8-cc338f5ec4c9</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\CerrarVentana.cs">
+      <BoundTo>2c8bed2d-d6b6-4eb0-b5ba-f1f668162c34</BoundTo>
+      <DependentUpon>CerrarVentana.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3c2229b1-62cc-4a9e-93d0-88115035b811</id>
+    </Compile>
+    <Compile Include="CargaDatos\CerrarVentana.UserCode.cs">
+      <BoundTo>2c8bed2d-d6b6-4eb0-b5ba-f1f668162c34</BoundTo>
+      <DependentUpon>CerrarVentana.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e68c2983-10a8-4f3e-836c-d6391ee6f979</id>
+    </Compile>
+    <Compile Include="CargaDatos\Clasificacion.cs">
+      <BoundTo>b0d16661-af91-43d6-8d63-ae68600358e2</BoundTo>
+      <DependentUpon>Clasificacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3dba139a-9b05-45a8-914b-1d7e0e05648a</id>
+    </Compile>
+    <Compile Include="CargaDatos\Clasificacion.UserCode.cs">
+      <BoundTo>b0d16661-af91-43d6-8d63-ae68600358e2</BoundTo>
+      <DependentUpon>Clasificacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a568e417-97bb-4f76-a8f6-f84da238289b</id>
+    </Compile>
+    <Compile Include="CargaDatos\Validacion.cs">
+      <DependentUpon>Validacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0b4d5565-5eae-4f17-ba99-96f9007f3422</id>
+      <BoundTo>1da398f1-10e2-4c08-834a-95439d77244a</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\Validacion.UserCode.cs">
+      <DependentUpon>Validacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e9a58da-17d4-4cea-9cea-a2a2c649ffab</id>
+      <BoundTo>1da398f1-10e2-4c08-834a-95439d77244a</BoundTo>
+    </Compile>
+    <Compile Include="CargaDatos\ValidacionFolder.cs">
+      <BoundTo>019ef1ce-f504-4439-8fe7-252876c8ff5f</BoundTo>
+      <DependentUpon>ValidacionFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>573895bb-ba14-4c6f-8d17-34e9dfb2fa07</id>
+    </Compile>
+    <Compile Include="CargaDatos\ValidacionFolder.UserCode.cs">
+      <BoundTo>019ef1ce-f504-4439-8fe7-252876c8ff5f</BoundTo>
+      <DependentUpon>ValidacionFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>26e20799-be23-4351-80a9-aee60a8b4fc7</id>
+    </Compile>
+    <Compile Include="IQDOC_SanitasRepository.cs">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <DependentUpon>IQDOC_SanitasRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>5a5f54d8-d3f0-4617-8c39-9f3d13f6cc2e</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>ea990e83-839b-478e-ad09-abb65da2af2e</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\AceptarNoHay.cs">
+      <BoundTo>5d4b9a3d-c471-458b-a4b8-9347eb58d773</BoundTo>
+      <DependentUpon>AceptarNoHay.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5122d441-6884-4faf-bf9f-c1805df2ce1a</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\AceptarNoHay.UserCode.cs">
+      <BoundTo>5d4b9a3d-c471-458b-a4b8-9347eb58d773</BoundTo>
+      <DependentUpon>AceptarNoHay.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3cd1725-5af0-496b-a24c-44c0393ab120</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\CloseAUT.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9085273-ffd9-436a-9e38-6f48897b486f</id>
+      <BoundTo>717044a6-1ea2-4cfe-ba23-6a3301801f0b</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\CloseAUT.UserCode.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>87f24584-ef51-4d14-a867-51ed915cc98a</id>
+      <BoundTo>717044a6-1ea2-4cfe-ba23-6a3301801f0b</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\Finalizar.cs">
+      <DependentUpon>Finalizar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8f6a849c-ff94-4241-b0d3-24a5bf0ccf2f</id>
+      <BoundTo>12e35625-78d6-4994-aeef-5c9eafb4aee2</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\Finalizar.UserCode.cs">
+      <DependentUpon>Finalizar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f628cbc-6055-437d-886f-b1066ba73edb</id>
+      <BoundTo>12e35625-78d6-4994-aeef-5c9eafb4aee2</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\Login.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f552c072-f59f-4669-bb5f-626ab144778b</id>
+      <BoundTo>f6bb3f5d-4120-429d-8ef9-3f2d6fd961cc</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\Login.UserCode.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cdb61f3f-a419-4a03-a492-9f45c81b36c1</id>
+      <BoundTo>f6bb3f5d-4120-429d-8ef9-3f2d6fd961cc</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\LOGOUT.cs">
+      <DependentUpon>LOGOUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>06b9dc7b-7212-465d-9dba-a3e78d906364</id>
+      <BoundTo>52c4db64-e669-4b8a-9206-51b7920ede35</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\lOGOUT.UserCode.cs">
+      <DependentUpon>LOGOUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1bd6fc9-2b58-4989-8c43-e2ad1e45a82d</id>
+      <BoundTo>52c4db64-e669-4b8a-9206-51b7920ede35</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\MENUCAP.cs">
+      <DependentUpon>MENUCAP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc226104-4d02-41bb-81c6-2fbff908553c</id>
+      <BoundTo>04430cf0-cf2e-47a5-8e02-5c3851622d1c</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\MENUCAP.UserCode.cs">
+      <DependentUpon>MENUCAP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e119b2a0-6315-48b1-8f52-476b997dfab4</id>
+      <BoundTo>04430cf0-cf2e-47a5-8e02-5c3851622d1c</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\SeleccionarProducto.cs">
+      <DependentUpon>SeleccionarProducto.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e17ea14d-7abb-4415-88de-e1564a0eb5a3</id>
+      <BoundTo>e10710fd-b113-458c-ba40-0af115d7c4c7</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\SeleccionarProducto.UserCode.cs">
+      <DependentUpon>SeleccionarProducto.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4fc8e94-c50b-42cc-8a2a-36d505a29fcb</id>
+      <BoundTo>e10710fd-b113-458c-ba40-0af115d7c4c7</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\StartAUT.cs">
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d2bb7e1f-47e9-4a4e-8c57-96cca48ddc50</id>
+      <BoundTo>fd6ec620-999c-41ec-931a-233f5e3db918</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\StartAUT.UserCode.cs">
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1006d58d-9289-439f-902b-9f9e28bc571d</id>
+      <BoundTo>fd6ec620-999c-41ec-931a-233f5e3db918</BoundTo>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IQDOC_Clasificacion.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>67aafa00-e68e-46bf-9c81-afdbb49b6850</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\Background_IQ.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>17561f21-a928-405b-a93d-24fa93957611</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\header_IQ.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>39593737-425a-4c05-90b6-7c598388add1</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>25462b2b-09d2-415e-9930-fac299fd8eeb</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a8f575ab-5edf-4ade-9f91-cdfbf13ed333</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>728f4fbe-9fd1-44e8-ab90-2419bf60fd04</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f64a99d1-01fb-4d26-bfa4-36ead8c43e3e</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>af367ab0-7949-4475-90f9-73a921eadbfc</id>
+    </Content>
+    <None Include="..\IQDOC_Sanitas.ConvertedToVBNet\IQDOC_SanitasRepository.rximg">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <DependentUpon>IQDOC_SanitasRepository.rxrep</DependentUpon>
+      <Link>IQDOC_SanitasRepository.rximg</Link>
+      <imageblob>true</imageblob>
+      <id>13caff56-01ef-4e14-80d0-7f8824016f88</id>
+    </None>
+    <None Include="app.config">
+      <id>0d46b54b-254e-4830-8a8e-aaac03cd8f19</id>
+    </None>
+    <None Include="CargaDatos\AbrirVentanaInfo.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>643e74fa-da91-433f-babb-70b0fa3220d9</id>
+      <recordtableid>1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d</recordtableid>
+    </None>
+    <None Include="CargaDatos\AceptarDevoluciones.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>2c83d164-441c-48ab-a3fa-2dafc10998c3</id>
+      <recordtableid>1303436b-b7e7-4a1d-b93e-cf185c12c7b0</recordtableid>
+    </None>
+    <None Include="CargaDatos\AceptarNoHay.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>e4a18f3a-62cb-43d9-9c42-bf13aa88f549</id>
+      <recordtableid>72070569-0d20-43bc-b8a4-830e3dfd3c1f</recordtableid>
+    </None>
+    <None Include="CargaDatos\CapturaDatosRIPS.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>31ad5ec3-7f66-44c9-928b-d6fa87798869</id>
+      <recordtableid>850ea7ed-60bf-46d4-904c-12c11675d774</recordtableid>
+    </None>
+    <None Include="CargaDatos\CapturaEncabezadoDevoluciones.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>08e79896-680a-44af-91de-eecd5314b858</id>
+      <recordtableid>254bd34c-3252-41ae-9913-2d1751744911</recordtableid>
+    </None>
+    <None Include="CargaDatos\CapturaEncabezadoSinRIP.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>a2b62f40-e572-4bf1-8b17-534410e41c26</id>
+      <recordtableid>981b09da-5476-4da7-9032-d8331b58e3a3</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargaDatos1.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>faca1e23-5a26-4b0f-9655-a7e9abe8c80c</id>
+      <recordtableid>bfcefec9-b881-4f15-a319-ba9007457abe</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargaDatos2.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>66cb81ad-933e-4fd3-8c2b-b96a390efc6e</id>
+      <recordtableid>efdb6eb4-334f-4ba0-8203-3ff7442ffb76</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargaDatos3.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>51218fc5-aafa-4cca-9d2c-331bc39bd148</id>
+      <recordtableid>2a2f6d57-9bb4-4fb1-9d0f-244755663ab8</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargaDatos4.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>53d2eb78-043b-4dcc-be03-e10553ea3187</id>
+      <recordtableid>447d2d85-1269-425b-bf56-108d6d5926a5</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargaDatosFinal.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>0e2f7b3a-4fa5-471f-ae1e-f38840354b43</id>
+      <recordtableid>1082ab58-4f54-48fc-b87c-c199e87779ab</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargaDevolucion.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>8a4a3782-7bbf-46f5-a726-198b8073d7cb</id>
+      <recordtableid>350af07b-c0bc-4558-ac35-9ca5dc87b773</recordtableid>
+    </None>
+    <None Include="CargaDatos\CargarDatosFinalSinRIPS.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>ed89f2bf-55f0-4bed-84b8-cc338f5ec4c9</id>
+      <recordtableid>3a6c9957-442f-4ffc-ab58-2cde6110cd51</recordtableid>
+    </None>
+    <None Include="CargaDatos\CerrarVentana.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>2c8bed2d-d6b6-4eb0-b5ba-f1f668162c34</id>
+      <recordtableid>30577740-bd96-408e-9563-928d2ec44b80</recordtableid>
+    </None>
+    <None Include="CargaDatos\Clasificacion.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>b0d16661-af91-43d6-8d63-ae68600358e2</id>
+      <recordtableid>9cd5143d-47fd-4f5d-b2c0-3eacfdde5e7f</recordtableid>
+    </None>
+    <None Include="CargaDatos\Validacion.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>1da398f1-10e2-4c08-834a-95439d77244a</id>
+      <recordtableid>75df2d03-1e31-46db-b926-98ca115ccaf2</recordtableid>
+    </None>
+    <Content Include="IQDOC_Sanitas.cd">
+      <id>c62eaf3f-b531-4b32-abcb-e19f06406acd</id>
+    </Content>
+    <Content Include="IQDOC_Sanitas.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a9c0fbd2-4187-4e31-b83b-76b33de83b56</id>
+    </Content>
+    <None Include="CargaDatos\ValidacionFolder.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>019ef1ce-f504-4439-8fe7-252876c8ff5f</id>
+      <recordtableid>1de422d3-6c34-4bb9-86fb-80de3ace7aa3</recordtableid>
+    </None>
+    <None Include="IQDOC_SanitasRepository.rximg">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <DependentUpon>IQDOC_SanitasRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>1f6d1093-58e7-4d2e-a467-71c5254414a4</id>
+    </None>
+    <None Include="IQDOC_SanitasRepository.rxrep">
+      <id>959d45d0-3c1d-481a-b3de-698943227c4c</id>
+      <repoid>2d318ab7-a7ed-4725-9cc3-b5528a11ce0f</repoid>
+      <reporootid>fb3b63a5-e776-41d5-b719-29f20d032d65</reporootid>
+    </None>
+    <None Include="ScriptGeneral\AceptarNoHay.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>5d4b9a3d-c471-458b-a4b8-9347eb58d773</id>
+      <recordtableid>95498a60-111c-4ec1-b77c-846eb8c02e14</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\CloseAUT.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>717044a6-1ea2-4cfe-ba23-6a3301801f0b</id>
+      <recordtableid>e1558c17-c348-4dd3-a444-53982418bbe6</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\Finalizar.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>12e35625-78d6-4994-aeef-5c9eafb4aee2</id>
+      <recordtableid>6c2700a8-5b72-41b4-88dc-6791600aa0df</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\Login.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>f6bb3f5d-4120-429d-8ef9-3f2d6fd961cc</id>
+      <recordtableid>2ba9adbb-a40f-4ce1-93a5-6ce1377abf3c</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\LOGOUT.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>52c4db64-e669-4b8a-9206-51b7920ede35</id>
+      <recordtableid>685d8117-0203-44cd-a54e-60c354c38aa8</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\MENUCAP.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>04430cf0-cf2e-47a5-8e02-5c3851622d1c</id>
+      <recordtableid>f5c81106-aeab-4179-82e1-a02472412b24</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\SeleccionarProducto.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>e10710fd-b113-458c-ba40-0af115d7c4c7</id>
+      <recordtableid>0d161523-5705-403b-8bdf-4683e6027372</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\StartAUT.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>fd6ec620-999c-41ec-931a-233f5e3db918</id>
+      <recordtableid>3232176a-0082-4e37-8bf1-1a1522285d1b</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IQDOC_Sanitas.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9d90a897-8db2-4b26-b70a-2f2cd01558bf</id>
+    </Content>
+    <Content Include="IQDOC_Captura.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>950eeab6-5750-4366-9953-c1fa3812b49f</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CargaDatos">
+      <id>de986c34-f12e-4cb3-a6c6-947101014073</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>030b9e78-bedf-467b-8682-b9eb5b6d637c</id>
+    </Folder>
+    <Folder Include="ScriptGeneral">
+      <id>316d74d5-686b-4a09-a308-b0298212f764</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
 </Project>

@@ -171,14 +171,6 @@
 					variablename="CBOProducto">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="SolicitudID"
-					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
-					variableid="478bfbc6-408f-470a-a323-609874a6d8f0"
-					variablename="SolicitudID">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="17ca1da3-b7ac-4f33-9290-0b0aa7e8c32a"
