@@ -2354,6 +2354,19 @@ Z/w/mKAOSooooA//2Q==
 				</path>
 			</info>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ce81967f-0b23-49f5-8261-dde2f692b44e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"

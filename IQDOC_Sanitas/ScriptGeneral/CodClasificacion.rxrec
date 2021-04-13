@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="95498a60-111c-4ec1-b77c-846eb8c02e14"
+id="ec9097b1-92ff-4ab5-9f56-39bd8585964b"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,49 +19,39 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="AceptarNoHay"
+	classname="CodClasificacion"
 	namespace="IQDOC_Sanitas.ScriptGeneral">
 	</codegen>
 	<variables>
+		<var
+		id="d9b01040-bc1f-4cd8-bed6-a46e74e67fef"
+		name="SolicitudId">
+		</var>
+		<var
+		id="6d417701-c4ec-4e99-b4d3-2b2d1b9cb38e"
+		name="ParFolderId">
+		</var>
+		<var
+		id="46baa2de-5bdb-4387-8607-7238bf317fd3"
+		name="Codigo">
+		</var>
 	</variables>
 	<recorditems>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<userrecorditem
+		classname="CodClasificacion"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="True"
-		searchpropertyid="6a12d8d1-a43b-4f92-9952-fbaa21f6fa6f"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
+		isexternaltestmethod="False"
+		methodname="Clasificar"
+		namespace="IQDOC_Sanitas.ScriptGeneral"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="de688fdc-0e42-432d-a3aa-7aebe3931d97"
-			sourcename="RepositoryEditor">
-				<path>
-					/form[@class='#32770']/button
-				</path>
-			</info>
-		</mouseitem>
-		<loggingrecorditem
-		action="Screenshot"
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="7b2d7641-803c-45f3-92df-70c24da17758">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</loggingrecorditem>
+			<arguments
+			id="979f7af7-f950-499f-8f06-e5d2790f0eac">
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"
@@ -78,7 +68,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		AceptarNoHay.UserCode.cs
+		CodClasificacion.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

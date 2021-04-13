@@ -42,6 +42,7 @@ namespace IQDOC_Sanitas.CargaDatos
         public AbrirVentanaInfo()
         {
             FolderId = "";
+            Documentoid = "";
         }
 
         /// <summary>
@@ -64,6 +65,18 @@ namespace IQDOC_Sanitas.CargaDatos
         {
             get { return _FolderId; }
             set { _FolderId = value; }
+        }
+
+        string _Documentoid;
+
+        /// <summary>
+        /// Gets or sets the value of variable Documentoid.
+        /// </summary>
+        [TestVariable("ba10c8b6-a101-4171-a8f2-a608cfddb8df")]
+        public string Documentoid
+        {
+            get { return _Documentoid; }
+            set { _Documentoid = value; }
         }
 
 #endregion

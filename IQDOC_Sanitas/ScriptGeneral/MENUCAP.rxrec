@@ -361,6 +361,19 @@ CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
 KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ed3e645b-e521-421f-9831-49b64a0e40db">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"

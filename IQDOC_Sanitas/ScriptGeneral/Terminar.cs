@@ -24,44 +24,34 @@ namespace IQDOC_Sanitas.ScriptGeneral
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The MENUCAP recording.
+    ///The Terminar recording.
     /// </summary>
-    [TestModule("f5c81106-aeab-4179-82e1-a02472412b24", ModuleType.Recording, 1)]
-    public partial class MENUCAP : ITestModule
+    [TestModule("faee5355-85bf-4b37-aad4-72d08b858fbd", ModuleType.Recording, 1)]
+    public partial class Terminar : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
         /// </summary>
         public static global::IQDOC_Sanitas.IQDOC_SanitasRepository repo = global::IQDOC_Sanitas.IQDOC_SanitasRepository.Instance;
 
-        static MENUCAP instance = new MENUCAP();
+        static Terminar instance = new Terminar();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public MENUCAP()
+        public Terminar()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static MENUCAP Instance
+        public static Terminar Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        /// <summary>
-        /// Gets or sets the value of variable Modulo.
-        /// </summary>
-        [TestVariable("478968b1-605a-4f35-9d85-78399983e3c3")]
-        public string Modulo
-        {
-            get { return repo.Modulo; }
-            set { repo.Modulo = value; }
-        }
 
 #endregion
 
@@ -89,15 +79,17 @@ namespace IQDOC_Sanitas.ScriptGeneral
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Archivo' at 22;15.", repo.MDIPrincipal.ArchivoInfo, new RecordItemIndex(0));
-            repo.MDIPrincipal.Archivo.Click("22;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MensajePantalla.Button' at Center.", repo.MensajePantalla.ButtonInfo, new RecordItemIndex(0));
+            repo.MensajePantalla.Button.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IQDOC.CapturaDeEncabezado' at 107;13.", repo.IQDOC.CapturaDeEncabezadoInfo, new RecordItemIndex(1));
-            repo.IQDOC.CapturaDeEncabezado.Click("107;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.Btn_GuadarClasi' at Center.", repo.MDIPrincipal.FrmclasiffierSura.Btn_GuadarClasiInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.FrmclasiffierSura.Btn_GuadarClasi.Click();
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.Btn_Salir' at Center.", repo.MDIPrincipal.FrmclasiffierSura.Btn_SalirInfo, new RecordItemIndex(2));
+            repo.MDIPrincipal.FrmclasiffierSura.Btn_Salir.Click();
+            Delay.Milliseconds(0);
             
         }
 

@@ -1664,6 +1664,19 @@ mode="Global">
 				</path>
 			</info>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="eb9ebbcb-41ff-4c92-b839-9fc686470214">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"

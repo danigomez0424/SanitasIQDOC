@@ -2072,6 +2072,19 @@ RzMPq9PsH2b/AG/0o+zf7f6UUUczD6vT7B9m/wBv9KPs3+3+lFFHMw+r0+wfZv8Ab/Sj7N/t/pRR
 RzMPq9PsH2b/AG/0o+zf7f6UUUczD6vT7CrAVYMshBHIIHSk+z/7f6UUUczD6vT7H//Z
 			</helperscreenshot>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="bbf944fc-926c-4442-857c-9fb040385c9a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"

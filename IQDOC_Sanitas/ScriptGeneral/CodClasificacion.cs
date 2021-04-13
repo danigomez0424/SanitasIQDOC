@@ -24,43 +24,72 @@ namespace IQDOC_Sanitas.ScriptGeneral
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The MENUCAP recording.
+    ///The CodClasificacion recording.
     /// </summary>
-    [TestModule("f5c81106-aeab-4179-82e1-a02472412b24", ModuleType.Recording, 1)]
-    public partial class MENUCAP : ITestModule
+    [TestModule("ec9097b1-92ff-4ab5-9f56-39bd8585964b", ModuleType.Recording, 1)]
+    public partial class CodClasificacion : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
         /// </summary>
         public static global::IQDOC_Sanitas.IQDOC_SanitasRepository repo = global::IQDOC_Sanitas.IQDOC_SanitasRepository.Instance;
 
-        static MENUCAP instance = new MENUCAP();
+        static CodClasificacion instance = new CodClasificacion();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public MENUCAP()
+        public CodClasificacion()
         {
+            SolicitudId = "";
+            ParFolderId = "";
+            Codigo = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static MENUCAP Instance
+        public static CodClasificacion Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
+        string _SolicitudId;
+
         /// <summary>
-        /// Gets or sets the value of variable Modulo.
+        /// Gets or sets the value of variable SolicitudId.
         /// </summary>
-        [TestVariable("478968b1-605a-4f35-9d85-78399983e3c3")]
-        public string Modulo
+        [TestVariable("d9b01040-bc1f-4cd8-bed6-a46e74e67fef")]
+        public string SolicitudId
         {
-            get { return repo.Modulo; }
-            set { repo.Modulo = value; }
+            get { return _SolicitudId; }
+            set { _SolicitudId = value; }
+        }
+
+        string _ParFolderId;
+
+        /// <summary>
+        /// Gets or sets the value of variable ParFolderId.
+        /// </summary>
+        [TestVariable("6d417701-c4ec-4e99-b4d3-2b2d1b9cb38e")]
+        public string ParFolderId
+        {
+            get { return _ParFolderId; }
+            set { _ParFolderId = value; }
+        }
+
+        string _Codigo;
+
+        /// <summary>
+        /// Gets or sets the value of variable Codigo.
+        /// </summary>
+        [TestVariable("46baa2de-5bdb-4387-8607-7238bf317fd3")]
+        public string Codigo
+        {
+            get { return _Codigo; }
+            set { _Codigo = value; }
         }
 
 #endregion
@@ -89,15 +118,8 @@ namespace IQDOC_Sanitas.ScriptGeneral
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.Archivo' at 22;15.", repo.MDIPrincipal.ArchivoInfo, new RecordItemIndex(0));
-            repo.MDIPrincipal.Archivo.Click("22;15");
+            Clasificar();
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IQDOC.CapturaDeEncabezado' at 107;13.", repo.IQDOC.CapturaDeEncabezadoInfo, new RecordItemIndex(1));
-            repo.IQDOC.CapturaDeEncabezado.Click("107;13");
-            Delay.Milliseconds(0);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(2));
             
         }
 

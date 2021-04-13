@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="1de422d3-6c34-4bb9-86fb-80de3ace7aa3"
+id="0595008d-0d95-4719-85d1-a9d5a98fc032"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,82 +19,81 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="ValidacionFolder"
-	namespace="IQDOC_Sanitas.CargaDatos">
+	classname="ValFolder"
+	namespace="IQDOC_Sanitas.ScriptGeneral">
 	</codegen>
 	<variables>
 		<var
-		id="478bfbc6-408f-470a-a323-609874a6d8f0"
+		id="eebec97c-0a0b-4afd-affd-1cb20a4b34ef"
 		name="SolicitudID">
-			DCC8CE34-0E86-4BB4-BCB5-B84F4679941C
 		</var>
 		<var
-		id="0b89e05f-a20b-4c31-9389-ce5ed05e7195"
-		name="NitIPS">
-		</var>
-		<var
-		id="3d5a2773-8f34-4b7e-9f25-92a4b0c7a1db"
-		name="Nfactura">
-		</var>
-		<var
-		id="30ff0f56-640d-4404-83d8-7e40964d179a"
+		id="bf08318f-3e7a-44fb-9529-106a1d7c7d7e"
 		name="FechaFactura">
 		</var>
 		<var
-		id="77110777-b1c5-4678-98ee-d141f8c304ff"
+		id="9a49b6f5-1b31-4e1b-95dd-62af4a447c41"
 		name="Periodo">
 		</var>
 		<var
-		id="5b5b5b45-de4a-4983-bf46-5f4d2c10d871"
+		id="b2b146ef-51b1-4e7d-8ab6-66cca74b2615"
 		name="TipHonorario">
 		</var>
 		<var
-		id="bf45e292-c442-4798-af56-d4730aee2f2a"
-		name="Producto">
-		</var>
-		<var
-		id="8a359ef7-2afa-484c-bbb2-9e74de34fd09"
-		name="Plan">
-		</var>
-		<var
-		id="59eede5d-6fda-451a-9cc7-01c79a040477"
+		id="e7c4be06-7dde-4029-bbf8-332aaa2ccac7"
 		name="ValBruto">
 		</var>
 		<var
-		id="1cb6f052-de6e-4f24-8813-0523927d4244"
-		name="NFacturaOriginal">
-		</var>
-		<var
-		id="7dbad027-2d8d-4446-aece-e29e376e2259"
+		id="f76d6598-7f37-4db2-8a4a-19c2d1e48edd"
 		name="ParFolderId">
 		</var>
 		<var
-		id="9699049f-17bb-454d-8b7e-01c2f33c6f90"
-		name="TipoNoPbs">
+		id="4f82039f-5643-4af7-99c1-3610ec0bdfa2"
+		name="NFacturaOriginal">
 		</var>
 		<var
-		id="4da9608c-7426-432a-b6ca-2e301e030daf"
+		id="cf8ae2b8-a2fb-4409-a56b-0ef3c04c255a"
+		name="Prefijo">
+		</var>
+		<var
+		id="1fab2f2b-09cc-403a-887b-e31045c33ab6"
+		name="NitIPS">
+		</var>
+		<var
+		id="85f8a6df-6e98-4e48-a57f-d333548e0584"
+		name="Nfactura">
+		</var>
+		<var
+		id="33523908-409a-4b87-acf8-ee6f3bb9f026"
+		name="Producto">
+		</var>
+		<var
+		id="f0ea21f0-8817-4a87-8859-a72b96b7210a"
+		name="Plan">
+		</var>
+		<var
+		id="3b8fc16b-fde5-4670-85b9-3742cde8d3e9"
 		name="CBOProducto">
 		</var>
 		<var
-		id="c21e6b84-f041-4890-996a-3777f2a1d3f0"
-		name="Prefijo">
+		id="8cb2ad93-8103-463b-acac-efd1bd016917"
+		name="TipoNoPbs">
 		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem
-		classname="ValidacionFolder"
+		classname="ValFolder"
 		enabled="True"
 		isexternaltestmethod="False"
-		methodname="CargaDatos"
-		namespace="IQDOC_Sanitas.CargaDatos"
+		methodname="ValidacionCargaDatos"
+		namespace="IQDOC_Sanitas.ScriptGeneral"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<arguments
-			id="a62cfc8e-1cd8-4246-9093-364a8119e236">
+			id="4cc54468-de8b-45b3-aeda-092ddb3fff8c">
 			</arguments>
 		</userrecorditem>
 	</recorditems>
@@ -113,7 +112,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		ValidacionFolder.UserCode.cs
+		ValFolder.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

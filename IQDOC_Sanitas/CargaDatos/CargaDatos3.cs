@@ -109,6 +109,8 @@ namespace IQDOC_Sanitas.CargaDatos
             repo.MDIPrincipal.TabMain.Plan.PressKeys(Plan);
             Delay.Milliseconds(0);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(2));
+            
         }
 
 #region Image Feature Data

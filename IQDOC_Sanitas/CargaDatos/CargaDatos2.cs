@@ -176,6 +176,8 @@ namespace IQDOC_Sanitas.CargaDatos
             repo.MDIPrincipal.TabMain.TipoHonorarioText.PressKeys(TipHonorario);
             Delay.Milliseconds(0);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(8));
+            
         }
 
 #region Image Feature Data

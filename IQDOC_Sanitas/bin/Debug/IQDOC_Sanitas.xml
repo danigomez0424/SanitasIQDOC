@@ -29,6 +29,11 @@
             Gets or sets the value of variable FolderId.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Documentoid">
+            <summary>
+            Gets or sets the value of variable Documentoid.
+            </summary>
+        </member>
         <member name="M:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Start">
             <summary>
             Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.CargaDatos.AbrirVentanaInfo.Instance"/>.
@@ -361,6 +366,11 @@
         <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.Prefijo">
+            <summary>
+            Gets or sets the value of variable Prefijo.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.CargaDatos1.NitIPS">
@@ -856,6 +866,11 @@
         <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.TipoNoPbs">
             <summary>
             Gets or sets the value of variable TipoNoPbs.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.Prefijo">
+            <summary>
+            Gets or sets the value of variable Prefijo.
             </summary>
         </member>
         <member name="P:IQDOC_Sanitas.CargaDatos.ValidacionFolder.CodCausal">
@@ -1632,6 +1647,16 @@
             The Text1001 item info.
             </summary>
         </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.Prefijo">
+            <summary>
+            The Prefijo item.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.TabMainFolder.PrefijoInfo">
+            <summary>
+            The Prefijo item info.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.IQDOC_SanitasRepositoryFolders.FrmclasiffierSuraFolder">
             <summary>
             The FrmclasiffierSuraFolder folder.
@@ -2245,6 +2270,60 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.CodClasificacion">
+             <summary>
+            The CodClasificacion recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.SolicitudId">
+            <summary>
+            Gets or sets the value of variable SolicitudId.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.Codigo">
+            <summary>
+            Gets or sets the value of variable Codigo.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.CodClasificacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:IQDOC_Sanitas.ScriptGeneral.Finalizar">
              <summary>
             The Finalizar recording.
@@ -2504,6 +2583,154 @@
             that will in turn invoke this method.</remarks>
         </member>
         <member name="M:IQDOC_Sanitas.ScriptGeneral.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.Terminar">
+             <summary>
+            The Terminar recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.Terminar.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Terminar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.Terminar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Terminar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.Terminar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Terminar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.Terminar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:IQDOC_Sanitas.ScriptGeneral.ValFolder">
+             <summary>
+            The ValFolder recording.
+             </summary>
+        </member>
+        <member name="F:IQDOC_Sanitas.ScriptGeneral.ValFolder.repo">
+            <summary>
+            Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.ValFolder.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.SolicitudID">
+            <summary>
+            Gets or sets the value of variable SolicitudID.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.FechaFactura">
+            <summary>
+            Gets or sets the value of variable FechaFactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Periodo">
+            <summary>
+            Gets or sets the value of variable Periodo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.TipHonorario">
+            <summary>
+            Gets or sets the value of variable TipHonorario.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.ValBruto">
+            <summary>
+            Gets or sets the value of variable ValBruto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.ParFolderId">
+            <summary>
+            Gets or sets the value of variable ParFolderId.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.NFacturaOriginal">
+            <summary>
+            Gets or sets the value of variable NFacturaOriginal.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Prefijo">
+            <summary>
+            Gets or sets the value of variable Prefijo.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.TipoNoPbs">
+            <summary>
+            Gets or sets the value of variable TipoNoPbs.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.NitIPS">
+            <summary>
+            Gets or sets the value of variable NitIPS.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Nfactura">
+            <summary>
+            Gets or sets the value of variable Nfactura.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Plan">
+            <summary>
+            Gets or sets the value of variable Plan.
+            </summary>
+        </member>
+        <member name="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.CBOProducto">
+            <summary>
+            Gets or sets the value of variable CBOProducto.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.ValFolder.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:IQDOC_Sanitas.ScriptGeneral.ValFolder.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.ValFolder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:IQDOC_Sanitas.ScriptGeneral.ValFolder.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.

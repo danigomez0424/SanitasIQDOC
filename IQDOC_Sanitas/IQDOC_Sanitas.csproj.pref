@@ -1,14 +1,18 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="IQDOC_Clasificacion.rxtst" />
+    <Element value="CargaDatos\Clasificacion.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="IQDOC_Captura.rxtst" />
     <Element value="IQDOC_Clasificacion.rxtst" />
     <Element value="CargaDatos\Clasificacion.rxrec" />
     <Element value="ScriptGeneral\Login.rxrec" />
   </Array>
   <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
     <Array name="recentusercodeselections" />
   </Properties>
 </Properties>

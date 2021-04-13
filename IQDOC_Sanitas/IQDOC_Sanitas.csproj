@@ -369,6 +369,18 @@
       <id>87f24584-ef51-4d14-a867-51ed915cc98a</id>
       <BoundTo>717044a6-1ea2-4cfe-ba23-6a3301801f0b</BoundTo>
     </Compile>
+    <Compile Include="ScriptGeneral\CodClasificacion.cs">
+      <BoundTo>31f45abb-660d-4b52-a305-33cb39271b34</BoundTo>
+      <DependentUpon>CodClasificacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>53535c35-d0f5-42f0-88f4-ab0734ac1ed6</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\CodClasificacion.UserCode.cs">
+      <BoundTo>31f45abb-660d-4b52-a305-33cb39271b34</BoundTo>
+      <DependentUpon>CodClasificacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8aaa37bc-39ed-435e-a961-93fa44a5cee8</id>
+    </Compile>
     <Compile Include="ScriptGeneral\Finalizar.cs">
       <DependentUpon>Finalizar.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -440,6 +452,30 @@
       <UserCode>true</UserCode>
       <id>1006d58d-9289-439f-902b-9f9e28bc571d</id>
       <BoundTo>fd6ec620-999c-41ec-931a-233f5e3db918</BoundTo>
+    </Compile>
+    <Compile Include="ScriptGeneral\Terminar.cs">
+      <BoundTo>13d76693-73ed-4572-8d4b-747ecb4ec06a</BoundTo>
+      <DependentUpon>Terminar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7e8f15a-a805-4ee8-90e8-e32e0cfa71ff</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\Terminar.UserCode.cs">
+      <BoundTo>13d76693-73ed-4572-8d4b-747ecb4ec06a</BoundTo>
+      <DependentUpon>Terminar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7cd9e5df-6a5a-4fcf-806f-0dc443110acd</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\ValFolder.cs">
+      <BoundTo>01942630-c091-441f-9df7-417cdf9498f0</BoundTo>
+      <DependentUpon>ValFolder.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8987eee3-d060-4c9f-833b-21a9fdcfded0</id>
+    </Compile>
+    <Compile Include="ScriptGeneral\ValFolder.UserCode.cs">
+      <BoundTo>01942630-c091-441f-9df7-417cdf9498f0</BoundTo>
+      <DependentUpon>ValFolder.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>428b64cb-684f-4364-9a6d-da346b99cdb2</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -598,6 +634,11 @@
       <id>717044a6-1ea2-4cfe-ba23-6a3301801f0b</id>
       <recordtableid>e1558c17-c348-4dd3-a444-53982418bbe6</recordtableid>
     </None>
+    <None Include="ScriptGeneral\CodClasificacion.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>31f45abb-660d-4b52-a305-33cb39271b34</id>
+      <recordtableid>ec9097b1-92ff-4ab5-9f56-39bd8585964b</recordtableid>
+    </None>
     <None Include="ScriptGeneral\Finalizar.rxrec">
       <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
       <id>12e35625-78d6-4994-aeef-5c9eafb4aee2</id>
@@ -627,6 +668,16 @@
       <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
       <id>fd6ec620-999c-41ec-931a-233f5e3db918</id>
       <recordtableid>3232176a-0082-4e37-8bf1-1a1522285d1b</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\Terminar.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>13d76693-73ed-4572-8d4b-747ecb4ec06a</id>
+      <recordtableid>faee5355-85bf-4b37-aad4-72d08b858fbd</recordtableid>
+    </None>
+    <None Include="ScriptGeneral\ValFolder.rxrec">
+      <BoundTo>959d45d0-3c1d-481a-b3de-698943227c4c</BoundTo>
+      <id>01942630-c091-441f-9df7-417cdf9498f0</id>
+      <recordtableid>0595008d-0d95-4719-85d1-a9d5a98fc032</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

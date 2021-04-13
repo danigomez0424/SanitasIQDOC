@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace IQDOC_Sanitas.CargaDatos
+namespace IQDOC_Sanitas.ScriptGeneral
 {
-    public partial class AbrirVentanaInfo
+    public partial class CodClasificacion
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -33,21 +33,24 @@ namespace IQDOC_Sanitas.CargaDatos
             // Your recording specific initialization code goes here.
         }
 
-        public void ObtenerSolicitudId()
+        public void Clasificar()
         {
-            
-			string a=repo.FrmDatosImagen.TxtPropiedades.TextValue;
-			var b=a.Split(new string [] {"Solicitud_id = ","\n5."} ,StringSplitOptions.RemoveEmptyEntries);
-			var c=a.Split(new string [] {"Documento_id = ","\n2."} ,StringSplitOptions.RemoveEmptyEntries);
-			string Documentoitem=c[1];
-			string folderiditem=b[1];
-			
-			Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmDatosImagen.CmdCerrar' at Center.", repo.FrmDatosImagen.CmdCerrarInfo, new RecordItemIndex(1));
-			repo.FrmDatosImagen.CmdCerrar.Click();
-			Delay.Milliseconds(0);
-			
-			FolderId=folderiditem;
-			Documentoid=Documentoitem;
+           	string folderid=ParFolderId;
+        	if (SolicitudId==folderid){
+           		
+        	
+        		Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo' at 10;13.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(1));
+				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.DoubleClick();
+				// repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.Click("10;13");
+				Delay.Milliseconds(0);
+				
+				
+				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(2));
+				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.PressKeys(Codigo);
+				Delay.Milliseconds(0);
+				
+        	
+        	}
         }
 
     }

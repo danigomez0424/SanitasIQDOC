@@ -116,6 +116,8 @@ namespace IQDOC_Sanitas.CargaDatos
             //repo.MDIPrincipal.FrmclasiffierSura.Btn_Salir.Click();
             //Delay.Milliseconds(0);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(3));
+            
         }
 
 #region Image Feature Data

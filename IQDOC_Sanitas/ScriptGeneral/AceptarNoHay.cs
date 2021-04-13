@@ -85,6 +85,8 @@ namespace IQDOC_Sanitas.ScriptGeneral
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(1));
+            
         }
 
 #region Image Feature Data

@@ -33,6 +33,11 @@ mode="Global">
 		name="Nfactura">
 			2FE6282
 		</var>
+		<var
+		id="733ee859-43e6-49d1-9bcc-8c512340e9da"
+		name="Prefijo">
+			FEO
+		</var>
 	</variables>
 	<recorditems>
 		<keysequenceitem
@@ -421,6 +426,66 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFAFpgGQhgCCMEGs+El4tPDEsCSTnnOAcUUVieiXV/4+pP8A
 cX+bUXH+pP1H8xRRQhPYzdRAMXIBwCR7GrdFFanA9kFFFFMQUUUUAFFFFABVO463P+6n8zRRSY0X
 KKKKYgooooAKKKKACiiigAooooAKKKKACiiigAooooAKnt/9SPqf5miiokb0N2f/2Q==
 			</helperscreenshot>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="8807bbb4-193e-4924-90b1-c8c324462ded">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Prefijo">
+				</binding>
+			</bindings>
+			<info
+			id="560e678b-9999-4883-bb5c-60f16c25c5ec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="488,494,96,16"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Prefijo
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/text[@controlname='TXTPREFIJO']/text[@accessiblename='Prefijo']
+				</path>
+			</info>
 		</keysequenceitem>
 		<keysequenceitem
 		KeySequence="2FE6282"
@@ -1114,6 +1179,19 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKz9d/5Brf7woooA5qiiigAooooAKKKKACiiigAooo
 oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="72c4e8f5-84e5-46eb-9766-9c6ab8263d05">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="2d318ab7-a7ed-4725-9cc3-b5528a11ce0f"

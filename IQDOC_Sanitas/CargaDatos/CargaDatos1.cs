@@ -43,6 +43,7 @@ namespace IQDOC_Sanitas.CargaDatos
         {
             NitIPS = "800087565";
             Nfactura = "2FE6282";
+            Prefijo = "FEO";
         }
 
         /// <summary>
@@ -54,6 +55,18 @@ namespace IQDOC_Sanitas.CargaDatos
         }
 
 #region Variables
+
+        string _Prefijo;
+
+        /// <summary>
+        /// Gets or sets the value of variable Prefijo.
+        /// </summary>
+        [TestVariable("733ee859-43e6-49d1-9bcc-8c512340e9da")]
+        public string Prefijo
+        {
+            get { return _Prefijo; }
+            set { _Prefijo = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable NitIPS.
@@ -105,19 +118,25 @@ namespace IQDOC_Sanitas.CargaDatos
             repo.MDIPrincipal.TabMain.TXTNITIPS.PressKeys(NitIPS);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Nfactura' with focus on 'MDIPrincipal.TabMain.NumeroFactura'.", repo.MDIPrincipal.TabMain.NumeroFacturaInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Prefijo' with focus on 'MDIPrincipal.TabMain.Prefijo'.", repo.MDIPrincipal.TabMain.PrefijoInfo, new RecordItemIndex(1));
+            repo.MDIPrincipal.TabMain.Prefijo.PressKeys(Prefijo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Nfactura' with focus on 'MDIPrincipal.TabMain.NumeroFactura'.", repo.MDIPrincipal.TabMain.NumeroFacturaInfo, new RecordItemIndex(2));
             repo.MDIPrincipal.TabMain.NumeroFactura.PressKeys(Nfactura);
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'InformacionRIPS_cof.Aceptar' at Center.", repo.InformacionRIPS_cof.AceptarInfo, new RecordItemIndex(2));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'InformacionRIPS_cof.Aceptar' at Center.", repo.InformacionRIPS_cof.AceptarInfo, new RecordItemIndex(3));
                 repo.InformacionRIPS_cof.Aceptar.Click();
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(2)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TXTSUCURSAL' at 19;5.", repo.TXTSUCURSALInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TXTSUCURSAL' at 19;5.", repo.TXTSUCURSALInfo, new RecordItemIndex(4));
             repo.TXTSUCURSAL.Click("19;5");
             Delay.Milliseconds(0);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(5));
             
         }
 

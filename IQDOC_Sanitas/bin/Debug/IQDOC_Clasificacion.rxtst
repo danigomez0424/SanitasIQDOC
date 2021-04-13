@@ -3,6 +3,28 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="0b1e7efb-b706-45e7-b43c-183e55baae0e"
+			name="SeleccionarProducto"
+			ref="0d161523-5705-403b-8bdf-4683e6027372"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Producto"
+					datasourceid="96dd9e8c-d702-4d69-bd13-3375ca074a87"
+					variableid="1d9158d0-e8ed-45e2-8efc-4042de6b2698"
+					variablename="CBOProducto">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Producto"
+					datasourceid="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+					variableid="1d9158d0-e8ed-45e2-8efc-4042de6b2698"
+					variablename="CBOProducto">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="227fa0ab-cc85-4dfc-932c-c1cec8de0beb"
 			name="AbrirVentanaInfo"
@@ -17,10 +39,80 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="249e834b-4e3a-4bca-b116-a79b02f44e21"
+			name="CodClasificacion"
+			ref="ec9097b1-92ff-4ab5-9f56-39bd8585964b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="SolicitudId"
+					datasourceid="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+					variableid="d9b01040-bc1f-4cd8-bed6-a46e74e67fef"
+					variablename="SolicitudId">
+					</var>
+					<var
+					dataname="Codigo"
+					datasourceid="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+					variableid="46baa2de-5bdb-4387-8607-7238bf317fd3"
+					variablename="Codigo">
+					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="436e8521-0c0c-46d4-9c11-9a8b9cdde4b2"
+					variableid="6d417701-c4ec-4e99-b4d3-2b2d1b9cb38e"
+					variablename="ParFolderId">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="CodClasificacion"
+					datasourceid="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+					variableid="46baa2de-5bdb-4387-8607-7238bf317fd3"
+					variablename="Codigo">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="3a0d028f-6256-4b2b-bbe8-6e5d776c8d7c"
+			name="MENUCAP"
+			ref="f5c81106-aeab-4179-82e1-a02472412b24"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Modulo"
+					datasourceid="96dd9e8c-d702-4d69-bd13-3375ca074a87"
+					variableid="478968b1-605a-4f35-9d85-78399983e3c3"
+					variablename="Modulo">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Modulo"
+					datasourceid="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+					variableid="478968b1-605a-4f35-9d85-78399983e3c3"
+					variablename="Modulo">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<teardown
 			id="3c8f43c4-b411-41c6-85a7-eaa0ed738e92"
 			name="teardown">
 			</teardown>
+			<testcase
+			datasource="ClasificacionProducto"
+			id="436e8521-0c0c-46d4-9c11-9a8b9cdde4b2"
+			name="TestCase_02">
+				<description>
+					<![CDATA[Código Clasificación Data Source]]>
+				</description>
+				<parameters>
+					<param
+					name="ParFolderId"
+					value="">
+					</param>
+				</parameters>
+			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -90,6 +182,9 @@
 			datasource="Clasificacion"
 			id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa"
 			name="TestCase_01">
+				<description>
+					<![CDATA[Código clasificación aleatorio]]>
+				</description>
 				<parameters>
 					<param
 					name="ParFolderId"
@@ -109,6 +204,34 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="b4a3781d-33db-4bc5-88bd-0806a375abf5"
+			name="AbrirVentanaInfo"
+			ref="1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="436e8521-0c0c-46d4-9c11-9a8b9cdde4b2"
+					variableid="6116f772-1cd7-4847-bc9e-2da3e15e80d4"
+					variablename="FolderId">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa"
+					variableid="6116f772-1cd7-4847-bc9e-2da3e15e80d4"
+					variablename="FolderId">
+					</var>
+					<var
+					dataname="DocumentoId"
+					datasourceid="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+					variableid="ba10c8b6-a101-4171-a8f2-a608cfddb8df"
+					variablename="Documentoid">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="c0a59caf-55bb-4855-a8ec-681edfafd65c"
 			name="MENUCAP"
 			ref="f5c81106-aeab-4179-82e1-a02472412b24"
@@ -122,6 +245,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="ClasificacionCod"
+			id="e3f66356-77ef-48bc-829d-0599eac4001f"
+			name="SmartFolder">
+			</smartfoldernode>
 			<testmodule
 			enabled="False"
 			id="ea86d655-e651-4f42-8234-103a5f272e7c"
@@ -142,6 +270,12 @@
 			id="f30d6758-9030-4907-ad2c-66ef66058fa4"
 			name="Login">
 			</testcase>
+			<testmodule
+			id="fb66e305-8f45-4834-a7dc-d63355d0388f"
+			name="Terminar"
+			ref="faee5355-85bf-4b37-aad4-72d08b858fbd"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="fd1e4633-c118-4496-8e55-28773b6bd76a"
 			name="SeleccionarProducto"
@@ -200,6 +334,34 @@
 						name="Clasificacion">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="436e8521-0c0c-46d4-9c11-9a8b9cdde4b2"
+					name="TestCase_02">
+						<testmodule
+						id="3a0d028f-6256-4b2b-bbe8-6e5d776c8d7c"
+						name="MENUCAP">
+						</testmodule>
+						<testmodule
+						id="0b1e7efb-b706-45e7-b43c-183e55baae0e"
+						name="SeleccionarProducto">
+						</testmodule>
+						<testmodule
+						id="b4a3781d-33db-4bc5-88bd-0806a375abf5"
+						name="AbrirVentanaInfo">
+						</testmodule>
+						<smartfoldernode
+						id="e3f66356-77ef-48bc-829d-0599eac4001f"
+						name="SmartFolder">
+							<testmodule
+							id="249e834b-4e3a-4bca-b116-a79b02f44e21"
+							name="CodClasificacion">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="fb66e305-8f45-4834-a7dc-d63355d0388f"
+						name="Terminar">
+						</testmodule>
+					</testcase>
 					<teardown
 					id="3c8f43c4-b411-41c6-85a7-eaa0ed738e92"
 					name="teardown">
@@ -217,10 +379,62 @@
 		filename="..\..\..\DataSource\Clasificación.xlsx"
 		id="0e699ea1-f3de-4f84-b507-86d4cc9b09ec"
 		includefile="Unchecked"
-		lastknownrowcount="999"
+		lastknownrowcount="14"
 		name="Clasificacion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Modulo
+				</column>
+				<column>
+					Producto
+				</column>
+				<column>
+					SolicitudId
+				</column>
+				<column>
+					DocumentoId
+				</column>
+				<column>
+					CodClasificacion
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="..\..\..\DataSource\ClasificaciónCod.xlsx"
+		id="ac164878-b695-4ef8-bdb2-e11a9b947a89"
+		includefile="Unchecked"
+		lastknownrowcount="6"
+		name="ClasificacionCod"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					SolicitudId
+				</column>
+				<column>
+					DocumentoId
+				</column>
+				<column>
+					Codigo
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="C:\Users\dgomeza\Documents\Ranorex\Git\IQDocOK\DataSource\ClasificaciónCod.xlsx"
+		id="96dd9e8c-d702-4d69-bd13-3375ca074a87"
+		includefile="Unchecked"
+		lastknownrowcount="1"
+		name="ClasificacionProducto"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja2"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
@@ -259,10 +473,13 @@
 		<testconfiguration
 		name="Calsificacion">
 			<testcontainer
+			id="436e8521-0c0c-46d4-9c11-9a8b9cdde4b2">
+			</testcontainer>
+			<testcontainer
 			id="61d8571e-53d9-4e0e-96e1-e4604e98d40e">
 			</testcontainer>
 			<testcontainer
-			id="8af4d8f3-3c4a-4e03-938a-9cc79ccfa8fa">
+			id="e3f66356-77ef-48bc-829d-0599eac4001f">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

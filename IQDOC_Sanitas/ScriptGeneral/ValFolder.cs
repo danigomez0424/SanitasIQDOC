@@ -20,47 +20,47 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace IQDOC_Sanitas.CargaDatos
+namespace IQDOC_Sanitas.ScriptGeneral
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ValidacionFolder recording.
+    ///The ValFolder recording.
     /// </summary>
-    [TestModule("1de422d3-6c34-4bb9-86fb-80de3ace7aa3", ModuleType.Recording, 1)]
-    public partial class ValidacionFolder : ITestModule
+    [TestModule("0595008d-0d95-4719-85d1-a9d5a98fc032", ModuleType.Recording, 1)]
+    public partial class ValFolder : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::IQDOC_Sanitas.IQDOC_SanitasRepository repository.
         /// </summary>
         public static global::IQDOC_Sanitas.IQDOC_SanitasRepository repo = global::IQDOC_Sanitas.IQDOC_SanitasRepository.Instance;
 
-        static ValidacionFolder instance = new ValidacionFolder();
+        static ValFolder instance = new ValFolder();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ValidacionFolder()
+        public ValFolder()
         {
-            SolicitudID = "DCC8CE34-0E86-4BB4-BCB5-B84F4679941C";
-            NitIPS = "";
-            Nfactura = "";
+            SolicitudID = "";
             FechaFactura = "";
             Periodo = "";
             TipHonorario = "";
+            ValBruto = "";
+            ParFolderId = "";
+            NFacturaOriginal = "";
+            Prefijo = "";
+            NitIPS = "";
+            Nfactura = "";
             Producto = "";
             Plan = "";
-            ValBruto = "";
-            NFacturaOriginal = "";
-            ParFolderId = "";
-            TipoNoPbs = "";
             CBOProducto = "";
-            Prefijo = "";
+            TipoNoPbs = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ValidacionFolder Instance
+        public static ValFolder Instance
         {
             get { return instance; }
         }
@@ -72,7 +72,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable SolicitudID.
         /// </summary>
-        [TestVariable("478bfbc6-408f-470a-a323-609874a6d8f0")]
+        [TestVariable("eebec97c-0a0b-4afd-affd-1cb20a4b34ef")]
         public string SolicitudID
         {
             get { return _SolicitudID; }
@@ -84,7 +84,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable FechaFactura.
         /// </summary>
-        [TestVariable("30ff0f56-640d-4404-83d8-7e40964d179a")]
+        [TestVariable("bf08318f-3e7a-44fb-9529-106a1d7c7d7e")]
         public string FechaFactura
         {
             get { return _FechaFactura; }
@@ -96,7 +96,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable Periodo.
         /// </summary>
-        [TestVariable("77110777-b1c5-4678-98ee-d141f8c304ff")]
+        [TestVariable("9a49b6f5-1b31-4e1b-95dd-62af4a447c41")]
         public string Periodo
         {
             get { return _Periodo; }
@@ -108,7 +108,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable TipHonorario.
         /// </summary>
-        [TestVariable("5b5b5b45-de4a-4983-bf46-5f4d2c10d871")]
+        [TestVariable("b2b146ef-51b1-4e7d-8ab6-66cca74b2615")]
         public string TipHonorario
         {
             get { return _TipHonorario; }
@@ -120,23 +120,11 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable ValBruto.
         /// </summary>
-        [TestVariable("59eede5d-6fda-451a-9cc7-01c79a040477")]
+        [TestVariable("e7c4be06-7dde-4029-bbf8-332aaa2ccac7")]
         public string ValBruto
         {
             get { return _ValBruto; }
             set { _ValBruto = value; }
-        }
-
-        string _NFacturaOriginal;
-
-        /// <summary>
-        /// Gets or sets the value of variable NFacturaOriginal.
-        /// </summary>
-        [TestVariable("1cb6f052-de6e-4f24-8813-0523927d4244")]
-        public string NFacturaOriginal
-        {
-            get { return _NFacturaOriginal; }
-            set { _NFacturaOriginal = value; }
         }
 
         string _ParFolderId;
@@ -144,23 +132,23 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable ParFolderId.
         /// </summary>
-        [TestVariable("7dbad027-2d8d-4446-aece-e29e376e2259")]
+        [TestVariable("f76d6598-7f37-4db2-8a4a-19c2d1e48edd")]
         public string ParFolderId
         {
             get { return _ParFolderId; }
             set { _ParFolderId = value; }
         }
 
-        string _TipoNoPbs;
+        string _NFacturaOriginal;
 
         /// <summary>
-        /// Gets or sets the value of variable TipoNoPbs.
+        /// Gets or sets the value of variable NFacturaOriginal.
         /// </summary>
-        [TestVariable("9699049f-17bb-454d-8b7e-01c2f33c6f90")]
-        public string TipoNoPbs
+        [TestVariable("4f82039f-5643-4af7-99c1-3610ec0bdfa2")]
+        public string NFacturaOriginal
         {
-            get { return _TipoNoPbs; }
-            set { _TipoNoPbs = value; }
+            get { return _NFacturaOriginal; }
+            set { _NFacturaOriginal = value; }
         }
 
         string _Prefijo;
@@ -168,27 +156,29 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable Prefijo.
         /// </summary>
-        [TestVariable("c21e6b84-f041-4890-996a-3777f2a1d3f0")]
+        [TestVariable("cf8ae2b8-a2fb-4409-a56b-0ef3c04c255a")]
         public string Prefijo
         {
             get { return _Prefijo; }
             set { _Prefijo = value; }
         }
 
+        string _TipoNoPbs;
+
         /// <summary>
-        /// Gets or sets the value of variable CodCausal.
+        /// Gets or sets the value of variable TipoNoPbs.
         /// </summary>
-        [TestVariable("76573065-3087-4296-9bf6-8692000dcf32")]
-        public string CodCausal
+        [TestVariable("8cb2ad93-8103-463b-acac-efd1bd016917")]
+        public string TipoNoPbs
         {
-            get { return repo.CodCausal; }
-            set { repo.CodCausal = value; }
+            get { return _TipoNoPbs; }
+            set { _TipoNoPbs = value; }
         }
 
         /// <summary>
         /// Gets or sets the value of variable NitIPS.
         /// </summary>
-        [TestVariable("0b89e05f-a20b-4c31-9389-ce5ed05e7195")]
+        [TestVariable("1fab2f2b-09cc-403a-887b-e31045c33ab6")]
         public string NitIPS
         {
             get { return repo.NitIPS; }
@@ -198,7 +188,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable Nfactura.
         /// </summary>
-        [TestVariable("3d5a2773-8f34-4b7e-9f25-92a4b0c7a1db")]
+        [TestVariable("85f8a6df-6e98-4e48-a57f-d333548e0584")]
         public string Nfactura
         {
             get { return repo.Nfactura; }
@@ -208,7 +198,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable Producto.
         /// </summary>
-        [TestVariable("bf45e292-c442-4798-af56-d4730aee2f2a")]
+        [TestVariable("33523908-409a-4b87-acf8-ee6f3bb9f026")]
         public string Producto
         {
             get { return repo.Producto; }
@@ -218,7 +208,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable Plan.
         /// </summary>
-        [TestVariable("8a359ef7-2afa-484c-bbb2-9e74de34fd09")]
+        [TestVariable("f0ea21f0-8817-4a87-8859-a72b96b7210a")]
         public string Plan
         {
             get { return repo.Plan; }
@@ -228,7 +218,7 @@ namespace IQDOC_Sanitas.CargaDatos
         /// <summary>
         /// Gets or sets the value of variable CBOProducto.
         /// </summary>
-        [TestVariable("4da9608c-7426-432a-b6ca-2e301e030daf")]
+        [TestVariable("3b8fc16b-fde5-4670-85b9-3742cde8d3e9")]
         public string CBOProducto
         {
             get { return repo.CBOProducto; }
@@ -261,7 +251,7 @@ namespace IQDOC_Sanitas.CargaDatos
 
             Init();
 
-            CargaDatos();
+            ValidacionCargaDatos();
             Delay.Milliseconds(0);
             
         }

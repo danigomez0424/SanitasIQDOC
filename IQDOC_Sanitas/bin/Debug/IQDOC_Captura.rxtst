@@ -41,6 +41,20 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="054adcd2-1645-4b9c-a7cf-35a30365d96a"
+			name="MENUCAP"
+			ref="f5c81106-aeab-4179-82e1-a02472412b24"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Modulo"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="478968b1-605a-4f35-9d85-78399983e3c3"
+					variablename="Modulo">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="0634dcc1-2c59-4c9e-9eee-8a39e1014872"
 			name="CargaDatosFinal"
 			ref="1082ab58-4f54-48fc-b87c-c199e87779ab"
@@ -72,6 +86,10 @@
 			ref="6c2700a8-5b72-41b4-88dc-6791600aa0df"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="13c290ce-e9c3-444b-9d7f-eb5ca95fe81f"
+			name="teardown">
+			</teardown>
 			<testmodule
 			enabled="False"
 			id="14e2c664-2035-47b0-958a-12cc54e9f9b7"
@@ -86,6 +104,24 @@
 			ref="1de422d3-6c34-4bb9-86fb-80de3ace7aa3"
 			type="Recording">
 				<databinding>
+					<var
+					dataname="SolicitudID"
+					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
+					variableid="478bfbc6-408f-470a-a323-609874a6d8f0"
+					variablename="SolicitudID">
+					</var>
+					<var
+					dataname="NFacturaOriginal"
+					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
+					variableid="1cb6f052-de6e-4f24-8813-0523927d4244"
+					variablename="NFacturaOriginal">
+					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="9aff082e-e7ac-4a14-8011-8123b2dce44f"
+					variableid="7dbad027-2d8d-4446-aece-e29e376e2259"
+					variablename="ParFolderId">
+					</var>
 					<var
 					dataname="NitIPS"
 					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
@@ -141,24 +177,6 @@
 					variablename="CodCausal">
 					</var>
 					<var
-					dataname="SolicitudID"
-					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
-					variableid="478bfbc6-408f-470a-a323-609874a6d8f0"
-					variablename="SolicitudID">
-					</var>
-					<var
-					dataname="NFacturaOriginal"
-					datasourceid="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
-					variableid="1cb6f052-de6e-4f24-8813-0523927d4244"
-					variablename="NFacturaOriginal">
-					</var>
-					<var
-					dataname="ParFolderId"
-					datasourceid="9aff082e-e7ac-4a14-8011-8123b2dce44f"
-					variableid="7dbad027-2d8d-4446-aece-e29e376e2259"
-					variablename="ParFolderId">
-					</var>
-					<var
 					dataname="TipoNoPbs"
 					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
 					variableid="9699049f-17bb-454d-8b7e-01c2f33c6f90"
@@ -172,6 +190,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="CapturaFolder"
+			id="17a521d2-cc04-4665-8d18-6d0fcd2ada95"
+			name="SmartFolder">
+			</smartfoldernode>
 			<testmodule
 			id="17ca1da3-b7ac-4f33-9290-0b0aa7e8c32a"
 			name="SeleccionarProducto"
@@ -185,6 +208,13 @@
 					variablename="CBOProducto">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="24d27d90-5047-4962-993e-dcdd77075286"
+			name="CargarDatosFinalSinRIPS"
+			ref="3a6c9957-442f-4ffc-ab58-2cde6110cd51"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="2f021c96-a65d-4376-bb7c-c7e012bf08fb"
@@ -205,6 +235,20 @@
 			name="CargaDatosFinal"
 			ref="1082ab58-4f54-48fc-b87c-c199e87779ab"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="35c50a5d-d74d-432b-9b5f-09c419d431cc"
+			name="SeleccionarProducto"
+			ref="0d161523-5705-403b-8bdf-4683e6027372"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CBOProducto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="1d9158d0-e8ed-45e2-8efc-4042de6b2698"
+					variablename="CBOProducto">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datasource="CapturaRIPS"
@@ -228,10 +272,64 @@
 					<![CDATA[<p>Módulo Captura Cuentas Devueltas A2M&nbsp;sin RIPS</p>]]>
 				</description>
 			</testcase>
+			<testmodule
+			enabled="False"
+			id="40a698ce-55fd-4931-a950-dd45169cca65"
+			name="CargaDatos4"
+			ref="447d2d85-1269-425b-bf56-108d6d5926a5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ValBruto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="193a8434-a58d-49bc-b9fb-b3ec2b843aa3"
+					variablename="ValBruto">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="417584ab-a057-40d8-99d8-40c9f085a5e3"
 			name="setup">
 			</setup>
+			<testmodule
+			enabled="False"
+			id="45560c23-6672-4852-9e31-ee1889c5885c"
+			name="CargaDatos2"
+			ref="efdb6eb4-334f-4ba0-8203-3ff7442ffb76"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Sucursal"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="f53dbe53-95a3-40e9-b9f5-2b741287451a"
+					variablename="Sucursal">
+					</var>
+					<var
+					dataname="TipHonorario"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="c9faf717-5d29-4506-9df5-5364aaca970c"
+					variablename="TipHonorario">
+					</var>
+					<var
+					dataname="ValBruto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="cead99af-3eab-475b-97e7-d07c7a21639e"
+					variablename="ValBruto">
+					</var>
+					<var
+					dataname="Periodo"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="58f0b3fc-0aa6-4084-ac4d-8ab0bbee953c"
+					variablename="Periodo">
+					</var>
+					<var
+					dataname="FechaFactura"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="8567d7f2-1d5a-45cd-822f-89131332097e"
+					variablename="FechaFactura">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			enabled="False"
 			id="463bc346-1068-4b0c-b57d-0dc3154fc16c"
@@ -303,24 +401,31 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			enabled="False"
-			id="54337a44-135b-4b9a-9bba-5295fa3592b8"
-			name="LOGOUT"
-			ref="685d8117-0203-44cd-a54e-60c354c38aa8"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			enabled="False"
-			id="5502134c-cb95-4a55-88ec-b11b6a75d75d"
-			name="CloseAUT"
-			ref="e1558c17-c348-4dd3-a444-53982418bbe6"
-			type="Recording">
-			</testmodule>
 			<setup
 			id="5626d03a-de88-4d18-8135-1f26843d8811"
 			name="setup">
 			</setup>
+			<testmodule
+			enabled="False"
+			id="5ee78ce5-592f-449d-aacf-8a88845023c0"
+			name="CargaDatos3"
+			ref="2a2f6d57-9bb4-4fb1-9d0f-244755663ab8"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Plan"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="2099f1a2-c19a-4b13-a6b9-fe3ad06234e5"
+					variablename="Plan">
+					</var>
+					<var
+					dataname="Producto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="9b9fc5b2-f3bb-4e4a-8303-84afa6db1845"
+					variablename="Producto">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datasource="CapturaRIPS"
 			id="645cc21b-af29-46d3-9f77-033164460915"
@@ -329,6 +434,33 @@
 					<![CDATA[<p>Módulo Caputra Encabezado Con RIPS</p>]]>
 				</description>
 			</testcase>
+			<testmodule
+			enabled="False"
+			id="65747278-82a0-4d28-a1b4-0ffc83a53804"
+			name="CargaDatos1"
+			ref="bfcefec9-b881-4f15-a319-ba9007457abe"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="NitIPS"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="58f1a64b-be2e-4570-9ce4-96f2927257d5"
+					variablename="NitIPS">
+					</var>
+					<var
+					dataname="Nfactura"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="fe31151f-2d2e-4895-86e5-8b26b40432eb"
+					variablename="Nfactura">
+					</var>
+					<var
+					dataname="Prefijo"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="733ee859-43e6-49d1-9bcc-8c512340e9da"
+					variablename="Prefijo">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="6763e12e-d4cb-471a-a7ef-a36ae56e0f9d"
 			name="CargaDatosFinal"
@@ -343,6 +475,12 @@
 					<![CDATA[Módulo Captura Con RIPS y Devolución]]>
 				</description>
 			</testcase>
+			<testmodule
+			id="6ff9f62e-c698-43e2-9915-19515e248a89"
+			name="Finalizar"
+			ref="6c2700a8-5b72-41b4-88dc-6791600aa0df"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="76d0a716-ae1d-487b-8e03-c557f2fc6381"
 			name="CerrarVentana"
@@ -380,10 +518,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<teardown
-			id="7e5332f1-a25e-4150-9a94-20ee904827fb"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="814226e0-0299-4a6e-b51e-74220cf67cc0"
 			name="MENUCAP"
@@ -452,6 +586,13 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="8bbb1064-5ccc-47ae-a710-659355cec477"
+			name="CargaDatosFinal"
+			ref="1082ab58-4f54-48fc-b87c-c199e87779ab"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="8cf50fd9-231f-4abc-871e-d4cbfcd93ea1"
 			name="CargaDevolucion"
 			ref="350af07b-c0bc-4558-ac35-9ca5dc87b773"
@@ -465,6 +606,20 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="CapturaSanitas"
+			id="8d804002-96f4-43e8-8d5e-a001549b7709"
+			name="TestCase_07">
+				<description>
+					<![CDATA[<p>Módulo Captura Sin RIPS con FolderID</p>]]>
+				</description>
+				<parameters>
+					<param
+					name="ParFolderId"
+					value="">
+					</param>
+				</parameters>
+			</testcase>
 			<testmodule
 			id="8fa345bd-6913-4fa8-b800-560e22e95ddb"
 			name="CargaDatos1"
@@ -486,6 +641,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="9110482a-3f48-4151-b18f-0d9cdcb4acaa"
 			name="Finalizar"
 			ref="6c2700a8-5b72-41b4-88dc-6791600aa0df"
@@ -602,6 +758,98 @@
 					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
 					variableid="8567d7f2-1d5a-45cd-822f-89131332097e"
 					variablename="FechaFactura">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="ac6f1723-b908-49e0-b7bd-3a90100e61e3"
+			name="ValFolder"
+			ref="0595008d-0d95-4719-85d1-a9d5a98fc032"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="NitIPS"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="1fab2f2b-09cc-403a-887b-e31045c33ab6"
+					variablename="NitIPS">
+					</var>
+					<var
+					dataname="Prefijo"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="cf8ae2b8-a2fb-4409-a56b-0ef3c04c255a"
+					variablename="Prefijo">
+					</var>
+					<var
+					dataname="Nfactura"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="85f8a6df-6e98-4e48-a57f-d333548e0584"
+					variablename="Nfactura">
+					</var>
+					<var
+					dataname="FechaFactura"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="bf08318f-3e7a-44fb-9529-106a1d7c7d7e"
+					variablename="FechaFactura">
+					</var>
+					<var
+					dataname="Periodo"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="9a49b6f5-1b31-4e1b-95dd-62af4a447c41"
+					variablename="Periodo">
+					</var>
+					<var
+					dataname="TipHonorario"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="b2b146ef-51b1-4e7d-8ab6-66cca74b2615"
+					variablename="TipHonorario">
+					</var>
+					<var
+					dataname="Producto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="33523908-409a-4b87-acf8-ee6f3bb9f026"
+					variablename="Producto">
+					</var>
+					<var
+					dataname="Plan"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="f0ea21f0-8817-4a87-8859-a72b96b7210a"
+					variablename="Plan">
+					</var>
+					<var
+					dataname="ValBruto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="e7c4be06-7dde-4029-bbf8-332aaa2ccac7"
+					variablename="ValBruto">
+					</var>
+					<var
+					dataname="CBOProducto"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="3b8fc16b-fde5-4670-85b9-3742cde8d3e9"
+					variablename="CBOProducto">
+					</var>
+					<var
+					dataname="TipoNoPbs"
+					datasourceid="d28ca636-fef2-41b9-8af2-f1721e24594c"
+					variableid="8cb2ad93-8103-463b-acac-efd1bd016917"
+					variablename="TipoNoPbs">
+					</var>
+					<var
+					dataname="SolicitudID"
+					datasourceid="f52d9348-1fd8-446f-a03a-1e240cf6ff4d"
+					variableid="eebec97c-0a0b-4afd-affd-1cb20a4b34ef"
+					variablename="SolicitudID">
+					</var>
+					<var
+					dataname="NFacturaOriginal"
+					datasourceid="f52d9348-1fd8-446f-a03a-1e240cf6ff4d"
+					variableid="4f82039f-5643-4af7-99c1-3610ec0bdfa2"
+					variablename="NFacturaOriginal">
+					</var>
+					<var
+					dataname="ParFolderId"
+					datasourceid="8d804002-96f4-43e8-8d5e-a001549b7709"
+					variableid="f76d6598-7f37-4db2-8a4a-19c2d1e48edd"
+					variablename="ParFolderId">
 					</var>
 				</databinding>
 			</testmodule>
@@ -937,6 +1185,28 @@
 					variablename="ValBruto">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="e8e4d390-b697-474b-abe1-7fa561b98788"
+			name="AbrirVentanaInfo"
+			ref="1fb01ab9-8d58-4c3d-8b69-ca023ca1e03d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="8d804002-96f4-43e8-8d5e-a001549b7709"
+					variableid="6116f772-1cd7-4847-bc9e-2da3e15e80d4"
+					variablename="FolderId">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="ParFolderId"
+					datasourceid="9aff082e-e7ac-4a14-8011-8123b2dce44f"
+					variableid="6116f772-1cd7-4847-bc9e-2da3e15e80d4"
+					variablename="FolderId">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="eec1b829-8507-4073-ade9-bac868106b04"
@@ -1325,23 +1595,87 @@
 						name="CargaDatosFinal">
 						</testmodule>
 					</testcase>
-					<teardown
-					id="7e5332f1-a25e-4150-9a94-20ee904827fb"
-					name="teardown">
+					<testcase
+					id="8d804002-96f4-43e8-8d5e-a001549b7709"
+					name="TestCase_07">
 						<testmodule
-						id="5502134c-cb95-4a55-88ec-b11b6a75d75d"
-						name="CloseAUT">
+						id="054adcd2-1645-4b9c-a7cf-35a30365d96a"
+						name="MENUCAP">
 						</testmodule>
 						<testmodule
-						id="54337a44-135b-4b9a-9bba-5295fa3592b8"
-						name="LOGOUT">
+						id="35c50a5d-d74d-432b-9b5f-09c419d431cc"
+						name="SeleccionarProducto">
 						</testmodule>
-					</teardown>
+						<testmodule
+						id="65747278-82a0-4d28-a1b4-0ffc83a53804"
+						name="CargaDatos1">
+						</testmodule>
+						<testmodule
+						id="45560c23-6672-4852-9e31-ee1889c5885c"
+						name="CargaDatos2">
+						</testmodule>
+						<testmodule
+						id="5ee78ce5-592f-449d-aacf-8a88845023c0"
+						name="CargaDatos3">
+						</testmodule>
+						<testmodule
+						id="40a698ce-55fd-4931-a950-dd45169cca65"
+						name="CargaDatos4">
+						</testmodule>
+						<testmodule
+						id="8bbb1064-5ccc-47ae-a710-659355cec477"
+						name="CargaDatosFinal">
+						</testmodule>
+						<testmodule
+						id="e8e4d390-b697-474b-abe1-7fa561b98788"
+						name="AbrirVentanaInfo">
+						</testmodule>
+						<smartfoldernode
+						id="17a521d2-cc04-4665-8d18-6d0fcd2ada95"
+						name="SmartFolder">
+							<testmodule
+							id="ac6f1723-b908-49e0-b7bd-3a90100e61e3"
+							name="ValFolder">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="24d27d90-5047-4962-993e-dcdd77075286"
+						name="CargarDatosFinalSinRIPS">
+						</testmodule>
+						<teardown
+						id="13c290ce-e9c3-444b-9d7f-eb5ca95fe81f"
+						name="teardown">
+							<testmodule
+							id="6ff9f62e-c698-43e2-9915-19515e248a89"
+							name="Finalizar">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
 	</testsuiteentryhierarchy>
 	<datasources>
+		<DataSource
+		filename="..\..\..\DataSource\Captura.xlsx"
+		id="f52d9348-1fd8-446f-a03a-1e240cf6ff4d"
+		includefile="Unchecked"
+		lastknownrowcount="1"
+		name="CapturaFolder"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja3"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					SolicitudID
+				</column>
+				<column>
+					NFacturaOriginal
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 		<DataSource
 		filename="..\..\..\DataSource\CapturaRIP.xlsx"
 		id="dd3c6c91-60d1-427a-80ba-e9aa0230f1b7"
@@ -1381,7 +1715,7 @@
 		filename="..\..\..\DataSource\Captura.xlsx"
 		id="d28ca636-fef2-41b9-8af2-f1721e24594c"
 		includefile="Unchecked"
-		lastknownrowcount="1000"
+		lastknownrowcount="1"
 		name="CapturaSanitas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1389,6 +1723,9 @@
 			<lastknowncolumns>
 				<column>
 					NitIPS
+				</column>
+				<column>
+					Prefijo
 				</column>
 				<column>
 					Nfactura
@@ -1434,7 +1771,7 @@
 		filename="..\..\..\DataSource\Captura.xlsx"
 		id="53bbb3cd-4b90-49fa-a0ec-f595de3c00a3"
 		includefile="Unchecked"
-		lastknownrowcount="993"
+		lastknownrowcount="1"
 		name="ListaSolicitud"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja3"
@@ -1473,13 +1810,13 @@
 		<testconfiguration
 		name="Captura">
 			<testcontainer
+			id="17a521d2-cc04-4665-8d18-6d0fcd2ada95">
+			</testcontainer>
+			<testcontainer
 			id="78a08fb4-b2b1-4dd3-ba06-8a67a5cf997d">
 			</testcontainer>
 			<testcontainer
-			id="9aff082e-e7ac-4a14-8011-8123b2dce44f">
-			</testcontainer>
-			<testcontainer
-			id="b434ca11-39e7-43f4-9680-3cd5addcb899">
+			id="8d804002-96f4-43e8-8d5e-a001549b7709">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

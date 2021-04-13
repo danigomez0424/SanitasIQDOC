@@ -48,7 +48,13 @@ namespace IQDOC_Sanitas.CargaDatos
 			
 			while (!repo.MensajePantalla.FinDocumentoInfo.Exists(2000))
 				
+				
 			{
+				
+				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(2));
+				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.PressKeys("{Return}");
+				Delay.Milliseconds(0);
+				
 				try {
 					Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'MensajePantalla.Button' at Center.", repo.MensajePantalla.ButtonInfo, new RecordItemIndex(3));
 					repo.MensajePantalla.Button.Click();
@@ -69,7 +75,13 @@ namespace IQDOC_Sanitas.CargaDatos
 					}
 					
 					else{
-						codigo=num.ToString();
+						if (num>44){
+						codigo="01";
+						}
+						else{
+							codigo=num.ToString();
+						}
+						
 					}
 					
 				}
@@ -80,6 +92,7 @@ namespace IQDOC_Sanitas.CargaDatos
 				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.DoubleClick();
 				// repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.Click("10;13");
 				Delay.Milliseconds(0);
+				
 				
 				Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodClasificacion' with focus on 'MDIPrincipal.FrmclasiffierSura.IngresarCodigo'.", repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigoInfo, new RecordItemIndex(2));
 				repo.MDIPrincipal.FrmclasiffierSura.IngresarCodigo.PressKeys(codigo);

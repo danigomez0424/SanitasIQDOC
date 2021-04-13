@@ -57,9 +57,23 @@ namespace IQDOC_Sanitas.CargaDatos
 					repo.MDIPrincipal.TabMain.TXTNITIPS.PressKeys(NitIPS);
 					Delay.Milliseconds(0);
 					
+					 
+					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Prefijo' with focus on 'MDIPrincipal.TabMain.Prefijo'.", repo.MDIPrincipal.TabMain.PrefijoInfo, new RecordItemIndex(1));
+					repo.MDIPrincipal.TabMain.Prefijo.PressKeys(Prefijo);
+					Delay.Milliseconds(0);
+					
 					Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Nfactura' with focus on 'MDIPrincipal.TabMain.NumeroFactura'.", repo.MDIPrincipal.TabMain.NumeroFacturaInfo, new RecordItemIndex(1));
 					repo.MDIPrincipal.TabMain.NumeroFactura.PressKeys(Nfactura);
 					Delay.Milliseconds(0);
+					
+					
+					
+//					 try {
+//                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'InformacionRIPS_cof.Aceptar' at Center.", repo.InformacionRIPS_cof.AceptarInfo, new RecordItemIndex(3));
+//                repo.InformacionRIPS_cof.Aceptar.Click();
+//                Delay.Milliseconds(0);
+//            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
+//            
 					
 					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'TXTSUCURSAL' at 19;5.", repo.TXTSUCURSALInfo, new RecordItemIndex(2));
 					repo.TXTSUCURSAL.Click("19;5");

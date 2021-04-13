@@ -504,6 +504,16 @@ OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
 				searchtimeout="30000ms">
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/combobox[@controlname='CBONOPBS']/text[@controlid='1001']
 				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="560e678b-9999-4883-bb5c-60f16c25c5ec"
+				name="Prefijo"
+				refimgid="f39057e7-55f3-4ef9-819e-e876e2c5d453"
+				refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmCapturer']/container[@controlname='Panel2']/container[@controlname='pnlCampos']/tabpagelist[@controlname='TabContainer']/tabpage[@controlname='tabMain']/text[@controlname='TXTPREFIJO']/text[@accessiblename='Prefijo']"
+				searchtimeout="30000ms">
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']/text[@controlname='TXTPREFIJO']/text[@accessiblename='Prefijo']
+				</item>
 				<basepath>
 					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']//tabpage[@controlname='tabMain']
 				</basepath>
@@ -554,7 +564,7 @@ OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
 			name="SomeContainer"
 			refimgid="44b2dc50-3d9e-4cc9-9492-0cb5af30db87"
 			searchtimeout="30000ms">
-				/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmCapturer']/container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='&#57350;']
+				/form[@controlname='MDIPrincipal']/?/?//container[@controlname='Panel1']/?/?/container[@controlname='documentViewer1']/?/?/container[@controlname='panel2']/?/?/container[@controlname='']
 			</item>
 			<item
 			addcaps="text,control,nativewindow"
@@ -601,7 +611,7 @@ OsYqSDz+zwAAaK/nDj2T/r4AAAAASUVORK5CYII=
 				refimgid="eafa759b-2aaf-4432-8585-322c26bdde08"
 				refpath="/form[@controlname='MDIPrincipal']/element[@controltypename='MdiClient']/form[@controlname='FrmclasiffierSura']/container[@controlname='Panel5']/container[@controlname='Panel1']/element[@controlname='VisorDeDocumentosIMP']/container[@controlname='documentViewer1']/container[@controlname='splitContainer1']/container[@controlname='panel2']/container[@caption='']/container[@controlname='']"
 				searchtimeout="30000ms">
-					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='Panel5']/container[@controlname='Panel1']//container[@controlname='panel2']/?/?/container[@controlname='&#57350;']
+					/form[@controlname='MDIPrincipal']/?/?/form[@controlname='FrmclasiffierSura']/container[@controlname='Panel5']/container[@controlname='Panel1']//container[@controlname='panel2']/?/?/container[@controlname='']
 				</item>
 				<item
 				addcaps="treeitem,accessible,accessibletreeitem"
@@ -776,10 +786,10 @@ DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
 			refimgid="1c225279-0d1e-48d8-9964-882db4ee7ac8"
 			refpath="/form[@title='Facturación Electrónica']/button[@text='Aceptar']"
 			searchtimeout="1000ms">
-				/form[@title='Facturaci&#243;n Electr&#243;nica']/button[@text='Aceptar']
+				/form[@title='Facturación Electrónica']/button[@text='Aceptar']
 			</item>
 			<basepath>
-				/form[@title='Facturaci&#243;n Electr&#243;nica']
+				/form[@title='Facturación Electrónica']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
@@ -1061,7 +1071,7 @@ QmCC
 			name="FinDocumento"
 			refimgid="2c029e78-470b-497f-a4dc-cbbd883196aa"
 			searchtimeout="30000ms">
-				/form[@class='#32770']/text[@windowtext~'Esta ubicado en el &#250;ltimo documento']
+				/form[@class='#32770']/text[@windowtext~'Esta ubicado en el último documento']
 			</item>
 			<basepath>
 				/form[@class='#32770']
@@ -1278,7 +1288,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="9c5bd106-8ee2-428e-bc23-310f5502aaca"
 		name="NitIPS">
-			842000144 - ESE UBA NUESTRA SE&#209;ORA DEL CARMEN
+			842000144 - ESE UBA NUESTRA SEÑORA DEL CARMEN
 		</var>
 		<var
 		id="f53dbe53-95a3-40e9-b9f5-2b741287451a"

@@ -101,6 +101,8 @@ namespace IQDOC_Sanitas.ScriptGeneral
             repo.MDIPrincipal.CmdStart.Click("93;13");
             Delay.Milliseconds(0);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(3));
+            
         }
 
 #region Image Feature Data

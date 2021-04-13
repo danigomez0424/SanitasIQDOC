@@ -94,6 +94,8 @@ namespace IQDOC_Sanitas.CargaDatos
             //repo.FrmPOPUp_cof.Btn_CerrarVentana.Click();
             //Delay.Milliseconds(0);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(3));
+            
         }
 
 #region Image Feature Data

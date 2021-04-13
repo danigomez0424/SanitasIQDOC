@@ -131,6 +131,8 @@ namespace IQDOC_Sanitas.CargaDatos
                 //Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
             
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(10));
+            
         }
 
 #region Image Feature Data
